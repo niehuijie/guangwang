@@ -1,0 +1,17 @@
+.jobs-hd {padding-top: 80px;}
+.jobs-hd .jobs-hd-title h3 { font-size: 24px; color: #222; }
+.jobs-hd .jobs-hd-title h3+p { font-size: 16px; color: #555; margin-top: 11px; }
+.jobs-hd-desc { height: 355px; background: url(../images/jobs-bg.jpg) no-repeat 0 0;}
+.jobs-hd-desc p { line-height: 36px; font-size: 16px; color: #555; padding-left: 52px; padding-right: 57px; padding-top: 80px; width: 600px; *width: 489px; text-align: justify; text-justify: inter-word; }
+.jobs-bd ul>li.cur{color:white;background: rgb(96, 182, 145); background: -moz-linear-gradient(45deg, rgba(96, 182, 145, 1) 0%, rgba(96, 182, 145, 1) 0%, rgba(74, 174, 179, 1) 26%, rgba(57, 169, 207, 1) 74%, rgba(57, 169, 207, 1) 74%, rgba(57, 169, 207, 1) 80%, rgba(72, 174, 184, 1) 100%); background: -webkit-linear-gradient(45deg, rgba(96, 182, 145, 1) 0%, rgba(96, 182, 145, 1) 0%, rgba(74, 174, 179, 1) 26%, rgba(57, 169, 207, 1) 74%, rgba(57, 169, 207, 1) 74%, rgba(57, 169, 207, 1) 80%, rgba(72, 174, 184, 1) 100%); background: linear-gradient(45deg, rgba(96, 182, 145, 1) 0%, rgba(96, 182, 145, 1) 0%, rgba(74, 174, 179, 1) 26%, rgba(57, 169, 207, 1) 74%, rgba(57, 169, 207, 1) 74%, rgba(57, 169, 207, 1) 80%, rgba(72, 174, 184, 1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#60b691', endColorstr='#48aeb8', GradientType=1); }
+.jobs-bd ul>li.cur h4,.jobs-bd ul>li.cur .jobs-jutcon dt{color:white;}
+.jobs-bd ul>li .jobs-jutcon{padding-bottom: 33px;}
+.jobs-bd ul>li h4{height: 83px;line-height:97px;font-size: 18px;color: #028ee9;font-weight: bold;}
+.jobs-bd ul>li .jobs-jutcon>div{float: left;width: 600px;}
+.jobs-bd ul>li .jobs-jutcon>div.jobs-ze{height: 100%;}
+.jobs-bd ul>li .jobs-jutcon>div.jobs-rz{margin-bottom: 20px}
+.jobs-bd ul>li .jobs-jutcon dt{font-size: 16px;color:#222;margin-bottom: 10px;padding-left: 4px;}
+.jobs-bd ul>li .jobs-jutcon dd{line-height: 36px;font-size: 14px;padding-left: 14px;color: #555;}
+.jobs-bd ul>li.cur .jobs-jutcon dd{color: #fff;}
+.jobs-hd-title{height: 120px;}
+.jobs-con{padding-bottom: 30px;}

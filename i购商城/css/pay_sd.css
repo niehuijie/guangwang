@@ -1,0 +1,13 @@
+.ft36{font-size: 36px;}
+.pay_hd{margin-top: 20px;margin-left: 10px;width: 407px;height: 40px;background: url(../images/zf_bj.jpg) no-repeat 0 0;}
+.pay_hd>div{position: relative;width: 134px;line-height: 40px;color: #fff;}
+.pay_hd>div>i{position: absolute;display: block;top: 12px;left: 13px;width: 16px;height: 16px;text-align: center;color: #e11919;line-height: 16px;}
+.pay_hd>div>span{margin-left: 33px;}.pay_m{width: 1000px;margin: 0 auto;margin-top: 75px;}
+.pay_main{width: 100%;text-align: center;margin-bottom:20px;}.pay_main>span{vertical-align: middle;margin-left: 10px;}
+.succ_ico,.failure_ico{display: inline-block;*display: inline;*zoom: 1;width: 77px;height: 73px;background: url(../images/zfzt.png) no-repeat 0 0;vertical-align: middle;}
+.succ_nav{width: 1000px;height: 35px;line-height: 35px;background-color: #e0e0e0;margin-top: 35px;}
+.succ_nav i{display: inline-block;*display: inline;*zoom: 1;width: 16px;height: 16px;background: url(../images/zfzt.png) no-repeat -84px 0;vertical-align: middle;margin: -1px 10px 0 15px;}
+
+.mg-lt30{margin-left: 30px;}.mg-lt70{margin-left: 70px;}.clor9{color: #999;}
+.succ_a a.gouw{display: inline-block;*display: inline;*zoom: 1;width: 120px;height: 40px;line-height: 40px;text-align:center;font-size:18px;background-color: #e11919;color: #fff;border-radius: 5px;}
+.failure_ico{height: 75px;background: url(../images/zfzt.png) no-repeat -117px 0;}

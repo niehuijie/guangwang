@@ -1,0 +1,36 @@
+.yql-banner{background:url(../images/yql-banner.jpg) no-repeat center 0;height:388px;}
+.all_bg_wrap{background-color: #ffc564;padding-top: 50px;padding-bottom: 50px;}
+.all_bg_wrap .content{width:1180px;margin:0 auto;background:#fee5c7;padding-bottom:123px;}
+.yq_func{height:71px;margin-left:-10px;}
+.copy_qq{width:734px;margin:0 auto;padding-top:30px;height:322px;}
+.copy_qq .copy{width:350px;height:320px;background:#fef7c1;border:1px solid #ffd450;}
+.copy_jt{background:url(../images/yq_jt.png) no-repeat center center;width:30px;height:322px;}
+.copy_qq .copy p{padding:0 33px;color:#ee9200;font-size:14px;font-family:simsun;height:45px;margin-top:20px;overflow:hidden;line-height:22px;}
+.copy_content{width:248px;height:118px;margin:0 auto;margin-top:50px;border:1px solid #fbb545;}
+.copy_btn{width:200px;margin:0 auto;margin-top:20px;}
+.c_c_hd{height:18px;border-bottom:1px solid #fab53e;background:#ffec83;background:url(../images/yq_zs.png) no-repeat top right;}
+.input_content textarea{background:white;overflow:hidden;width:223px;height:80px;padding-top:19px;padding-left:25px;color:#585858;resize:none;text-align:left;}
+.share_link{overflow:hidden;width:734px;padding-bottom:30px;background:white;margin:0 auto;margin-top:52px;overflow:hidden;}
+.share_link_hd{height:54px;color:white;line-height:54px;font-size:16px;font-weight:bold;background:#59ca92;text-indent:35px;letter-spacing:1px;}
+.share_link_img{margin-top:33px;margin-left:25px;width:705px;}
+.share_link_img a{margin-right:15px;}
+.email{width:734px;margin:0 auto;margin-top:45px;}
+.yq_peonum{width:1020px;height:66px;line-height:66px;text-align:center;border:1px solid #dadbb3;background:white;margin:0 auto;margin-top:40px;font-size:14px;color:#3c3c3c;}
+.email .share_link_hd{background-color:#36B7FB;}
+.action-tips{margin:30px 0 0 35px;font-size:16px;font-family:simsun;color:black;font-weight:bold;}
+.action-tips li{line-height:36px;}
+.yq_sub{width: 694px;background-color: white;padding:35px 0 43px 40px;} 
+.yq_sub>div{margin-bottom: 23px;}
+.sub_item .subInput i{width: 43px;height: 43px;display: block;position: absolute;background:url(../images/yq_sub.png) no-repeat 0 0;}
+.sub_item .subInput i.nameIco{background-position:0 -0px;}
+.sub_item .subInput i.phoneIco{background-position:0 -43px;}
+.sub_item .subInput i.emailIco{background-position:0 -86px;}
+.sub_item .subInput i.codeIco{background-position:0 -129px;}
+.sub_item .subInput i.infoIco{background-position:0 -172px;}
+.sub_item .subInput{width:325px;border:1px solid #cacaca;display: inline-block;vertical-align: middle;overflow: hidden;}
+.sub_item .subInput input{width: 100%;height: 43px;padding-left: 43px;-webkit-box-sizing: border-box;box-sizing: border-box;*width:282px;font-size: 14px;line-height: 43px;text-indent: 14px;}
+.sub_item .subInput+span{font-size: 14px;color:#999;margin-left: 10px;}
+.sub_item .subInput+span>strong{color:#e11919;}
+.sub_item .subInput.subCode input{padding-right: 73px;}
+.sub_item .subInput.subCode input+a{width: 73px;position: absolute;right:0;top:0;height: 43px;}
+.sub_item button{width: 327px;height: 45px;background-color: #e30105;line-height: 45px;text-align: center;color:white;font-size: 18px;letter-spacing: 2px;}

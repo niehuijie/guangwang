@@ -1,0 +1,50 @@
+.festivalMain{overflow: hidden;}
+.fenstival-bj{padding-top: 890px;padding-bottom: 90px;background: url(../images/festival-bj.jpg) repeat-y 0 0;}
+
+.festival-bj1{position: absolute;top: 0;left: 0;width: 100%;height: 861px;background: url(../images/festival-bj-11.jpg) no-repeat center center;}
+.festival-bj2{position: absolute;top: 861px;left: 0;width: 100%;height: 430.84px;background: url(../images/festival-bj-12.jpg) no-repeat center center;}
+.festival-bj3{position: absolute;bottom: 120px;left: 50%;margin-left: -1005px;width: 405px;height: 414px;background: url(../images/festival-bj-2.png) no-repeat 0 0;}
+.festival-bj4{position: absolute;bottom: 120px;left: 50%;margin-left: 650px;width: 234px;height: 804px;background: url(../images/festival-bj-2.png) no-repeat -473px 0;}
+
+.main{padding-top: 20px;}
+/*商品标题*/
+.mn-name{width: 426px;height: 123px;background: url(../images/festival-ico.png) no-repeat -19px -22px;margin: 0px auto;margin-bottom: 50px;}
+.mn-name span{display: block;width: 310px;height: 100px;line-height: 100px;padding-top: 20px;margin-left: 55px;font-size: 48px;color: #fff;text-align: center;}
+/*商品列表样式*/
+.mg-lt15{margin-left: 15px;}.clor5{color: #555;}.mg-lt10{margin-left: 10px;}
+/*列表*/
+.item{width: 284px;height: 360px;/*列表边框颜色*/border: 2px solid #19a498;margin-right: 16px;float: left;margin-bottom: 16px;z-index: 10;background-color: #fff;}.ft13{font-size: 13px;}.clorz{color: #dd0202;}
+.item .img{width: 284px;height: 284px;overflow: hidden;z-index: 1000;}
+.item .img img{width: 100%;}
+.item .h2{width: 255px;height: 30px;margin: 10px 15px 5px 15px;}
+.item .h2 a{line-height: 30px;color: #222;}
+.item:hover{border: 2px solid #dd0202;}
+.item:hover .botm a{background-color: #dd0202;}
+.item .botm a{display: block;position: absolute;top: 3px;right: 15px;width: 55px;height: 20px;color: #fff;text-align: center;background-color: #19a498;line-height: 19px;}
+.item .botm .money{width: 100px;}
+.item .botm .scj{display: block;float: left;padding-top: 7px;}
+
+/*活动规则*/
+.right_fixed{position: fixed;left: 50%;bottom: 32%;margin-left: 650px;width: 209px;height: 57px;background: url(../images/festival-ico.png) no-repeat -0px -0px;}
+.right_fixed a{display: block;position: absolute;top: 0px;left:0px;right: 0;line-height: 51px;color: #fff;text-align: center;font-size: 24px;}
+/*活动规则*/
+
+/*弹窗*/
+.popup_roll{width: 605px;height: 454px;overflow: auto;}
+.popup{position: fixed;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5000000,endColorstr=#E5000000);z-index: 1000;}
+.popup_main{position: fixed;top:50%;left: 50%;right: 0;margin-left: -310px;margin-top: -339px;width:620px;height: 485px;padding-top: 193px;background-color: #fff;background: url(../images/festival-dialog.png) no-repeat;color: #444;}
+.popup_main a.close{display: block;width: 16px;height: 16px;position: absolute;top: 14px;right: 15px;background: url(../images/festival_close.png) no-repeat -3px -3px;}
+.popup_main h1.h1{position: absolute;left: 50%;top: 77px;margin-left: -90px;width: 180px;height: 37px;line-height: 37px;text-align: center;font-size: 41px;color: #0e7696;font-weight: bold;}
+.popup_main>p.time{position: absolute;top: 125px;left:0;width:100%;color: #0e7696;}
+.popup_section{position: relative;padding-top:45px;padding-right:0px;margin-left: 42px;overflow: auto;}
+.popup_section h2{font-size:18px;color: #ff504b;margin-bottom: 8px;font-weight: bold;}
+.popup_section p{line-height: 23px;}
+.popup_section p.p{padding-right: 57px;}
+.popup_section p.pem2{padding-left: 1em;}
+.section_item{margin-bottom: 20px;}
+.popup_section p.title{position: absolute;top: 0;left: 191px;width: 121px;height: 29px;line-height: 29px;font-size: 24px;color: #19a498;font-family: "黑体";text-align: center;transform:skewX(-29deg);border: 4px solid #19a498;}
+.popup_section p.title span{display: block;transform: skewX(29deg);}
+.popup_section .line{width: 528px;border-top: 1px dashed #ddd;margin-top: 25px;}
+.popup_section .img{position: absolute;right: 30px;bottom: 20px;width: 127px;height: 127px;}
+.popup_section .img img{width: 100%;}
+

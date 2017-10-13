@@ -1,0 +1,24 @@
+html.ie7,.ie7 body{height: 100%;}
+.topFixed{position: fixed;top:0;height: 30px;left:0;width: 100%;z-index: 2;}
+.opbg{height: 40px;opacity: 0.7;background-color: #000;filter: -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);}
+.tf-nav{width: 1200px;margin:0 auto;margin-top: -40px;position: relative;color:white;font-size: 14px;line-height: 40px;}
+.tf-nav .logo{width: 140px;height: 50px;background-color: #000;}
+.tf-nav .logo img{width: 100%;}
+.tf-nav .zeroNav li{float:left;margin-left: 48px;}
+.tf-nav .zeroNav li a{color:white;}
+.tf-nav .zeroPhone em{color:#ffb000;}
+.zeroPage{width: 100%;position: relative;top:0px;}
+.zeroPage .zeroOne{background:url(../images/zero_01.jpg) no-repeat center center;}
+.zeroPage .zeroTwo{background:url(../images/zero_02.jpg) no-repeat center center;}
+.zeroPage .zeroThree{background:url(../images/zero_03.jpg) no-repeat center center;}
+.zeroPage .zeroFour{background:url(../images/zero_04.jpg) no-repeat center center;}
+.zeroPage .zeroFive{background:url(../images/zero_05.jpg) no-repeat center center;}
+.zeroPage .zeroSix{background:url(../images/zero_06.jpg) no-repeat center center;}
+.zeroPage .zeroSeven{background:url(../images/zero_07.jpg) no-repeat center center;}
+.zeroPage .zeroSeven .zs-box{height: 100%;}
+.zeroPage .zeroSeven .footer{display: block;height: 175px;background-color: #000000;background:url(../images/zerofooter.jpg) no-repeat center center;}
+.controlTab{width:12px;position: fixed;right: 20px;top:50%;}
+.controlTab li{width: 8px;height:8px;margin:10px 0;padding:2px;}
+.controlTab li a{width:100%;height:100%;background-color: #e0e0e0;border-radius: 50%;display: block;}
+.controlTab li.cur{height: 12px;width: 12px;padding:0;}
+.controlTab li.cur a{background-color: #ff6600;}

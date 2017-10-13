@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible"  content="IE=edge,chrome=1" />           
+        <meta name="title" content="" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/list17.css" />
+        <title></title>
+    </head>
+    <body class="f9">
+        <!-- head -->
+		<div id="head">
+			<div class="wuyan"></div>
+			<div class="head-top m clf">
+				<p class="ht-left fl">您好，欢迎来到 I购商城，<a href="" class="headLoginLink">请登录</a></p>
+				<div class="ht-right fr clf">
+					<div class="myInfoList fl">
+						<ul class="myInfoItem clf">						
+							<li>
+								<a href="javascript:;">我的账户<i class="ico myInfoIcon"></i></a>|
+								<div class="downList">
+									<a href="javascript:;">已买到的宝贝</a>
+									<a href="javascript:;">我的足迹</a>
+								</div>
+							</li>
+							<li class="headCart">
+								<a href="javascript:;">我的购物车</a>|
+							</li>
+							<li>
+								<a href="javascript:;">我的订单<i class="ico myInfoIcon"></i></a>|
+								<div class="downList">
+									<a href="javascript:;">已买到的宝贝</a>
+									<a href="javascript:;">我的足迹</a>
+								</div>
+							</li>
+							<li>
+								<a href="javascript:;">网站导航<i class="ico myInfoIcon"></i></a>
+								<div class="downList siteNav">
+									
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- logo+search+cart -->
+		<div class="lsc m clf">
+			<div id="logo" class="fl">
+				<h1 class="logo-hd fl"><a href="index.html"></a></h1>
+				<!-- 除了购物相关和会员中心都有 -->
+				<!-- <div class="logoAfter mt12"></div> -->
+				<!-- 会员中心有-我的商城 -->
+				<!-- <div class="myShop">
+					<a href="">我的商城<i class="ico"></i></a>
+					<div class="hideBox pa">
+						<a href="">积分兑换</a>
+						<a href="">商城频道</a>
+						<a href="">我的商城</a>
+					</div>
+				</div> -->
+			</div>
+			<div class="fl mt20">
+				<div id="search" class="clf pr">
+					<form action="">
+						<div class="fl inputBox pr bc_fff">
+							<input type="text" autocomplete="off">
+							<i class="icon luIcon"></i>
+						</div>
+						<div class="fl"><button class="searchBtn">搜索</button></div>
+					</form>
+					<!-- 推荐词 -->
+					<div class="search-zUp clf">
+						<i class="fl searhico ico"></i>
+						<ul class="fl hotword clf">
+							<li><a href="">手机</a></li>
+							<li><a href="">冰箱</a></li>
+							<li><a href="">洁面奶</a></li>·
+						</ul>
+					</div>					
+				</div>
+				<!--搜索记录  关键字-->
+				<ul class="mt10" id="seek-keyword">
+					<li><a href="">白酒</a></li>
+					<li><a href="">箱包</a></li>
+					<li><a href="">面膜</a></li>
+					<li><a href="">床上用品</a></li>
+					<li><a href="">运动衣</a></li>
+				</ul>
+			</div>	
+			<!-- 购物车 -->
+			<div id="cart" class="fl pr ml56 mt20">
+				<div class="cartBuy fl pr">
+					<i class="ico cartIcon"></i>
+					<a href="javascript:;">我的购物车<span class="clor">(<strong>5</strong>)</span><em>></em></a>
+					<img src="">
+				</div>
+			</div>
+			<!--关注微信公众号-->
+			<div id="gz-weiXin" class="fr">
+				<div><img src="images/wx_ewm.jpg" alt="" width="102" height="102"/></div>
+				<h4 class="tc">关注微信公众号</h4>
+			</div>
+		</div>
+		<!--导航栏-->
+		<div id="nav">
+		<div class="m pr">
+			<!-- 商品分类 -->
+			<div class="allType pa">
+				<h3>所有产品分类</h3>
+				<div class="allTypeBox" style="">
+					<!-- 分类导航 -->
+					<ul class="allTypeUl">
+						<li>
+							<div class="typeTxt">
+								<h4 class="twoType"><a href="">图书音响</a></h4>
+								<ul class="threeType clf">
+									<li><a href="">少儿/文艺</a></li>
+									<li><a href="">生活/科技</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="typeTxt">
+								<h4 class="twoType"><a href="">家用电器</a></h4>
+								<ul class="threeType clf">
+									<li><a href="">充电线/数据线</a></li>
+									<li><a href="">冰箱/洗衣机</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="typeTxt">
+								<h4 class="twoType"><a href="">生活超市</a></h4>
+								<ul class="threeType clf">
+									<li><a href="">蔬菜/冷鲜肉</a></li>
+									<li><a href="">水果</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="typeTxt">
+								<h4 class="twoType"><a href="">手机数码</a></h4>
+								<ul class="threeType clf">
+									<li><a href="">手机/对讲机</a></li>
+									<li><a href="">数码相机</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="typeTxt">
+								<h4 class="twoType"><a href="">服装鞋帽</a></h4>
+								<ul class="threeType clf">
+									<li><a href="">帽子/牛仔帽</a></li>
+									<li><a href="">男鞋/女鞋</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="typeTxt">
+								<h4 class="twoType"><a href="">运动户外</a></h4>
+								<ul class="threeType clf">
+									<li><a href="">体育用品/户外装备</a></li>
+									<li><a href="">户外服饰</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>					
+				</div>
+			</div>
+			<!-- 中间nav -->
+			<div class="middleNav">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">全额兑换</a></li>
+					<li><a href="">邀请有礼</a></li>
+					<li><a href="">车主会所</a></li>
+					<li><a href="">会员中心</a></li>					
+				</ul>
+			</div>			
+		</div>
+	</div>
+	<!--主要内容-->
+	<div class="content-m m">
+		<ul class="location clf">
+            <li><a href="http://www.91aigo.com">首页</a>&gt;</li>
+            <li><a href="/list.html?cid=8">汽车用品</a>&gt;</li>
+            <li><a href="/list.html?cid=25">车载电器</a></li>
+        </ul>
+        <div class="content-m1 clf">
+        	<div class="lt">
+        		<ul class="lt-con j-lt-con">
+        			<li><img src="images/ig-zwt.jpg"/></li>
+        			<li><img src="images/ig-zwt.jpg"/></li>
+        			<li><img src="images/38_mainbj.jpg"/></li>
+        		</ul>
+        		<ul class="lt-con-list jLtConList">
+        			<li><img src="images/ig-zwt.jpg"/></li>
+        			<li><img src="images/ig-zwt.jpg"/></li>
+        			<li><img src="images/ig-zwt.jpg"/></li>
+        		</ul>
+        		<div class="cmlt-end">
+	    			<i class="sc j-enshrine"></i><a href="javascript:;" class="j-enshrine">收藏宝贝</a><span>|</span>
+	    			<i class="sc fx"></i><a href="">分享好友得积分</a>
+	    		</div>
+        	</div>
+        	<div class="rt">
+        		<div class="rt-section">
+        			<h3 class="etxt_wbreak">小礼品创意生日礼物女生送女友闺蜜男生新奇特别</h3>
+        			<p class="title">家用清洗机 K2BAISIC标配 220V</p>
+        			<div class="sec">
+        				<ul>
+        					<li>
+        						<span class="palt top7">可用积分</span><em class="em clor24">20202积分</em><span class="part">折合人民币 200.00 元</span>
+        					</li>
+        					<li>
+        						<span class="palt">商城价</span><em class="em">￥2030</em><span class="part"><a href="" class="clor">使用积分规则>></a></span>
+        					</li>
+        				</ul>
+        			</div>
+        		</div>
+        		<div class="classify">
+        			<div class="item">
+        				<span class="dblt">配送至</span>
+        				<em>河南郑州</em>
+        				<span class="part">免运费</span>
+        			</div>
+        			<div class="item">
+        				<span class="dblt h34">选择颜色</span>
+        				<div class="dl">
+        					<a href="javascript:;" class="dd">蓝色</a><a href="javascript:;" class="dd">红色</a>
+        				</div>
+        			</div>	
+        			<div class="item">
+        				<span class="dblt h34">选择分类</span>
+        				<div class="dl">
+        					<a href="javascript:;" class="dd">128g+4gb</a>
+        				</div>
+        			</div>
+        			<div class="item">
+        				<span class="dblt">数量</span>
+        				<div class="sale">
+		    				<span class="subtract">-</span>
+		    				<input type="text" value="1" class="fl">
+		    				<span class="add">+</span>
+		    			</div>
+        			</div>
+        		</div>
+        		<div class="submit">
+        			<a href="" class="cart">加入购物车</a>
+        			<a href="" class="buy">立即购买</a>
+        		</div>		
+        	</div>
+        </div>
+        <!--二-->
+        <div class="content-m2 clf">
+        	<div class="lt fl">
+        		<div class="newProduct bgfff" style="margin-top:0 ;">
+					<ul class="newProduct-hd">
+						<li class="">上新产品</li>
+						
+					</ul>
+					<ul class="newProduct-m">
+						<li>
+							<div class="img"><img src="images/ig-zwt.jpg"></div>
+							<div class="section1 pr">
+								<p>小礼品创意生日礼物女生送女友闺蜜男生新奇特别</p>
+								<em>160积分</em>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="images/ig-zwt.jpg"></div>
+							<div class="section1 pr">
+								<p>小礼品创意生日礼物女生送女友闺蜜男生新奇特别</p>
+								<em>160积分</em>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="images/ig-zwt.jpg"></div>
+							<div class="section1 pr">
+								<p>小礼品创意生日礼物女生送女友闺蜜男生新奇特别</p>
+								<em>160积分</em>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--热销产品-->
+				<div class="sellProduct bgfff">
+					<ul class="sellProduct-hd">
+						<li class="clor after" data-tab="">热销产品</li>
+						<li class="tr" data-tab="">热门关注</li>
+					</ul>
+					<div>
+						<ul class="sellProduct-m">
+							<li>
+								<div class="img"><img src="images/ig-zwt.jpg"/></div>
+								<div class="section pr">
+									<i>1</i><span>热销12件</span><em>160积分</em>
+								</div>
+							</li>
+							<li>
+								<div class="img"><img src="images/ig-zwt.jpg"/></div>
+								<div class="section pr">
+									<i>2</i><span>热销12件</span><em>160积分</em>
+								</div>
+							</li>
+							<li>
+								<div class="img"><img src="images/ig-zwt.jpg"/></div>
+								<div class="section pr">
+									<i>3</i><span>热销12件</span><em>160积分</em>
+								</div>
+							</li>
+						</ul>
+						<ul class="sellProduct-m none">
+							<li>
+								<div class="img"><img src="images/ig-zwt.jpg"/></div>
+								<div class="section pr">
+									<i>1</i><span>热销13件</span><em>160积分</em>
+								</div>
+							</li>
+							<li>
+								<div class="img"><img src="images/ig-zwt.jpg"/></div>
+								<div class="section pr">
+									<i>2</i><span>热销12件</span><em>160积分</em>
+								</div>
+							</li>
+							<li>
+								<div class="img"><img src="images/ig-zwt.jpg"/></div>
+								<div class="section pr">
+									<i>3</i><span>热销12件</span><em>160积分</em>
+								</div>
+							</li>
+						</ul>
+					</div>	
+				</div>
+        	</div>
+        	<div class="rt fl">
+        		<!--宝贝详情-->
+		    	<div class="conm-item bgfff">
+		    		<ul class="conm-item-hd j-conmItemHd">
+		    			<li class="item rep"><a href="javascript:;" class="">宝贝详情</a></li>
+		    			<li class="item"><a href="javascript:;" class="">售后保障</a></li>
+		    			<li class="item"><a href="javascript:;" class="">商品评价（12）</a></li>
+		    			<li class="hd-rt"><a href="javascript:;"><i></i>加入购物车</a></li>
+		    		</ul>
+		    		<div class="conm-tab">
+			    		<div class="item-1">
+				    		<div class="text">
+				    			<p>品牌名称：小马驾到</p>
+				    			<dl class="clf">
+				    				<dt><b>产品参数：</b></dt>
+				    				<dd class="fl">包装体积: 15CM</dd>
+				    				<dd class="fl">品牌: 小马驾到</dd>
+				    				<dd class="fl">毛重: 15k</dd>
+				    				<dd class="fl">货号: 123456789</dd>
+				    			</dl>
+				    		</div>
+				    		<div class="img-zs tc">
+				    			<img src="images/goodsConImg.jpg" alt="" />
+				    		</div>
+			    		</div>
+			    		<div class="item-2 none"></div>
+			    		<div class="item-3 none">
+			    			<div class="itemCon goodsCommet">
+								<div class="goodsCommetCon auto">
+									<div class="goodsCommetCon-bd">
+										<div class="commetPercent">
+											<div class="percentBox clf hidden">
+												<!-- 评分 -->
+												<div class="totalPercent fl">
+													<div class="bigStar pr">
+														<div class="bgStar">
+															<span title="1星"></span>
+															<span title="2星"></span>
+															<span title="3星"></span>
+															<span title="4星"></span>
+															<span title="5星"></span>
+															<em class="clorRed starNum">4.55<i>分</i></em>
+														</div>
+														<div class="coverL">
+															<span></span>
+															<span></span>
+															<span></span>
+															<span></span>
+															<span style="width: 14px;"></span>
+														</div>
+													</div>
+												</div>
+												<!-- 买家印象 -->
+												<div class="buyerHow fl">
+													<div class="howTxt clf">
+														<span class="fl block">买家印象：</span>
+														<dl class="howTxtL fl">
+															<dd>颜色正(232)</dd>
+															<dd>性价比高(232)</dd>
+															<dd>颜色正(232)</dd>
+															<dd>性价比高(232)</dd>
+															<dd>颜色正(232)</dd>
+															<dd>性价比高(232)</dd>
+															<dd>颜色正(232)</dd>
+															<dd>性价比高一般(232)</dd>
+															<dd>性价比高一般(232)</dd>
+														</dl>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="commetCon">
+											<div class="commetCon-hd">
+												<ul class="commetCon-hd-ul clf">
+													<li class="current"><a href=""><i class="ico"></i>全部评论<span>(255)</span></a></li>
+													<li class="shaipic"><a href=""><i class="ico"></i>晒图<span>(500)</span></a></li>
+													<li><a href=""><i class="ico"></i>好评<span>(210)</span></a></li>
+													<li><a href=""><i class="ico"></i>中评<span>(23)</span></a></li>
+													<li><a href=""><i class="ico"></i>差评<span>(22)</span></a></li>
+												</ul>
+											</div>
+											<div class="commetCon-bd">
+												<div class="allCommet" style="display: block;">
+													<div class="item clf">
+														<ul class="item-ul fl">
+															<li class="starWrited">
+																<span href="" class="scChecke" title="1星"></span>
+																<span href="" class="scChecke" title="2星"></span>
+																<span href="" class="scChecke" title="3星"></span>
+																<span href="" class="scChecke" title="4星"></span>
+																<span href="" class="" title="5星"></span>
+															</li>
+															<li>收到货2天评价</li>
+															<li>2016-05-06 12:23</li>
+															<li>蓝色</li>
+															<li>XXL现货</li>
+														</ul>
+														<div class="commetText fl">
+															<p class="commetText-p">还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样</p>
+															<div class="sharePicList">
+																<div class="sharePicList-smallPic">
+																	<ul class="picCollectBox-ul clf">
+																		<li data-src="images/proMk1.jpg"><a href=""><img src="images/proMk1.jpg" alt="" class="cur"><i class="ico"></i></a></li>
+																		<li data-src="images/proMk2.jpg"><a href=""><img src="images/proMk2.jpg" alt="" class="cur"><i class="ico"></i></a></li>
+																		<li data-src="images/proMk3.jpg"><a href=""><img src="images/proMk3.jpg" alt="" class="cur"><i class="ico"></i></a></li>
+																		<li data-src="images/proMk4.jpg"><a href=""><img src="images/proMk4.jpg" alt="" class="cur"><i class="ico"></i></a></li>
+																		<li data-src="images/proMk5.jpg"><a href=""><img src="images/proMk5.jpg" alt="" class="cur"><i class="ico"></i></a></li>
+																	</ul>
+																</div>
+																<div class="sharePicList-bigPic none">
+																	<img src="images/proMk1.jpg" alt="">
+																</div>
+															</div>
+														</div>
+														<div class="commetUser fr">
+															<span class="avatar auto"><img src="images/avatar.jpg" alt=""></span>
+															<span class="username txt_ows">dasDasds</span>
+														</div>
+													</div>
+													<div class="item clf">
+														<ul class="item-ul fl">
+															<li class="starWrited">
+																<span href="" class="scChecke" title="1星"></span>
+																<span href="" class="scChecke" title="2星"></span>
+																<span href="" class="scChecke" title="3星"></span>
+																<span href="" class="scChecke" title="4星"></span>
+																<span href="" class="" title="5星"></span>
+															</li>
+															<li>收到货2天评价</li>
+															<li>2016-05-06 12:23</li>
+															<li>蓝色</li>
+															<li>XXL现货</li>
+														</ul>
+														<div class="commetText fl">
+															<p class="commetText-p">还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样</p>
+														</div>
+														<div class="commetUser fr tc">
+															<span class="avatar auto"><img src="images/avatar.jpg" alt=""></span>
+															<span class="username txt_ows">dasDasds</span>
+														</div>
+													</div>
+													<div class="o-page-in clf mt45">
+											            <div class="o-page clf">
+											            	<a href="" class="o-cancel o-prev">上一页</a>
+											            	<a href="" class="current">1</a>
+											            	<a href="">2</a>
+											            	<a href="">3</a>
+											            	<a href="">4</a>
+											            	<a href="" class="omitt">...</a>
+											            	<a href="">11</a>
+											            	<a href="" class="o-disabled o-next">下一页</a>
+											            </div>
+									        		</div>
+												</div>
+												<div class="picCommet">
+													<div class="picCollect">
+														<div class="picCollect-list clf">
+															<div class="picLbtn fl">
+																
+															</div>
+															<div class="picCollectBox fl">
+																<ul class="picCollectBox-ul clf">
+																</ul>
+															</div>
+															<div class="picRbtn fl"></div>
+														</div>
+														<div class="bigPicAndCommetCon clf">
+															<div class="bpac-bigPic fl">
+																<img src="" alt="">
+															</div>
+															<div class="fl bpac-commetCon">
+																<p class="commetTC"></p>
+																<div class="specAndava cf">
+																	<ul class="fl specUl">
+																		<li></li>
+																		<li></li>
+																	</ul>
+																	<div class="avaInfo fl">
+																		<div class="avaInfo-avatar clf">
+																			<img src="" alt="" width="25" height="25" class="fl">
+																			<div class="ava-username etxt_wbreak"></div>
+																		</div>
+																		<div class="avaTime">
+																			
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="normalCommet">
+													<div class="item clf">
+														<ul class="item-ul fl">
+															<li class="starWrited">
+																<span href="" class="scChecke" title="1星"></span>
+																<span href="" class="scChecke" title="2星"></span>
+																<span href="" class="scChecke" title="3星"></span>
+																<span href="" class="scChecke" title="4星"></span>
+																<span href="" class="" title="5星"></span>
+															</li>
+															<li>收到货2天评价</li>
+															<li>2016-05-06 12:23</li>
+															<li>蓝色</li>
+															<li>XXL现货</li>
+														</ul>
+														<div class="commetText fl">
+															<p class="commetText-p">还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样</p>
+															<div class="sharePicList">
+																
+															</div>
+															
+														</div>
+														<div class="commetUser fr">
+															<span class="avatar auto"><img src="images/avatar.jpg" alt=""></span>
+															<span class="username txt_ows">dasDasds</span>
+														</div>
+													</div>
+													<div class="item clf">
+														<ul class="item-ul fl">
+															<li class="starWrited">
+																<span href="" class="scChecke" title="1星"></span>
+																<span href="" class="scChecke" title="2星"></span>
+																<span href="" class="scChecke" title="3星"></span>
+																<span href="" class="scChecke" title="4星"></span>
+																<span href="" class="" title="5星"></span>
+															</li>
+															<li>收到货2天评价</li>
+															<li>2016-05-06 12:23</li>
+															<li>蓝色</li>
+															<li>XXL现货</li>
+														</ul>
+														<div class="commetText fl">
+															<p class="commetText-p">还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样</p>
+														</div>
+														<div class="commetUser fr">
+															<span class="avatar auto"><img src="images/avatar.jpg" alt=""></span>
+															<span class="username txt_ows">dasDasds</span>
+														</div>
+													</div>
+													<div class="o-page-in clf mt45">
+											            <div class="o-page clf">
+											            	<a href="" class="o-cancel o-prev">上一页</a>
+											            	<a href="" class="current">1</a>
+											            	<a href="">2</a>
+											            	<a href="">3</a>
+											            	<a href="">4</a>
+											            	<a href="" class="omitt">...</a>
+											            	<a href="">11</a>
+											            	<a href="" class="o-disabled o-next">下一页</a>
+											            </div>
+											        </div>
+												</div>
+												<div class="badCommet">
+													<div class="item clf">
+														<ul class="item-ul fl">
+															<li class="starWrited">
+																<span href="" class="scChecke" title="1星"></span>
+																<span href="" class="scChecke" title="2星"></span>
+																<span href="" class="scChecke" title="3星"></span>
+																<span href="" class="scChecke" title="4星"></span>
+																<span href="" class="" title="5星"></span>
+															</li>
+															<li>收到货2天评价</li>
+															<li>2016-05-06 12:23</li>
+															<li>蓝色</li>
+															<li>XXL现货</li>
+														</ul>
+														<div class="commetText fl">
+															<p class="commetText-p">还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样</p>
+															<div class="sharePicList">
+																
+															</div>
+														</div>
+														<div class="commetUser fr">
+															<span class="avatar auto"><img src="images/avatar.jpg" alt=""></span>
+															<span class="username txt_ows">dasDasds</span>
+														</div>
+													</div>
+													<div class="item clf">
+														<ul class="item-ul fl">
+															<li class="starWrited">
+																<span href="" class="scChecke" title="1星"></span>
+																<span href="" class="scChecke" title="2星"></span>
+																<span href="" class="scChecke" title="3星"></span>
+																<span href="" class="scChecke" title="4星"></span>
+																<span href="" class="" title="5星"></span>
+															</li>
+															<li>收到货2天评价</li>
+															<li>2016-05-06 12:23</li>
+															<li>蓝色</li>
+															<li>XXL现货</li>
+														</ul>
+														<div class="commetText fl">
+															<p class="commetText-p">还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样还可以吧 到时候后上场后才知道 怎么样</p>
+														</div>
+														<div class="commetUser fr">
+															<span class="avatar auto"><img src="images/avatar.jpg" alt=""></span>
+															<span class="username">dasDasds</span>
+														</div>
+													</div>
+													<div class="o-page-in clf mt45">
+											            <div class="o-page clf">
+											            	<a href="" class="o-cancel o-prev">上一页</a>
+											            	<a href="" class="current">1</a>
+											            	<a href="">2</a>
+											            	<a href="">3</a>
+											            	<a href="">4</a>
+											            	<a href="" class="omitt">...</a>
+											            	<a href="">11</a>
+											            	<a href="" class="o-disabled o-next">下一页</a>
+											            </div>
+											        </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+			    		</div>
+		    	    </div>
+		    	</div>
+        	    <!--商品问答-->
+        	    <div class="conm-askAnswer bgfff">
+        	    	<div class="conm-askAnswer-hd">商品问答</div>
+        	    	<ul class="conm-askAnswer-list">
+        	    		<li>
+        	    			<i></i><a href="">商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题？</a>
+        	    		</li>
+        	    		<li>
+        	    			<i></i><a href="">商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题题商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题题商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题？</a>
+        	    		</li>
+        	    		<li>
+        	    			<i></i><a href="">商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题商品标题常见问题？</a>
+        	    		</li>
+        	    	</ul>
+        	    	<div class="Npage">
+        	    		<div class="page-m">
+	        	    		<a href="" class="prev">&lt;上一页</a>
+	        	    		<a href="">1</a>
+	        	    		<a href="">2</a>
+	        	    		<a href="javascript:;" class="omit">...</a>
+	        	    		<a href="" class="next">下一页&gt;</a>
+	        	    	</div>
+        	    	</div>
+        	    </div>
+        	</div>
+        </div>
+        <div class="content-m3 m">
+        	<ul class="conm-item-hd">
+        		<li class="rep"><a href="javascript:;" class="clor">商城推荐</a></li>
+        	</ul>
+        	<ul class="item-m clf">
+				<li>
+					<div class="img"><img src="images/ig-zwt.jpg"></div>
+					<div class="section pr">						
+						<em>160积分</em>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="images/ig-zwt.jpg"></div>
+					<div class="section pr">						
+						<em>160积分</em>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="images/ig-zwt.jpg"></div>
+					<div class="section pr">
+						<em>160积分</em>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="images/ig-zwt.jpg"></div>
+					<div class="section pr">
+						<em>160积分</em>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="images/ig-zwt.jpg"></div>
+					<div class="section pr">
+						<em>160积分</em>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="images/ig-zwt.jpg"></div>
+					<div class="section pr">
+						<em>160积分</em>
+					</div>
+				</li>				
+        	</ul>
+        </div>
+	</div>
+	<!--底部-->
+		<div class="footer clf">		
+			<div class="n-footer">
+				<div class="fl">
+					<ul class="nline pr">
+						<li class="f400 ft18 ch">新手上路</li>
+						<li><a href="">新用户演示</a></li>
+						<li><a href="">会员积分计划</a></li>
+						<li><a href="">会员等级规则</a></li>
+						<li><a href="">售后服务政策</a></li>
+						<div class="n-xian"></div>
+					</ul>
+				</div>
+				<div class="fl">
+					<ul  class="nline pr">
+						<li  class="f400 ft18 ch">付款方式</li>
+						<li><a href="">支付方式</a></li>
+						<li><a href="">支付常见问题</a></li>
+						<div class="n-xian"></div>
+					</ul>
+				</div>
+				<div class="fl">
+					<ul  class="nline pr">
+						<li  class="f400 ft18 ch">配送信息</li>
+						<li><a href="">配送运费信息</a></li>
+						<li><a href="">配运费标准</a></li>
+						<li><a href="">订单处理时间</a></li>
+						<li><a href="">验货于拒收政策</a></li>
+						<div class="n-xian"></div>
+					</ul>
+				</div>
+				<div class="fl">
+					<ul  class="nline pr">
+						<li class="f400 ft18 ch">提示</li>
+						<li><a href="">找回密码</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">常见热点问题</a></li>
+						<li><a href="">顾客意见</a></li>
+						<div class="n-xian"></div>
+					</ul>
+				</div>
+				<div class="fl">
+					<ul class="nline pr kefu">
+						<div class="kefutouxiang">
+							<img src="images/kefutouxiang.png" alt="" />
+						</div>
+						<li class="f400 ft18 ch ntop">客服电话</li>
+						<li>7x24小时热线</li>
+						<li class="f400 ft18 ch">10000</li>
+					</ul>
+				</div>
+			</div>
+			<div class="n-footer1"></div>
+			<div class="n-footer3">
+				<div class="n-juzhong">
+					<span class=""><a href="">关于我们</a></span>
+					<span><div class="shuxian"></div><a href="">免责条款</a></span>
+					<span><div class="shuxian"></div><a href="">友情链接</a></span>
+					<span><div class="shuxian"></div><a href="">搜索热词</a></span>
+				</div>
+				<div>
+					<span>Copyright © 2016 版权所有 中能东道 粤ICP备15104800号 免优网络科技技术支持</span>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.1.js"></script>
+		<script>
+			$(function(){
+				$("li[data-tab]").on('click',function(){
+					$(this).addClass("clor").siblings().removeClass("clor");
+					 var len = $(this).index();
+					 $(".sellProduct-m").eq(len).show().siblings().hide();
+				})
+				$(".j-enshrine").on("click",function(){
+					$("i.j-enshrine").toggleClass("cur");
+				});
+				(function() { 
+					var jHdTop = $(".j-conmItemHd").offset().top;
+					$(".j-conmItemHd li.item").on("click",function(){
+						$(this).addClass("rep").siblings().removeClass("rep");
+						var len = $(this).index();
+						$(".conm-tab>div").eq(len).show().siblings().hide();
+						if($(".j-conmItemHd").hasClass("j-fixed")){
+							$('html,body').stop().animate({
+							scrollTop: jHdTop - 1
+						},0);
+						};
+					});									
+					function win_sc1(){
+					    var st=$(window).scrollTop();
+					    if(st>=jHdTop){        
+					        $(".j-conmItemHd").addClass("j-fixed");   
+					    }else{
+					        $(".j-conmItemHd").removeClass("j-fixed");
+					    } 
+					}
+					$(window).scroll(function(){
+					     win_sc1();
+					})
+					if($(window).scrollTop()>=240){
+					     win_sc1();
+					}
+				})();
+				(function() {   	
+					var c = 0,
+						picWrap = $('.j-lt-con'), //图片容器
+						picLen = picWrap.children().length, //图片的长度	
+						tbtnPs = $('.jLtConList'); //tab按钮祖父		
+					picWrap.children().eq(0).show();			
+					tbtnPs.children().click(function() {			
+						$(this).addClass('cur').siblings().removeClass('cur');
+						var index = $(this).index();
+						picWrap.children().eq(index).fadeIn(600).siblings().fadeOut(200);
+					});
+				})();
+				//商品数量加减
+		        (function(){
+		        	var num = $('.sale input').val();
+		        	var _sub = $(".sale .subtract")
+		        	_sub.click(function(){
+		        		num--
+		        		if (num < 1) {
+							num = 1;
+							_sub.addClass("clordd");
+							return false;
+						}
+		        		$(this).next().val(num);
+		        	});
+		        	$(".sale .add").click(function(){
+		        		num++
+//		        		if(num==5){
+//		        			popups("兑换成功","2")
+//		        		}
+		        		_sub.removeClass("clordd");
+		        		$(this).prev().val(num);
+		        	})
+		        })();    
+			})
+			
+		    	
+		
+		</script>
+    </body>
+</html>

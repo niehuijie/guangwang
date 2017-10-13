@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="x-ua-compatible"  content="IE=edge,chrome=1" />           
+        <meta name="title" content="" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <title>车主角</title>
+    </head>
+    <body>
+    	<!--头部-->
+        @@include("hade.html")      	
+        <!--轮播图-->
+		<div id="slider" class="pr hidden" data-scro="list">
+			<ul class="sliderUl pa">
+				<li class="item fl" style="left:0px;"><a href="javascript:;"><img src="images/banner1.jpg" alt=""></a></li>
+				<!--<li class="item fl"><a href="javascript:;"><img src="images/benner2.jpg" alt=""></a></li>
+				<li class="item fl"><a href="javascript:;"><img src="images/benner3.jpg" alt=""></a></li>
+				<li class="item fl"><a href="javascript:;"><img src="images/benner4.jpg" alt=""></a></li>
+				<li class="item fl"><a href="javascript:;"><img src="images/benner5.jpg" alt=""></a></li>-->
+			</ul>			
+		</div>
+		<!--公告-->
+		<div class="affiche">
+			<div class="m">
+				<div>
+					<div class="icon fl"><i></i><span>公告：</span><span class="clor9"> |</span></div>
+					<div class="fl afficheM">
+						<ul class="rightScrollix-ul">
+							<li>
+								<a href="" class="fl">百度新闻搜索-中国新能源汽车再次步入新台阶1</a>
+								<p class="fr clor8"><span>|&#x3000;</span><em>2017年08月20日  13:21:56</em></p>
+							</li>
+							<li>
+								<a href="" class="fl">百度新闻搜索-中国新能源汽车再次步入新台阶2</a>
+								<p class="fr clor8"><span>|&#x3000;</span><em>2017年08月20日  13:21:56</em></p>
+							</li>
+							<li>
+								<a href="" class="fl">百度新闻搜索-中国新能源汽车再次步入新台阶3</a>
+								<p class="fr clor8"><span>|&#x3000;</span><em>2017年08月20日  13:21:56</em></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--车主角-->
+		<div class="indexM-1">
+			<div class="indexM-hd">
+				<h2>车主角</h2>
+				<p>LEADING CAR</p>
+			</div>
+			
+			<ul class="main clf m">
+				<li><a href=""><span>关于车主角</span><img src="images/index-1.jpg"/></a></li>
+				<li><a href=""><span>产品中心</span><img src="images/index-2.jpg"/></a></li>
+				<li><a href=""><span>资讯中心</span><img src="images/index-3.jpg"/></a></li>
+				<li><a href=""><span>加盟指南</span><img src="images/index-4.jpg"/></a></li>
+			</ul>
+		</div>
+		<!--关于我们-->
+		<div class="indexM-2 m ft14">
+			<div class="indexM-hd">
+				<h2 class="ft24">关于我们</h2>
+				<p>ABOUT US</p>
+			</div>
+			<div class="main m">
+				<p>车主角汽车销售服务有限公司是中国首家创新汽车租售综合服务平台，公司以“汽车产业N2C”为核心运营模式，创新搭建“共生、共创、共享”社会化产业生态共享系统。</p>
+				<p>车主角以创新的平台化汽车租售服务系统，为客户提供一个集汽车销售、汽车金融服务、汽车租赁服务、汽车保险业务、车联网服务、互联网汽车共享等于一体的聚合平台，同时为消费者提供“以汽车为核心产品，向极致生活延伸”的N种增值服务，彻底解决了汽车传统销售行业中存在的发展难题。 </p>
+				<a href="" class="clor00">查看更多 >></a>
+			</div>
+		</div>
+		<!--产品中心-->
+		<div class="indexM-3">
+			<div class="indexM-hd">
+				<h2 class="ft24">产品中心</h2>
+				<p>PRODUCT CENTER</p>
+			</div>
+			<ul class="main m">
+				<li class="clf">
+					<div class="img fl"><img src="images/index-3-1.jpg" width="600" height="300" alt="" /></div>
+					<div class="section fl">
+						<h2>现代悦动</h2>						
+						<a href=""></a>
+					</div>
+				</li>
+				<li class="clf">
+					<div class="section fl item2">
+						<h2>野马U能E500</h2>						
+						<a href=""></a>
+					</div>
+					<div class="img fl"><img src="images/index-3-2.jpg" width="600" height="300" alt="" /></div>
+				</li>	
+			</ul>
+				
+		</div>
+        <!--底部-->
+        @@include("footer.html")
+        <script src="js/script/jquery-1.11.1.js"></script>
+        <script src="js/script/jquery.carouFredSel-6.0.4-packed.js"></script>
+        <script src="js/commom.js"></script>
+        <script>
+        	$(function(){
+        		$('.sliderUl').carouFredSel({
+					prev: '.prev',
+					next: '.next',		
+					scroll: 1000
+				});
+				$('.rightScrollix-ul li a').hover(function(){
+					window.clearInterval(time);
+				},function(){
+					time = setInterval(newScroll, 4000);
+				});				
+				function newScroll() {
+					$('.rightScrollix-ul').animate({
+						marginTop : -60
+					},2000, function() {
+							$(this).css({marginTop : "0px"}).find("li:first").appendTo(this);						
+					});
+				}
+				var time = setInterval(newScroll, 4000);
+			});
+        </script>
+    </body>
+</html>   

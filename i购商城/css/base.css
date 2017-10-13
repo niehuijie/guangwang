@@ -1,0 +1,84 @@
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,/* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li,/* list elements 列表元素 */
+pre,/* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea,/* form elements 表单元素 */
+th, td /* table elements 表格元素 */ { margin: 0; padding: 0; }
+html { font-size: 100%; height: 100%; width: 100%; }
+
+/** 设置默认字体 **/
+body{overflow-x: hidden;overflow-y:auto;position: relative;min-width:1200px;}
+body, button, input, select, textarea{ font: 12px "Microsoft Yahei", Arial, "\5b8b\4f53", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-style: normal;/*height: 1em;*/ font-weight: 400; }
+address, cite, dfn, em, var, i { font-style: normal; }
+/* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace;}
+/* 统一等宽字体 */
+small { font-size: 12px; }
+
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+button { cursor: pointer; }
+
+/** 重置文本格式元素 **/
+a, button { text-decoration: none; outline: none; blur: expression(this.onFocus=this.blur()); }
+img { border: none; vertical-align: middle; }
+
+/*a:hover { text-decoration: underline;color:#30abf9;}*/
+
+/** 重置表单元素 **/
+legend { color: #000; }
+
+/* for ie6 */
+fieldset, button { border: 0; }
+
+/* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; }
+
+/* 使得表单元素在 ie 下能继承字体大小 */
+
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+input[type="checkbox"] ,input[type="radio"]{ border: none; vertical-align: -2px; +vertical-align: 2px; +width: 13px; +height: 13px;}
+textarea{resize:none;overflow: hidden;}
+input[type="text"]{border:0;outline:0;vertical-align: middle;}
+/*清楚浮动*/
+.clf:after { display: block; content: ''; clear: both; height: 0; visibility: hidden; }
+.clfb:before { display: block; content: ''; clear: both; height: 0; visibility: hidden; }
+
+/*文字*/
+.fb { font-weight: bold; }
+.f400{font-weight: 400;}
+.fn { font-weight: normal; }
+.fl { float: left; }
+.fr { float: right; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.tc { text-align: center; }
+.t2 { text-indent: 2em; }
+.vn { vertical-align: middle; }
+.underline:hover { text-decoration: underline; }
+.ft12{font-size: 12px;}
+.ft14{font-size: 14px;}
+.ft16{font-size: 16px;}
+.ft18{font-size: 18px;}
+.ft20{font-size: 20px;}
+/*定位*/
+.pr { position: relative; }
+.pa { position: absolute; }
+.pfixed{position: fixed;}
+.auto { margin-left: auto; margin-right: auto; }
+
+/*隐藏*/
+.hidden { overflow: hidden; }
+.none { display: none; }
+.block{display: block;}
+/*文本溢出隐藏省略号代替*/
+.txt_ows { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+
+/*英文单词换行显示*/
+.etxt_wbreak { white-space: normal; word-break: break-all; word-wrap: break-word; }

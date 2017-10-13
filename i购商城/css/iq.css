@@ -1,0 +1,95 @@
+.iqPriceUl{color:#777;font-size: 16px;padding-top: 3px;}
+.iqPriceUl .originPrice{margin-top:14px;}
+.iqPriceUl .iqPrice em{color:#e11919;font-size: 30px;}
+.iqToBox{margin-top: 28px;}
+.pl7{padding-left: 7px;}
+.backLi .backLiProWrap .backliPro-inset .buyInfo .muchbuy.iqToBox .toOrder.toOrderHui{background-color: #8c8282;}
+.backLi .backLiProWrap .backliPro-inset .buyInfo .muchbuy.iqToBox .toLookBtn{background-color: white;border:1px solid  #e11919;height: 38px;line-height: 38px;color:#e11919;}
+.iqTitle{height:120px;margin-bottom: 42px;background:url(../images/igouLogo.png) no-repeat center top;padding-top: 177px;}
+.iqTitle .iqTime{height: 102px;background-color:#ffbb45;border-radius:4px;-moz-border-radius:4px;padding:9px;}
+.iqTitle .iqTime .iqTime-in{height: 96px;border:3px solid #dc9227;background-color: #fff;border-radius:5px;-moz-border-radius:5px;overflow: hidden;font-size: 20px;position: relative;text-align: center;}
+.iqTitle .iqTime .iqTime-in .pastTime{color:#333a4a;}
+.iqTitle .iqTime .iqTime-in .nextTime{color:#e11919;position: absolute;right: 80px;top:35px;}
+.iqTitle .iqTime .iqTime-in .iqCountDown{height: 68px;line-height: 68px;font-size: 30px;color:#000;position: relative;top:4px;left:-150px;}
+.iqTitle .iqTime .iqTime-in .iqCountDown>span+em{font-size: 56.14px;color:#ff3333;position: relative;top:7px;+top:3px;padding: 0 20px;}
+.iqTitle .iqTime .iqTime-in .iqbuying{font-size: 36px;color:#e11919;line-height: 96px;} 
+.iqTitle .iqTime .iqTime-in .iqCountDown>span{font-size: 46.63px;color:white;width: 68px;height:68px;display: inline-block;vertical-align:middle;margin-top:-7px;line-height: 68px;text-align: center;background:url(../images/iqtime.png) no-repeat 0 0;}
+.orderBox,.phoneBox{width: 256px;height: 150px;background-color: white;margin-top:200px;display: none;}
+.orderBox .ob-hd,.phoneBox .ob-hd{height: 30px;background-color: #f5f5f5;line-height: 30px;padding-left: 10px;color:#666;position: relative;font-size: 14px;}
+.orderBox .ob-hd .ob-close,.phoneBox .ob-hd .ob-close{width: 22px;height: 30px;display: block;position: absolute;right: 0px;top:0;text-align: center;line-height: 28px;color:#777;font-size: 12px;}
+.orderBox .ob-hd .ob-close:hover,.phoneBox .ob-hd .ob-close:hover{color:#333;}
+.orderBox .ob-bd,.phoneBox .ob-bd{padding:30px 20px 20px 30px;}
+.orderBox .ob-bd .ob-msg{padding-left: 38px;position: relative;height: 32px;line-height: 32px;font-size: 14px;color:#333;}
+.orderBox .ob-bd .ob-msg .ico-true{background:url(../images/trueOrder.png) no-repeat 0 0;width: 32px;height: 32px;display: block;position: absolute;top:0;left:0;}
+.orderBox .ob-ft{padding-right: 15px;}
+.orderBox .ob-ft .btn-cancle,.phoneBox .ob-ft .btn-cancle{background-color:#3ea7ef ;padding:4px 12px;border:1px solid #3ea7ef;color:white;display: inline-block;border-radius: 2px;-moz-border-radius:2px;cursor: pointer;}
+.orderBox .ob-ft .btn-cancle:hover,.phoneBox .ob-ft .btn-cancle:hover{background-color:#1c84cc;border-color:#1c84cc;}
+.phoneBox{width: 370px;}
+.pb-item{height: 32px;line-height: 32px;overflow: hidden;}
+.pb-item span{font-size: 14px;}
+.pb-item input{width:168px;height:30px;line-height:30px;border:1px solid #ddd;margin-left: 4px;padding-left: 12px;margin-top: -3px;}
+.pb-item em{color:#c40000;margin-left: 5px;display: none;}
+.countDownSale .countDownTimeList{height:68px;width:1190px;background-color:#333a4a;color:white;}
+.countDownSale .countDownTimeList .sanjiaobg{border-color:transparent transparent #333a4a #333a4a;border-style:dashed dashed solid solid;border-width:149px;font-size:0;height:0;line-height:0;width:0;position:absolute;top:-230px;left:0;display:block;}
+.countDownSale .countDownTimeList .pointsTimeInfo{z-index:10;color:white;left:0;padding-left:36px;display:block;}
+.countDownSale .countDownTimeList .pointsTimeInfo .points{top:-68px;font-family:tahoma;}
+.countDownSale .countDownTimeList .pointsTimeInfo .points .hourPoint{font-size:40px;color:#e30005;}
+.countDownSale .countDownTimeList .pointsTimeInfo .points .hourPoint em{color:#e30005;font-family:verdana;}
+.countDownSale .countDownTimeList .pointsTimeInfo .points .hotRushing{font-size:20px;}
+.countDownSale .countDownTimeList .pointsTimeInfo .muchRushGood{line-height:68px;}
+.countDownSale .countDownTimeList .pointsTimeInfo .muchRushGood em{font-size:25px;color:#e30005;}
+.pointsTimelist{margin-left:230px;z-index:12;width:960px;}
+.timeLeftA,
+.timeRightB{width:39px;line-height:68px;font-family:simsun;color:white;text-align:center;font-weight:bold;font-size:24px;cursor:pointer;}
+.pointsTimeUlWrap{width:882px;overflow:hidden;}
+.pointsTimeUl{width:1638px;position:relative;left:378px;}
+.pointsTimeUl li,
+.currentRed{color:#7C7C7C;height:68px;float:left;width:378px;font-size:16px;text-align:center;cursor:pointer;}
+.pointsTimeUl li:hover{background-color:#232835;}
+.pointsTimeUl li.current{color:white;}
+.pointsTimeUl li.current:hover{background-color:#e30005;}
+.currentRed{position:absolute;left:50%;margin-left:-189px;background-color:#e30005;}
+.currentRed .down-sanjiao{border-color:transparent transparent #e30005;border-style:dashed dashed solid;border-width:10px;left:50%;top:-20px;margin-left:-10px;}
+.pointsTimeUl li .point{margin-top:12px;}
+.pointsTimeUl li p{line-height:22px;}
+
+.timeRush{background-color:#2e3a48;}
+.timeRush .pointsTimelist{width:1200px;margin:0 auto;}
+.timeRush .pointsTimeUlWrap{width:1134px;}
+.timeRush .pointsTimeUl{width:4536px;left:504px;}
+.timeRush .pointsTimeUl li{font-size:14px;color:#b5b5b7;}
+.timeRush .pointsTimeUl li.current{color:white;}
+.timeRush .pointsTimeUl li .point{margin-top:9px;font-weight:bold;font-size:20px;}
+.timeRush .pointsTimeUl li,
+.timeRush .currentRed{height:56px;}
+.timeRush .currentRed .down-sanjiao{top:56px;border-color:#e30005 transparent transparent;border-style:solid dashed dashed;position: absolute;}
+.timeRush .timeLeftA,
+.timeRush .timeRightB{width:33px;height:56px;line-height:56px;font-size:28px;background-color:#161d23;}
+
+
+.waitBox{width:902px;height: 472px;background-color: white;margin-top: 200px;text-align: center;padding-top: 88px;display: none;}
+.waitBox .exitWait{color:#777;display: inline-block;margin-top:60px;font-size: 18px;}
+.waitBox .exitWait:hover{color:#e11919;}
+.waitBox h3{font-size: 46px;font-weight: bold;line-height: 1em;margin-bottom: 30px;}
+.waitBox p{font-size: 18px;color: #555;}
+.wait{width:668px;height: 192px;background: url(../images/wait.gif) no-repeat 0 0;margin-top:40px; }
+
+/*内容页*/
+.iqJlu table{width:100%;text-align: center;font-size: 14px;}
+.iqJlu table th{padding:15px 0;width:33.33333%;border:0;}
+.iqJlu table td{padding: 10px 0;}
+
+/*黄牛验证*/
+.codeBox{width:660px;padding-bottom:25px;background-color: white;display: none;text-align: center;margin-top: 200px;padding-top: 20px;position: relative;}
+.closeCode{width:22px;height: 22px;position: absolute;top:0;right:0;text-align: center;line-height: 22px;color:#999;cursor: pointer;}
+.codeImg{width:330px;height: 45px;background-color: #eee;margin-top: 20px;}
+.codeBox h3,.overBox h3{font-size: 28px;color:#333;line-height:88px;font-weight: bold;}
+.codeBox p,.overBox p{color:#777;font-size: 14px;line-height: 1.6em;}
+.codeBox form{margin-top: 20px;}
+.codeBox input[type="text"]{padding:10px 15px;border:1px solid #d4d4d4;color:#666;border-radius: 4px;}
+.codeBox button,.overBox a.backIndex{display: inline-block;padding:8px 40px;margin-top: 10px;cursor: pointer;border-radius: 4px;font-size: 16px;letter-spacing: 1px;}
+.codeBox .ruleCode{padding:10px 0;}
+
+/*售完*/
+.overBox{width: 500px;margin-top: 100px;position: relative;padding:20px;background-color: white;text-align: center;}
+.overBox a.backIndex{margin-top: 60px;}

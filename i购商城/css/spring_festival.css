@@ -1,0 +1,35 @@
+.hd_bj{width: 100%;height:700px;background:url(../images/nhpdy_01.jpg) no-repeat center center;}
+.fg_bj{position: absolute;top: 0;left: 0;width: 100%;height: 50px;background: url(../images/fengeqiang.png) no-repeat center center;z-index: 10;}
+.main_bj{width: 100%;background: url(../images/nianhuo_bj.jpg) repeat-y center top;padding-bottom: 20px;}
+.festival_m{padding-top: 40px;}.mn-lt12{margin-left: 12px;}.mg_top5{margin-top: 7px;}.c_fce06f{color: #fce06f;}
+.commodity_list{width: 865px;margin: 0 auto;margin-bottom: 20px;padding: 55px 0 40px 35px;background-color: #cc1829;box-shadow: 0px 0px 5px #d89a86;}
+.m_item{float: left;width: 400px;height: 520px;margin-right: 30px;margin-top: 15px;}
+.m_item .img{width: 400px;height: 400px;overflow: hidden;}
+.m_item .img img{width: 100%;height: 100%;}
+.m_item .text{width: 340px;margin-top: 10px;height: 105px;color: #fff;padding: 10px 30px 0;background: url(../images/n-sijiao.png) no-repeat 0 0;z-index: 10;}
+.m_item .text h2{font-size: 20px;width: 340px;text-align: center;}
+.m_item .text h2>a{color: #fff;}.ft48{font-size: 48px;font-weight: 600;}
+.m_item .text  .aqg{position: absolute;bottom:10px;right: 0;display: inline-block;*display: inline;*zoom: 1;width: 110px;height: 30px;line-height: 30px;border-radius: 20px;background-color: #fce06f;font-size: 18px;text-align: center;color: #cd192e;cursor: pointer;}
+
+/*左侧浮动栏*/
+.m_fixed_js{position: fixed !important;top: 30% !important;}
+.m_fixed{position: absolute;width: 60px;left: 50%;margin-left: -630px;top: 110px;z-index: 100;color: #fff !important;}
+.m_fixed>div{width: 120px;}
+.m_fixed>div>a{display: block;width: 120px;height: 32px;margin: 0 auto;text-align: center;font-size: 14px;line-height: 32px;color: #b11616;background: url(../images/zc-bg.png) no-repeat 0 0;margin-top: 8px;}
+.m_fixed>div>a:last-child{border: 0;}
+
+
+/*首页年货节修改*/
+.nh_body{background: url(../images/nh_body.jpg) repeat-y center center;z-index: -1;}
+.bj_fff{background:#fff;padding: 0 10px;}.bc_fff{background: #fff;}
+#logo{background: url(../images/logo2fff.png) no-repeat 0 0;}
+#head{background-color: transparent;color: #fff !important;border: 0;padding-top: 40px;}
+#head .head-top .ht-left{color: #fff;color: rgba(255,255,255,0.8);}
+#head a{color: #fff !important;color: rgba(255,255,255,0.8) !important;}
+#head .head-top .ht-right .myInfoItem li>a {border: 0;}
+#head .head-top .ht-right .myInfoItem li>a.current{border: 0;color: #0974F8;}
+.wuyan{position: absolute;top: 0;width: 100%;height: 77px;background: url(../images/topfangyan.png) no-repeat center center;}
+.footer{width: 98%;margin: 0 auto;}
+
+
+

@@ -1,0 +1,20 @@
+.payState{font-size: 18px;color: #222;line-height: 51px;}
+.payState i{display: inline-block;*display: inline;*zoom: 1;width: 2px;height: 40px;background-color: #ddd;vertical-align: middle;margin: 0px 20px 0 40px; }
+.clorQ{color: #003399;}
+.loginm{width: 100%;height: 700px;font-size: 14px;background:url(../images/login-bj.png) no-repeat center center;color: #444;}
+.lorrBox{position: absolute;top: 90px;right: 0;width: 460px;padding: 30px;*width: 400px;background-color: #fff;}
+.lorrBox-hd{height: 70px;padding-top: 10px;*height: 60px;}
+.lorrBox-hd h2{float: left;font-size: 24px;}
+.lorrBox-hd p{float: right;margin-top: 10px;}
+.lorrBox-hd p a{color: #003399;}
+.loginM-input{height: 130px;}
+.loginM-input .input{width: 400px;height: 47px;line-height: 45px;border: 1px solid #ddd;margin-bottom: 30px;}
+.loginM-input .input span{display: block;float: left;width: 88px;height: 47px;line-height: 45px;text-indent: 1.3em;font-size: 18px;color: #222;}
+.loginM-input .input input{float: left;width: 310px;height: 45px;line-height: 45px;}
+a.wjMa{display: block;margin: 15px 0 38px 0;}
+#btn{display: block;width: 400px;height: 50px;line-height: 50px;text-align: center;background-color: #FF6600;color: #fff;font-size: 16px;margin-bottom: 20px;box-shadow:  0 0 1px #ff6600;}
+.reg-xy i{display: inline-block;*display: inline;*zoom: 1;width: 16px;height: 16px;vertical-align: middle;background: url(../images/pay-zico.png) no-repeat -76px -27px;margin-right: 5px;margin-top: -2px;*margin-top: 0;}
+.reg-xy i.cur{background-position: -98px -27px;}
+.reg-xy{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none; user-select: none;}
+.copyright{margin-top: 50px;text-align: center;}
+.copyright p{line-height: 30px;}

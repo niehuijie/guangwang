@@ -1,0 +1,143 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li, 
+pre, 
+form, fieldset, legend, button, input, textarea,
+th, td { margin: 0;padding: 0;}
+html {
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+	-webkit-font-smoothing: antialiased;
+}
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body {
+	font-family: PingFang-SC-Medium,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color:#333;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block
+}
+em, i,dfn,address,var{
+	font-style: normal;
+}
+code, kbd, pre, samp {
+	font-family: monospace;
+	font-size: 1em;
+}
+ul, ol {
+	list-style: none;
+}
+sup,sub{
+	position: relative;
+	font-size: 1em;
+	line-height: 0;
+	vertical-align: baseline
+}
+sup{
+	top:-.5em;
+}
+sub{
+	bottom:-.3em;
+}
+a{text-decoration: none;}
+a:active, a:hover {
+	outline: 0
+}
+textarea{resize: none;overflow: hidden;}
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+
+}
+button, input[type=button], input[type=reset], input[type=submit]{
+	-webkit-appearance:button;
+	cursor: pointer;
+	background-color: transparent;
+}
+button[disabled], input[disabled] {
+	cursor: default
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0;
+	border: 0
+}
+img,input,button,textarea{
+	border:0;
+	outline: 0;
+}
+input,img{vertical-align: middle;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th, td {
+	padding: 0;
+}
+.clf:after, .clfb:before {
+	display: block;
+	content: '';
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.tl {
+	text-align: left;
+}
+.tr {
+	text-align: right;
+}
+.tc {
+	text-align: center;
+}
+.txt-ows {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.etxt-wbreak {
+	white-space: normal;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+.pfix{
+	position: fixed;
+}
+.pstatic{position: static;}
+.auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.hidden {
+	overflow:hidden;
+}
+.none {
+	display: none;
+}
+.block {
+	display: block;
+}
+.pd-lr20{padding: 0 20px;}
+html,body{margin-right:auto;margin-left: auto;overflow-x:hidden;position: relative;width:100%;}

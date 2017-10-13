@@ -1,0 +1,30 @@
+ /*信息展示*/
+.n-aq1{	width: 240px;line-height: 118px;border: 1px solid #C9C9C9;display:table;vertical-align:middle;text-align: center;padding-left: 15px;margin-bottom: 10px;	}
+.n-aq1a{width: 80px;float: left;}
+.n-aq1a>img{width: 80px;height: 80px;}
+.n-aq1b{float: left;padding-left: 15px;height: 100px;padding-top: 18px;}
+.n-aq1b>span{display: block;text-align: left;font-size: 18px;color: #999999;line-height: 25px;color: #777777;}
+.n-aq1b>.n-red{color: red;width: 140px;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;/}
+/*左下栏*/
+.n-jiaoyi li{line-height: 35px;width: 205px;font-size: 15px;border: 1px solid #eeeeee;border-top: none;}
+.n-jiaoyi .n-jiaoyi1{position: relative;background-color: #f8f8f8;width: 255px;box-shadow: 0px 2px 5px #dddddd;	}
+.n-jiaoyi1 span{display: inline-block;font-size: 18px;margin-left: 49px;}
+.n-n{position: absolute;left: -6px;display: inline-block;float: left;width: 43px;height: 37px;}
+.n-jiaoyi1img{	background-image: url(../images/jiaoyi1.png);background-position-x: 208px;}
+.n-jiaoyi1img3{	background-image: url(../images/jiaoyi1.png);	background-position-x: 52px;}
+.n-jiaoyi1img2{background-image: url(../images/jiaoyi1.png);	background-position-x: 103px;}
+.n-jiaoyi1img11{background-image: url(../images/jiaoyi1.png);background-position-x: 156px;}
+.n-jiaoyi1imgd{background-image: url(../images/jiaoyi1.png);background-position-x:-10px;}
+.n-jiaoyi1img1{position: absolute;left: -6px;bottom: -7px;display: inline-block;float: left;width: 7px;height: 7px;background-image: url(../images/jiaoyi1.png);background-position-x: 260px;background-position-y: 7px;}
+.n-li{padding-left: 49px;}
+.n-mian{width: 1200px;margin: 0 auto;margin-bottom: 80px;margin-top: 20px;}
+.n-mianzuo{float: left;}
+.n-mianyou{position: relative;float: right;width: 930px;height: 665px;border: 1px solid #DDDDDD;font-size: 14px;}
+.nhnk{display: inline-block;*zoom:1;*display: inline;}
+.clff{clear: both;}
+button{border:0;outline:0;vertical-align: middle;}
+a{color: #9d9d9d;}
+.red{color: #E11919;}
+.zfd{float:left}
+.yfd{float:right}
+.red{color: #E11919;}

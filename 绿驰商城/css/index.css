@@ -1,0 +1,63 @@
+/*轮播图*/
+#banner .prev,#banner .next,.bi-sliderInfoPic .prev,.bi-sliderInfoPic .next{position: absolute;top:50%;text-align: center;font-family: simsun;cursor: pointer;}
+#banner .prev,#banner .next{background-color:#000;background-color:rgba(0,0,0,.4);color:white;}
+#banner{margin:0 auto;height:450px;overflow: hidden;}
+#banner .prev,
+#banner .next{margin-top:-50px;height:100px;line-height:100px;width:40px;font-size:48px;}
+#banner .prev{left:0;}
+#banner .next{right:0;}
+#banner .prev:hover,
+#banner .next:hover{background-color:rgba(0,0,0,.6);}
+#banner .span{display:block;width:15px;height:15px;border-radius:50%;background-color:white;cursor:pointer;float:left;}
+#banner .span.current{background-color:#ff6600;}
+#banner .b-sliderUl{left:50%;margin-left:-960px;position: absolute;}
+#banner .b-sliderUl>li>a>img{width:940px;position: absolute;left:50%;margin-left: -340px;height: 450px;}
+#banner .b-sliderUl>li>a{display:block;width: 1920px;height: 450px;}
+/*container*/
+#container .serviceItems{height:158px;*height:50px;padding:54px 0}
+#container .serviceItems .sI-ul li{float:left}
+/*品牌*/
+#container .brandItems{height:239px}
+#container .brandItems{overflow: hidden;border-left: 1px solid #ddd;width: 1200px;*width:1198px;border-right: 1px solid #ddd;}
+#container .brandItems .bI-ul{width:1202px;margin-top: 1px;}
+#container .brandItems .bI-ul li{float: left;width: 151px;height: 120px;*width:149px;*height:118px;margin-top: -1px;border:1px solid #dddddd;overflow: hidden;margin-left: -1px;text-align: center;}
+#container .brandItems .bI-ul li a{display: block;line-height: 120px;height:100%;*font-size: 92px;}
+#container .brandItems .bI-ul li img{height: 80px;}
+/*热门车型*/
+#container .hotCarType{height:989px;padding-top:40px;*height: 950px;}
+#container .hotCarType .hct-head{height: 50px;overflow: hidden;}
+#container .hotCarType .hct-title{font-size: 36px;color:#222;padding:8px 0;float: left;}
+#container .hotCarType .hct-price{margin-top: 22px;float: right;}
+#container .hotCarType .hct-price li{float: left;line-height: 19px;}
+#container .hotCarType .hct-price li a{color:#777777;font-size: 14px;margin:0 20px;position: relative;top:1px;}
+#container .hotCarType .hct-price li a:hover{color:#ff6600;}
+#container .hotCarType .hct-body{height: 900px;border-top:2px solid #aaa;*height: 898px;overflow: hidden;}
+#container .hotCarType .hct-body .hct-b-proList{margin-left: 2px;}
+#container .hotCarType .hct-body .hct-b-proList li{float: left;width:400px;height:300px;margin-top: -1px;margin-left: -1px;}
+#container .hotCarType .hct-body .hct-b-proList li a{display: block;width:400px;height:300px;border:1px solid #ddd;position: relative;*width: 398px;*height: 298px;}
+#container .hotCarType .hct-body .hct-b-proList li a h3{font-size: 18px;color:#222;margin-left: 12px;float: left;margin-top: 13px;}
+#container .hotCarType .hct-body .hct-b-proList li a p{color:#A7A7A7;font-size:14px;text-decoration: line-through;margin-left: 25px;float: left;margin-top: 18px;}
+#container .hotCarType .hct-body .hct-b-proList li a img{width: 314px;height: 209px;display: block;margin: 42px auto 15px;}
+/*#container .hotCarType .hct-body .hct-b-proList li a:hover{border-color:#ff6600;z-index: 2;}*/
+/*新闻资讯*/
+#container .newsInfo{height:346px;padding-top:40px;}
+#container .newsInfo .bi-info{height: 252px;border-top:2px solid #aaa;}
+#container .newsInfo .bi-head{height: 54px;overflow: hidden;}
+#container .newsInfo .bi-title{padding:8px 0 10px;font-size: 36px;color:#222;}
+#container .newsInfo .bi-desc{color:#777777;font-size: 18px;margin-top: 25px;margin-left: 12px;}
+#container .newsInfo .bi-sliderInfoPic{overflow: hidden;position: relative;width: 882px;}
+#container .newsInfo .bi-sliderInfoPic>ul{position: absolute;left:0px;width: 300%;}
+#container .newsInfo .bi-sliderInfoPic>ul>li{overflow: hidden;float: left;}
+#container .newsInfo .bi-sliderInfoPic>ul>li>a>img,.bi-sliderInfoPic>ul>li{width:436px;height: 250px;}
+#container .newsInfo .bi-sliderInfoPic .prev,.bi-sliderInfoPic .next{margin-top:-18px;height: 36px;line-height: 36px;width:36px;background-color:white;background-color: rgba(255,255,255,.4);color:#222;font-size: 32px;font-weight: 700;}
+#container .newsInfo .bi-sliderInfoPic .prev{left:10px;}
+#container .newsInfo .bi-sliderInfoPic .next{right:10px;}
+#container .newsInfo .bi-sliderInfoPic .span{display:block;width:15px;height: 15px;border-radius: 50%;background-color: #c7ceb8;cursor: pointer;float: left;}
+#container .newsInfo .bi-sliderInfoPic .span.current{background-color:#84b308;}
+#container .newsInfo .bi-infoText{margin-left: 11px;width: 307px;background-color: #e5e5e5;height: 250px;}
+#container .newsInfo .bi-infoText>ul{padding-left: 14px;padding-top: 9px;padding-right: 10px;width: 307px;*width:283px;}
+#container .newsInfo .bi-infoText>ul>li{list-style:inside disc;}
+#container .newsInfo .bi-infoText>ul>li>a{line-height: 38px;color:#666666;font-size: 15px;}
+#container .newsInfo .bi-infoText>ul>li>a:hover{color:#ff6600;}
+#container .newsInfo .bi-lookAll{padding-right: 20px;margin-top: 15px;}
+#container .newsInfo .bi-lookAll a{color:#ff6600;font-size: 14px;}

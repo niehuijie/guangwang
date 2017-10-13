@@ -1,0 +1,104 @@
+.n-mianyou .nbyh{width: 100%;line-height: 45px;background-color: #f9f9f9;border-bottom: 1px solid #DDDDDD;	}
+.nhgc{display:table-cell;vertical-align:middle;text-align: center;}
+/*绘制绑定手机图*/
+.n-mianyou .nbyh>h4{padding-left: 15px;font-weight: 600;}
+.n-mianyou .bangtu{position:relative;width: 542px;margin: 0 auto;margin-top: 60px;margin-bottom: 60px;}
+.n-mianyou .weiyi{position: absolute;bottom: -25px;left:-15px;width: 90px;}
+.n-mianyou .weiyib{position: absolute;bottom: -25px;right:-45px;width: 90px;}
+/*验证手机号*/
+.n-mianyou .yanzhen input{border: 1px solid #c7c7c7;line-height: 30px;height: 30px;padding-left: 10px;border-radius: 5px;width: 200px;}
+.n-mianyou .yanzhen{position: relative;width: 450px;height:55px;margin: 0 auto;}
+.n-mianyou .gauge{padding-top: 2px;height: 34px;}
+.n-mianyou .yanzhen .yzminput2 i{color: red;}
+.n-mianyou .nhnkyou{width: 120px;text-align: right;}
+.n-mianyou .yanzhen .yzminput{width: 100px;}
+.n-mianyou .yanzhen .yzminput2{width: 110px;line-height: 30px;padding-top: 3px;border: 1px solid #e11919;border-radius: 5px;text-align: center;padding: 0;color: #e11919;margin-left: 15px;background-color: #feeeef;}
+.n-mianyou .yanzhen .yzminput3{width: 100px;height: 32px;background-color: #e11919;color: white;padding: 0;margin-top: 10px;border: 1px solid #e11919;}
+.n-mianyou .yanzhen .tishi{width: 200px;line-height: 30px;position: absolute;top: -40px;left: 124px;border: 1px solid #99def3;text-align: center;background-color: #e7f8ff;display: none;}
+.triangle_border_down{position: absolute;bottom: -4px;left: 15px;background-color: #e7f8ff;color: #99def3;line-height: 4px;}
+#password_modification{display: none;}
+#password_modification .modifi_table{position: relative;margin-top: 5px;width: 75px;padding-right: 10px;margin-left: 125px;}
+#password_modification .modifi_table td{width: 20px;height: 8px;margin-right: 5px;border-right: 5px solid white;}
+.n-mianyou .yanzhen .qiangdub{position: absolute;right: 230px;bottom: 5px;font-size: 12px;}
+/*右边*/
+#phone_bound{display: none;}
+.n-mianyou1{width: 800px;height: 120px;padding-left: 100px;	text-align: left;}
+.login{padding-top: 30px;}
+.xian{position: absolute;top: 120px;left: 35px;width: 850px;margin: 0 auto;height: 1px;border-bottom: 1px dotted #C9C9C9;}
+/*密码判断展示*/
+.n-mianyou .mimatu{display: inline-block;width: 390px;height: 19px;border-radius: 15px;background-color: #C9C9C9;padding-left: 8px;padding-top: 4px;}
+.n-mianyou .mimatu .mimatu3{height: 15px;border-radius: 10px;}
+.primary{width:130px;background-color:#ff5351;background: -moz-linear-gradient(left,#ff5351,#ff9247);background: -webkit-linear-gradient(left,#ff5351,#ff9247);background: -o-linear-gradient(left,#ff5351,#ff9247);filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr='#ff5351',endColorStr='#ff9247');background: -ms-linear-gradient(left, #ff5351, #ff9247);}
+.intermediate{width:260px;background-color:#ff9247;background: -moz-linear-gradient(left,#ff9247,#ffcc33);background: -webkit-linear-gradient(left,#ff9247,#ffcc33);background: -o-linear-gradient(left,#ff9247,#ffcc33);filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr='#ff9247',endColorStr='#ffcc33');background: -ms-linear-gradient(left, #ff9247, #ffcc33);}
+.advanced{width:380px;background-color:#66cc99;background: -moz-linear-gradient(left,#66cc99,#66cc33);background: -webkit-linear-gradient(left,#66cc99,#66cc33);background: -o-linear-gradient(left,#66cc99,#66cc33);filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr='#66cc99',endColorStr='#66cc33');background: -ms-linear-gradient(left, #66cc99, #66cc33);}
+#text{color:#ff5351;}
+.divy{position: relative;top: -3px;}
+.n-mianyou .mimaanquan{	margin-top: 10px;height: 25px;}
+.n-mianyou1 .yuanquan{width: 12px;line-height: 12px;height: 12px;	background-color: #ff5351;border-radius: 50%;		   text-align: center;font-size: 12px;color: white;margin: 0 10px;}
+.nhg{display:table-cell;vertical-align:middle;}
+.n-mianyou2{padding-left: 100px;}
+/*登录*/
+.n-mianyou2 .denglu,.bangding{height: 60px;width: 830px;padding-top: 20px;}
+.n-mianyou2 .denglu1{padding-left: 30px;}
+.n-mianyou2 .you{position: absolute;right: 100px;top: 30px;width: 100px;}
+.n-mianyou2 .xiugai1{width: 63px;line-height: 23px;border: 1px solid #e11919;text-align: center;background-color: #fdeeee;	border-radius: 3px;color: #e11919;}
+.n-mianyou2 .xiugai2{width: 100px;line-height: 23px;border: 1px solid #e11919;text-align: center;background-color: #fdeeee;	border-radius: 3px;color: #e11919;}
+.n-mianyou2 .bangding1{width: 63px;line-height: 23px;border: 1px solid #e11919;background-color: #e11919;	text-align: center;border-radius: 3px;color: white;}
+.n-mianyou2 .xiugai1>a{color: #e11919;}
+.n-mianyou2 .bangding1>a{color: #fff;}
+input[type=button],input[type=submit],input[type=text],.n-mianyou button{border-radius: 5px;	}
+.merchant{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: #000000;opacity: 0.6;z-index: 998;display: none;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;}
+.up_merchant{position: fixed;top:300px;left:35%;width: 600px;height: 250px;background-color: #ffffff;z-index: 999;border: 5px solid #9d9d9d;font-size: 14px;display: none;}
+.up_merchant_text{padding-left: 40px;padding-top: 30px;}
+.up_merchant_text p{padding-top: 5px;padding-left: 10px;font-size: 18px;width: 450px;color: #222222;}
+.up_merchant_text h6{width: 520px;text-align: center;color: #E11919;margin: 20px 0;font-size: 14px;}
+.up_merchant_text #unwrap{width: 80px;height: 30px;background-color: #E11919;color: #ffffff;border: 1px solid #E11919;margin-right: 20px;}
+.up_merchant_text #next{width: 80px;height: 30px;background-color: white;color: #222222;border: 1px solid #e4e4e4;}
+.up_merchant_text .input{width: 250px;margin: 0 auto;}
+.up_merchant .guanb{padding-right: 5px;padding-top: 5px;}
+
+/*支付密码管理*/
+.pay{padding-top: 150px;}
+.succeed_order{background-color: #fff;}
+.succeed_order_nav{height: 68px;line-height: 68px;background-color: #FAFAFA;color: #666;padding-left: 30px;}
+.succeed_order_main{height: 270px;}.succeed_order_main>div{width: 290px;color: #222;margin: 0 auto;padding-top: 20px;}
+.succeed_order_main>div .duihao{width: 38px;height: 38px;background: url(../images/nxiaotubiao.png) no-repeat -1px 0px;}
+.succeed_order_main>div .text{margin-top: 5px;color: #41B248;font-weight: 600;}
+.succeed_order_main>div>div>a{color: #333;}.succeed_order_main .button{padding-top: 30px;}
+.succeed_order_main>div .purchase{width: 130px;height: 35px;border: 1px solid #e4e4e4;line-height: 33px;color: #333;background-color: #f4f4f4;text-align: center;margin-right: 20px;border-radius: 5px;}
+.succeed_order_main>div .service{width: 130px;height: 35px;line-height: 35px;}.color{color: #427BCF !important;}
+.succeed_order_main .section{padding-left: 50px;padding-top: 15px;font-size: 14px;color: #999;}
+.succeed_order_main .section .span{width: 80px;height: 35px;}
+/*修改支付密码*/
+input[type="button"]{border:0;outline:0;vertical-align: middle;}
+input[type="submit"]{border:0;outline:0;vertical-align: middle;}
+.amend_pay>div{width: 620px;margin: 0 auto;padding-top: 90px;}
+.flow_chart{width: 477px;margin: 0 auto;margin-bottom: 35px;}.linehh{height: 5px;margin-top: 15px;width: 477px;background-color: #ccc;border-radius: 2px;}
+.g159{width: 159px;height: 5px;background-color: #7ABD54;border-radius:2px;position: relative;z-index: 9;}
+.gh159{width: 159px;height: 5px;background-color: #ccc;border-radius:2px;position: relative;z-index: 9;}
+.qgh159{width: 159px;height: 5px;background-color: #cbecb7;border-radius:2px;position: relative;z-index: 9;}
+.gy23{width: 23px;height: 23px;background-color: #7ABD54;border-radius: 50%;position: absolute;left: 68px;top: -9px;color: #fff;text-align: center;line-height: 23px;z-index: 20;}
+.hy19{width: 19px;height: 19px;background-color: #ccc;border-radius: 50%;position: absolute;left: 70px;top: -7px;color: #fff;text-align: center;line-height: 19px;z-index: 20;}
+.qgy19{width: 19px;height: 19px;background-color: #cbecb7;border-radius: 50%;position: absolute;left: 70px;top: -7px;color: #fff;text-align: center;line-height: 19px;z-index: 20;}
+.flow_chart .text{width: 159px;text-align: center;margin-top: 15px;}.gcolor{color: #7ABD54;}.qgcolor{color: #cbecb7;}
+.amend_pay_main .input{height: 50px;}.amend_pay_main .input .span{width: 145px;padding-right: 10px;text-align: right;height: 35px;line-height: 35px;}
+select{height: 35px;border: 1px solid #e4e4e4;width: 340px;padding-left: 5px;}.yhk{height: 65px !important;}
+.amend_pay_main .input p{margin-left: 155px;line-height: 23px;}.amend_pay_main .input .type{width: 335px;padding-left: 5px;border: 1px solid #e4e4e4;height: 35px;line-height: 35px;border-radius: 0;}
+.amend_pay_main .input .typed{width: 175px;padding-left: 5px;border: 1px solid #e4e4e4;height: 35px;line-height: 35px;border-radius: 0;}
+.amend_pay_main .input .spanto{height: 35px;line-height: 35px;}
+.amend_pay_main .input .button{width: 130px;height: 35px;line-height: 35px;border: 1px solid #e4e4e4;height: 35px;text-align: center;position: absolute;top: 1px;right: 140px;cursor:pointer;}
+.amend_pay_main .phone{height: 80px;}
+.amend_pay_main .input input[type='submit']{width: 70px;height: 30px;margin-left: 155px;color: #fff;background-color: #E11919;border: 1px solid #E11919;margin-top: 20px;}
+
+/*完成找回支付密码*/
+.complete{height: 470px;padding-top: 90px;}
+.complete>div .duihao{width: 38px;height: 38px;background: url(../images/nxiaotubiao.png) no-repeat -1px 0px;}
+.complete>div .txt{margin-top: 5px;color: #41B248;font-weight: 600;}
+.complete .win{width: 270px;margin: 0 auto;margin-top: 100px;}
+.n-mianyou .complete .mimatu{display: inline-block;width: 100px;height: 10px;border-radius: 10px;background-color: #C9C9C9;padding-left: 5px;padding-top: 0px;}
+.n-mianyou .complete .mimatu .mimatu3{height: 6px;border-radius: 4px;position: absolute;top: 2px;left: 5px;}
+.complete .primary{width:30px;background-color:#ff5351;background: -moz-linear-gradient(left,#ff5351,#ff9247);background: -webkit-linear-gradient(left,#ff5351,#ff9247);background: -o-linear-gradient(left,#ff5351,#ff9247);filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr='#ff5351',endColorStr='#ff9247');background: -ms-linear-gradient(left, #ff5351, #ff9247);}
+.complete .intermediate{width:60px;background-color:#ff9247;background: -moz-linear-gradient(left,#ff9247,#ffcc33);background: -webkit-linear-gradient(left,#ff9247,#ffcc33);background: -o-linear-gradient(left,#ff9247,#ffcc33);filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr='#ff9247',endColorStr='#ffcc33');background: -ms-linear-gradient(left, #ff9247, #ffcc33);}
+.complete .advanced{width:90px;background-color:#66cc99;background: -moz-linear-gradient(left,#66cc99,#66cc33);background: -webkit-linear-gradient(left,#66cc99,#66cc33);background: -o-linear-gradient(left,#66cc99,#66cc33);filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr='#66cc99',endColorStr='#66cc33');background: -ms-linear-gradient(left, #66cc99, #66cc33);}
+.complete .win_to{width: 270px;margin: 0 auto;margin-top: 30px;}
+.complete .win_tri{margin-top: 30px;}

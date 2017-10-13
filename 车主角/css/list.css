@@ -1,0 +1,148 @@
+/*左侧搜索条件*/
+.car-list-side-bar{width:304px;border:1px solid #e5e5e5;background:#f5f5f5;overflow:hidden;float:left;}
+.car-list-right-content{margin-left:336px;overflow:hidden;}
+.car-list-wrapper .car-list-side-bar-ul{margin:0 7px -1px;}
+.car-list-wrapper .car-list-side-bar-ul > li{border-bottom:1px solid #ddd;}
+.car-list-wrapper .car-list-side-bar-ul > li .item-title{overflow:hidden;height:46px;line-height:46px;cursor:pointer;padding-left:8px;}
+.car-list-wrapper .car-list-side-bar-ul > li .item-title a{float:right;margin-right:22px;text-decoration:none;color:#335498;display:none;}
+.car-list-wrapper .car-list-side-bar-ul > li .item-title span{font-size:16px;color:#333;font-weight:700;}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper{width:254px;border:1px solid #ddd;background:#FFF;margin:0 0 20px 10px;}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-nav{width:254px;}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-nav a{display:inline-block;float:left;width:24px;*width:22px;height:28px;*height:26px;line-height:28px;*line-height:26px;border:1px solid #ddd;margin-left:-1px;margin-top:-1px;text-align:center;color:#333;text-decoration:none;position:relative;z-index:1}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-nav a.current{background:#ff4700;color:#FFF;border-color:#ff4700;z-index:2}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-nav a:hover{border-color:#ff4700;z-index:2}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-brand-show{padding:13px 0 13px 15px;overflow:hidden;}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-brand-show a{font-size:14px;color:#333;text-decoration:none;line-height:28px;margin-right:15px;white-space:nowrap;float:left;display:none;}
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-brand-show a.current,
+.car-list-wrapper .car-list-side-bar-ul > li .letter-nav-wrapper .letter-brand-show a:hover{color:#ff4700}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul{overflow:hidden;margin:0 0 0 8px;padding-bottom:13px;}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li{color:#333;float:left;font-size:14px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.price li{width:90px;}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li > a{color:#333;text-decoration:none}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input[checked] ~ span,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input[defaultChecked] ~ span,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label.current input ~ span,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label:hover input ~ span{color:#ff4700;font-weight:700}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input + i{display:inline-block;width:12px;height:12px;margin:9px 8px 0 0;float:left;background:url(../images/car-list.png) -25px 0 no-repeat;}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label{display:block;cursor:pointer;position:relative;line-height:32px;height:32px;}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label:hover input + i{background-position:-125px -25px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input{width:12px;height:12px;zoom:1;opacity:0;-moz-opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);filter:alpha(opacity=0);position:absolute;top:9px;cursor:pointer}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input + i.current,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input[checked] + i,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input[defaultChecked] + i,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label.current input + i{background-position:-50px 0}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input:checked + i{background-position:-50px 0}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul li label input:checked ~ span{font-weight:700;color:#ff4700}
+
+/*车型*/
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type li{margin:0 9px 20px 0}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a{display:inline-block;padding-top:30px;background:url(../images/car-type.png) 0 -5px no-repeat;width:80px;height:16px;line-height:16px;font-size:14px;text-decoration:none;text-align:center;color:#333;box-sizing:content-box;-ms-box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a:hover{color:#ff4700;font-weight:700}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car1{background-position:0 -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car1.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car1:hover{background-position:0 -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car2{background-position:-80px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car2.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car2:hover{background-position:-80px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car3{background-position:-160px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car3.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car3:hover{background-position:-160px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car4{background-position:-240px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car4.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car4:hover{background-position:-240px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car5{background-position:-320px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car5.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car5:hover{background-position:-320px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car6{background-position:-400px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car6.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car6:hover{background-position:-400px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car7{background-position:-480px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car7.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car7:hover{background-position:-480px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car8{background-position:-560px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car8.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car8:hover{background-position:-560px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car9{background-position:-640px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car9.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car9:hover{background-position:-640px -50px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car10{background-position:-720px -5px}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car10.active,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.car-type a.car10:hover{background-position:-720px -50px}
+
+/*国别*/
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.country li,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.energy li{width:92px;}
+
+/*能源*/
+.car-list-wrapper .car-list-side-bar-ul > li .item-title i{display:inline-block;width:13px;height:7px;background:url(../images/car-list.png) no-repeat;margin-left:10px;cursor:pointer;}
+.car-list-wrapper .car-list-side-bar-ul > li .item-title i.active{background-position:-100px -25px;}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.configure li,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.drive li,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.outputVolume li,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.seating li,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.sub-transmissions li,
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.transmissions li{width:100%;}
+.car-list-wrapper .car-list-side-bar-ul > li .sub-ul.sub-transmissions{margin-left:20px;}
+
+/*右侧*/
+.car-list-wrapper .car-list-right-search-title{font-size:30px;color:#000;height:57px;line-height:1em;}
+.car-list-wrapper .car-list-right-selected-label{width:858px;color:#666;font-size:14px;}
+.car-list-wrapper .car-list-right-selected-label dt{float:left;width:70px;line-height:24px;}
+.car-list-wrapper .car-list-right-selected-label dd{margin-left:72px;overflow:hidden;}
+.car-list-wrapper .car-list-right-selected-label dd a{border:1px solid #e1e1e1;display:inline-block;white-space:nowrap;height:24px;line-height:22px;padding:0 10px;text-decoration:none;margin:0 10px 10px 0;color:#666;cursor:pointer;}
+.car-list-wrapper .car-list-right-selected-label dd a i{float:left;margin:6px 0 0 10px;display:inline-block;width:11px;height:10px;background:url(../images/car-list.png) -75px 0 no-repeat;}
+.car-list-wrapper .car-list-right-selected-label dd a:hover{border:1px solid #ff4700}
+.car-list-wrapper .car-list-right-selected-label dd a:hover i{background-position:-100px 0}
+.car-list-wrapper .car-list-right-selected-label dd .del-selected-label{color:#335498;background-color:#f5f5f5;}
+.car-list-wrapper .car-list-right-selected-label dd .del-selected-label:hover{border:1px solid #e1e1e1;background:#FFF}
+.car-list-wrapper .car-list-right-selected-label dd a{border:1px solid #e1e1e1;display:inline-block;float:left;white-space:nowrap;height:24px;line-height:22px;padding:0 10px;text-decoration:none;margin:0 10px 10px 0;color:#666;cursor:pointer;}
+.car-list-wrapper .car-list-right-sort-wrapper{height:40px;line-height:38px;*height:38px;border:1px solid #e1e1e1;background:#f5f5f5;color:#666;font-size:14px;overflow:hidden;margin:8px 0 36px;}
+.car-list-wrapper .car-list-right-sort-wrapper .left-title{float:left;margin:0 20px;}
+.car-list-wrapper .car-list-right-sort-wrapper .sort-btn.current{background:#FFF;color:#ff4700;}
+.car-list-wrapper .car-list-right-sort-wrapper .sort-btn{float:left;text-decoration:none;color:#666;padding:0 20px;height:40px;line-height:38px;*height:38px;border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;margin-left:-1px;overflow:hidden;}
+.car-list-wrapper .car-list-right-sort-wrapper .sort-btn.current i.sub{background-position:-150px 0;}
+.car-list-wrapper .car-list-right-sort-wrapper .sort-btn.current i.sup{background-position: -162px 0;}
+.car-list-wrapper .car-list-right-sort-wrapper .sort-btn i{display:inline-block;height:10px;width:7px;background:url(../images/car-list.png) -125px 0 no-repeat;margin:0px 0 0 5px;vertical-align: middle;}
+
+/*结果列表*/
+.car-list-wrapper .car-list-right-result-ul{overflow:hidden;margin-top:-16px;width:889px;}
+.car-list-wrapper .car-list-right-result-ul > li{padding-top:20px;width:272px;*width:270px;height:331px;*height:309px;border:1px solid #e1e1e1;position:relative;text-align:center;float:left;margin:24px 24px 0 0}
+.car-list-wrapper .car-list-right-result-ul > li>a{display: block;height: 100%;}
+.car-list-wrapper .car-list-right-result-ul > li:hover{border:1px solid #ff4700}
+.car-list-wrapper .car-list-right-result-ul > li img{vertical-align:middle;width:250px;height:150px;}
+.car-list-wrapper .car-list-right-result-ul > li .car-name{font-size:24px;color:#000;line-height:1em;font-weight:bold;text-align:center;margin-top:37px;margin-bottom:16px;position:relative;}
+.car-list-wrapper .car-list-right-result-ul > li .car-name span{position:relative;max-width:201px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;display:inline-block;}
+.car-list-wrapper .car-list-right-result-ul > li .jxsprice{font-size:12px;line-height:1em;color:#666;}
+.car-list-wrapper .car-list-right-result-ul > li .car-info-detail{overflow:hidden;font-size:14px;line-height:38px;padding:0 20px;color:#333;}
+.car-list-wrapper .car-list-right-result-ul > li .car-info-detail .car-info-price{float:left;text-align:left}
+.car-list-wrapper .car-list-right-result-ul > li .car-info-detail span{color:#ff4700}
+.car-list-wrapper .car-list-right-result-ul > li .car-info-detail .car-info-discount{float:right;text-align:right}
+.car-list-wrapper .car-list-right-result-ul > li .car-info-more{position:absolute;left:0;bottom:0;width:100%;font-size:12px;color:#666;height:46px;*height:45px;line-height:45px;border-top:1px solid #e1e1e1;background:#f5f5f4;}
+.car-list-wrapper .car-list-right-result-ul > li .car-info-more .car-info-btn{text-align:left;float:left;width:145px;text-indent:20px;position:relative;}
+.car-list-wrapper .car-list-right-result-ul > li .car-info-more .car-info-btn em{color:#ff4700;font-size: 18px;}
+/*没有结果*/
+.car-list-wrapper .car-list-right-no-result{padding:88px 0 122px;overflow:hidden;}
+.car-list-wrapper .car-list-right-no-result .car-list-right-no-result-content i{width:111px;height:102px;display:inline-block;float:left;margin-left:198px;background:url(../images/car-list.png?2016012815) 0 -175px no-repeat}
+.car-list-wrapper .car-list-right-no-result .car-list-right-no-result-content p{margin-left:360px;color:#333}
+.car-list-wrapper .car-list-right-no-result .car-list-right-no-result-content p.car-list-right-no-result-title{font-size:20px;font-weight:700;line-height:100%;padding-top:26px}
+.car-list-wrapper .car-list-right-no-result .car-list-right-no-result-content p.car-list-right-no-result-tips{font-size:14px;line-height:100%;padding-top:20px}
+/*猜你喜欢*/
+.car-list-wrapper .guess-hd .car-list-right-cell-title{font-size:28px;color:#333;height: 70px;line-height:70px;}
+.car-list-wrapper .guess-hd .tabCircle{margin:42px 8px 0 0;}
+.car-list-wrapper .guess-hd .tabCircle li{width:8px;height:8px;border-radius:50%;float:left;background-color:#ababab;margin-right:5px;cursor:pointer;-webkit-transition:all .25s ease-in;-moz-transition:all .25s ease-in;transition:all .25s ease-in;}
+.car-list-wrapper .guess-hd .tabCircle li.cur{width:30px;border-radius:6px;background-color:#ff6600;}
+.car-list-wrapper .guess-bd>div{display: none;}
+.car-list-wrapper .car-list-right-prefer-ul{overflow:hidden;width:885px;}
+.car-list-wrapper .car-list-right-prefer-ul li{display:inline-block;margin-right:20px;float:left;padding-top:9px;width:200px;*width:198px;height:284px;*height:273px;border:1px solid #e1e1e1;text-align:center;position:relative}
+.car-list-wrapper .car-list-right-prefer-ul li:hover{border:1px solid #ff4700}
+.car-list-wrapper .car-list-right-prefer-ul li:hover p.car-info-btn{display:block}
+.car-list-wrapper .car-list-right-prefer-ul li > a{display:block;height:100%;text-decoration:none;cursor:pointer}
+.car-list-wrapper .car-list-right-prefer-ul li img{width:180px;height:120px;margin-top: 22px;}
+.car-list-wrapper .car-list-right-prefer-ul li .car-info{}
+.car-list-wrapper .car-list-right-prefer-ul li h4{font-size:24px;color:#000;margin-top:53px;font-weight: bold;margin-bottom: 12px;}
+.car-list-wrapper .car-list-right-prefer-ul li p.car-info-detail{color:#777;margin-bottom:10px;}
+.car-list-wrapper .car-list-right-prefer-ul li p.car-info-detail span{font-size:18px;color:#ff4700;}
+.car-list-wrapper .car-list-right-prefer-ul li p.car-info-detail.grey{color:#666}
+.car-list-wrapper .car-list-right-prefer-ul li p.car-info-detail span{font-size:16px;}
+.car-list-wrapper .car-list-right-prefer-ul li p.car-info-btn{height:32px;line-height:32px;background:#ff4700;color:#FFF;font-size:14px;font-weight:700;display:none;}

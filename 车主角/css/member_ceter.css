@@ -1,0 +1,97 @@
+.member_center{float: right;width: 956px;}
+.member_center .center_hader{width: 956px;height: 97px;line-height:97px;background-color: #fff;border: 1px solid #e4e4e4;*width:954px;}
+.member_center .center_hader .img{padding-left: 25px;+padding-top: 12px;}
+.member_center .center_hader .img>img{width: 75px;height: 75px;border-radius: 50%;line-height: 97px;}
+.member_center .center_hader .name{width: 225px;padding-left: 15px;*width: 210px;}
+.member_center .center_hader .balance{color: #555;width: 285px;}
+.member_center .center_hader .balance .cz{width: 45px;height: 19px;line-height: 19px;background-color: #ff6500;text-align: center;color: #fff;margin-left: 7px;}
+.member_center .center_hader .integral .cz{width: 45px;height: 19px;line-height: 19px;background-color: #ff6500;text-align: center;color: #fff;margin-left: 7px;}
+.red{color: #E01918;}
+.member_center .center_hader .integral{width: 215px;}
+/*积分兑换记录*/
+.integral_record{width: 956px;background-color: #fff;border: 1px solid #e4e4e4;padding-left: 25px;*width:929px;padding-bottom: 25px;}
+.income_main_nav{height: 55px;*height: 34px;padding-top: 19px;width: 910px;}
+.income_main_nav .nav_left span{margin-right: 35px;display: inline-block;*display:inline;zoom:1;width: 120px;height: 23px;line-height: 23px;text-align: left;font-size: 16px;color: #212121;}
+.income_main_nav .nav_left{float: left;}
+.income_main_nav .nav_right{float: right;width: 345px;padding-top: 3px;}
+.income_main_nav .nav_right>div>input{width: 50px;height: 22px;line-height:22px;border: 1px solid #eee;text-align: center;}
+.income_main_nav .nav_right>div>span>a{display: inline-block;*display:inline;zoom:1;height: 22px;line-height: 22px;cursor:pointer;color: #333;}
+.income_main_nav .nav_right>div>span>a:hover{color: #ff6600;}
+/*积分兑换记录-商品信息*/
+.record_hader{width: 910px;height: 42px;line-height:42px;border: 1px solid #e4e4e4;*width: 908px;background-color: #f4f4f4;}
+.w330{width: 330px;}
+.w115{width: 115px;text-align: center;}
+.w330 .commodity{height: 122px;padding-top: 22px;*height: 100px;padding-left: 25px;width: 329px;*width: 304px;}
+.record_main .table{width: 910px;border: 1px solid #e4e4e4;margin-top: 10px;*width: 908px;height: 153px;*height: 151px;color: #656565;}
+.record_main td{border: none;}
+.record_main .table img{width: 80px;height: 80px;}
+.record_main .td{border-right: 1px solid #eeeeee;height: 122px;}
+.record_main .tdb{border-bottom: 1px solid #eeeeee;}
+.record_main .table a{color:#666;height: 20px;}
+.record_main .table{margin-top: 10px;width: 910px;}
+.record_main .table .p{height: 35px;line-height:35px;font-size: 12px;padding-left: 25px;}
+.record_main .nav{width: 910px;line-height: 30px;text-align: left;background-color: #f4f4f4;}
+.record_main .table .footer1:hover{color: #ffffff;background-color: #FF6500;}
+.record_main .table .footer1{line-height: 25px;background-color: #ffffff;width:60px;}
+.record_main .table h4{width: 200px;text-align: left;line-height: 22px;font-size: 12px;color: #666;}
+.record_main .table .name{padding-top: 15px;padding-left: 10px;}
+/*单独页面的积分兑换记录*/
+#examine{width: 80px;}#examine a{color: #333;}
+/*养护记录*/
+.maintenance_record{width: 956px;background-color: #fff;margin-top: 10px;border: 1px solid #e4e4e4;padding-left: 25px;*width:929px;padding-bottom: 25px;}
+.w325{width: 325px;padding-left: 25px;*width: 300px;}.w205{width: 204px;text-align: center;}.w170{width: 170px;text-align: center;}.w210{width: 209px;text-align: center;}
+.maintenance_record .table{width: 910px;border: 1px solid #e4e4e4;margin-top: 10px;*width: 908px;height: 153px;*height: 151px;color: #656565;}
+.maintenance_record td{border: none;}
+.maintenance_record .table img{width: 80px;height: 80px;}
+.maintenance_record .td{border-right: 1px solid #eeeeee;height: 122px;}
+.maintenance_record .tdb{border-bottom: 1px solid #eeeeee;}
+.maintenance_record .table a{color:#666;height: 20px;}
+.maintenance_record .table{margin-top: 10px;width: 910px;}
+.maintenance_record .table .p{height: 35px;line-height:35px;background-color: #f4f4f4;font-size: 12px;padding-left: 30px;}
+.maintenance_record .nav{width: 910px;line-height: 30px;text-align: left;}
+.maintenance_record .table .footer1:hover{color: #ffffff;background-color: #FF6500;}
+.maintenance_record .table .footer1{line-height: 25px;background-color: #ffffff;width:60px;}
+.maintenance_record .table h4{width: 200px;text-align: left;line-height: 22px;font-size: 12px;color: #666;}
+.maintenance_record .table .name{padding-top: 0px;padding-left: 10px;}
+.maintenance_record .table h4>span{width: 170px;}
+.maintenance_record .table .tdto{height: 122px;line-height: 122px;}
+/*推荐兑换*/
+.exchange{width: 956px;background-color: #fff;margin-top: 10px;border: 1px solid #e4e4e4;padding-left: 15px;*width:939px;padding-bottom: 25px;}
+.exchange .vew_all{text-align: right;color: #999;}
+.exchange .exchange_main>div{width: 233px;height: 300px;float: left;padding-right: 8px;*width: 223px;color: #4e4e4e;}
+.exchange .exchange_main>div>div{width: 225px;height:300px;border: 1px solid #e4e4e4;}
+.exchange .exchange_main>div>div:hover{border: 1px solid #ff6600;}
+.exchange .nav_left{padding-left: 15px;}
+.exchange img{width: 225px;height: 225px;}
+.exchange .exchange_main .padding{padding: 0;}
+.exchange .exchange_main .text{width: 208px;margin: 0 auto;}
+.exchange .exchange_main .text .text_left{height: 45px;}
+.exchange .exchange_main .text .text_right{height: 45px;line-height: 45px;}
+.exchange .exchange_main .text .text_right>a{width: 60px;height: 20px;line-height: 20px;color: #fff;background-color: #FF6600;text-align: center;border-radius: 5px;}
+.c333{color: #333;}
+/*养护记录单页*/
+.maintenance_order{width: 956px;background-color: #fff;border: 1px solid #e4e4e4;*width: 954px;font-size: 14px;}
+.maintenance_order_nav{padding-left:30px;width: 956px;height: 55px;line-height: 55px;border-bottom: 1px solid #e4e4e4;color: #212121;*width: 926px;}
+.item_p{width: 954px;padding: 15px 30px;border-bottom: 1px solid #e4e4e4;}.item_p>div{height: 30px;color: #666;}.item_p .color{color: #111;height: 35px;}
+.inventory{width: 954px;padding:30px;*width: 804px;}.inventory .color{height: 30px;color: #111;}
+.inventory .table{width: 910px;border: 1px solid #e4e4e4;margin-top: 10px;*width: 908px;height: 153px;*height: 151px;color: #656565;font-size: 14px;}
+.inventory td{border: none;}
+.inventory .table img{width: 80px;height: 80px;}.inventory .table .nav{background-color: #f3f3f3;height: 40px;line-height: 40px;border-bottom: 1px solid #e4e4e4;}
+.inventory .td{border-right: 1px solid #eeeeee;height: 122px;}
+.inventory .tdb{border-bottom: 1px solid #eeeeee;}
+.inventory .table a{color:#666;height: 20px;}
+.inventory .table{margin-top: 10px;width: 910px;}
+.inventory .table .p{padding-left: 30px;}
+.inventory .nav{width: 910px;line-height: 30px;text-align: left;}
+.inventory .table .footer1:hover{color: #ffffff;background-color: #FF6500;}
+.inventory .table .footer1{line-height: 25px;background-color: #ffffff;width:60px;}
+.inventory .table h4{width: 200px;text-align: left;line-height: 22px;font-size: 12px;color: #666;}
+.inventory .table .name{padding-top: 0px;padding-left: 10px;}
+.inventory .table h4>span{width: 170px;}
+.inventory .table .tdto{height: 122px;line-height: 122px;}
+
+/*预约意向记录*/
+.integral_record .record_main .table .tdp{width: 100px;word-wrap: break-word;}
+.integral_record .record_main .table .nav .p{font-size: 14px !important;}
+.ft24{font-size: 24px;color: #ff6600;}
+#appointment{width: 910px;margin-top: 10px;margin-bottom: 20px;}#appointment a{width: 60px;text-align: center;color: #333;}#appointment a:hover{color: #ff6600;}

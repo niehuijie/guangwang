@@ -1,0 +1,35 @@
+/*列表页与内容页相同*/
+
+/*位置导航*/
+.location{height:34px;line-height:34px;margin:6px 0 7px;font-size: 14px;}
+.location a{color:#333;}
+.location .cur{color:#ff4700;}
+.location span{font-family:simsun;margin:0 4px;}
+/*所在地选择*/
+.curCity{font-size:14px;color:#555555;margin-top:8px;*margin-top:12px;}
+.curCity select{height:34px;width:120px;*width:106px;border:1px solid #cccccc;padding-left:12px;color:#555555;height:auto\9;vertical-align:middle;}
+.curCity button.searchCurCity{padding:6px 14px;background-color:#08377f;border-color:#08377f;color:white;margin-right:10px;margin-left:6px;*padding:0;margin-top: -1px;}
+/*在当前城市找到了多少*/
+.sort-fw {margin-right: 20px;}
+.sort-fw .location{font-size:18px;color:#ff4700;padding:0 6px;}
+.sort-fw .num{padding:0 4px;}
+/*页码*/
+.listPage{text-align:right;margin-top:30px;margin-bottom:35px;font-size:14px;font-size: 0;}
+.listPage a{display:inline-block;padding:0 14px;font-size:14px;margin-right:5px;height:38px;line-height:36px;*height:36px;border:1px solid #eee;color:#555;background-color: #f6f6f6;}
+.listPage a.prev em,.car-list-wrapper .page a.next em{color:#aaa;font-size: 15px;}
+.listPage a.prev.disabled,.car-list-wrapper .page a.next.disabled{color:;background-color: white;color:#c8c8c8;}
+.listPage a.prev.disabled em,.car-list-wrapper .page a.next.disabled em{color:#ccc;}
+.listPage a.prev em{margin-right: 4px;position: relative;top:1px;}
+.listPage a.next em{margin-left: 4px;}
+.listPage a .jt{font-family:simsun;color:#cccccc;}
+.listPage a.disc{border:none;background-color: transparent;}
+.listPage form{display:inline-block;margin-left: 15px;*display: inline;zoom:1;}
+.listPage form input[type="text"]{width:38px;height:38px;font-size:14px;line-height:38px;text-align:center;padding-left:0;margin-top:-2px;+margin-top:0;border:1px solid #cccccc;}
+.listPage form .input_b{overflow:hidden;border-radius:3px;display:inline-block;width:55px;height:38px;*height:36px;vertical-align:middle;border:1px solid #e4e4e4;background-color: #f5f5f5;}
+.listPage form input[type="submit"]{width:55px;height:38px;cursor:pointer;text-align:center;line-height: 38px;+line-height:28px;text-align:center;padding-left:0;background:none;color:#999999;box-shadow:none;border:0;outline: none;}
+.listPage a.left{background:#f4f4f4;color:#cbcbcb;}
+.listPage a.current{background-color:transparent;color:#ff6600;border:none;}
+.listPage span{font-size: 14px;}
+/*弹出框宽度*/
+.w1000-h1068{width:1000px;*width:980px;}
+.w1000-h1068 .dialog-bd{padding:0 20px;padding-bottom:44px;}

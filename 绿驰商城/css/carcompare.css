@@ -1,0 +1,40 @@
+.car_type_content h3{font-size: 30px;height: 50px;}
+.car_type_top{height: 328px;background-color: white;width:1200px;}
+.car_type_bottom{margin-bottom: 30px;}
+.car_type_top table,.car_type_bottom table{width:100%;height: 100%;}
+.car_type_top table{height: 328px;}
+
+.car_type_top table td,.car_type_bottom table td,.car_type_top table th,.car_type_bottom table th{border:1px solid #cccccc;font-size: 14px;width: 20%;padding-left: 5px;padding-top: 12px;padding-bottom: 12px;vertical-align: top;}
+.car_type_top table th,.car_type_bottom table th{width: 100%;text-align: left;font-size: 16px;text-indent: 16px;}
+.car_type_top.fixed{position: fixed;top:0px;}
+.clorf6{color: #ff6600;}
+.car_type_top table td{padding-left: 0;}
+/*固定*/
+.car_type_aside{width: 137px;top: 332px;left:-137px;}
+.car_type_aside>ul{background-color: #f5f5f5;width: 110px;border:1px solid #ddd;}
+.car_type_aside>ul>li{padding:0 5px;margin-bottom: -1px;}
+.car_type_aside>ul>li>a{height: 39px;line-height: 39px;color:#404040;font-size: 14px;padding-left: 9px;border-bottom: 1px solid #ddd;display: block;}
+.car_type_aside>ul>li.cur {background:url(../images/locaIco.png) no-repeat 0 0;position: relative;width: 136px;}
+.car_type_aside>ul>li.cur a{color:white;font-weight: bold;border:0;}
+.carClor{padding-left: 10px;padding-right: 20px;}
+.carClor li{width:17px;height: 17px;float: left;margin-right: 11px;border:1px solid #fcfcfc;margin-bottom: 11px;}
+.car_type_bottom .carName{margin-bottom:20px;}
+.choiceCarKey{padding-left: 10px;}
+.choiceCarKey .peizhi li,.choiceCarKey .lookWhere li{line-height: 34px;}
+.choiceCarKey .peizhi li span{font-family: '\5B8B\4F53';font-size: 12px;position: relative;top:-2px;}
+.choiceCarKey .lookWhere {margin-top: 20px;}
+.choiceCarKey .cck-title,.choiceCarKey .cck-ptitle{color:#333;font-size: 16px;font-weight: bold;}
+.choiceCarKey .cck-ptitle{font-size: 14px;margin-top: 15px;margin-bottom: 9px;}
+.choiceCar{width: 213px;}
+.choiceCar>img{width: 167px;height: 106px;}
+.choiceCar .delCurCar{width: 88px;height: 30px;border:1px solid #ff6600;background-color: #ffebde;line-height: 28px;text-align: center;display: block;color:#ff6600;margin-top: 18px;}
+.choiceCar .delCurCar.hui{background-color: #f8f8f8;border-color: #cccccc;color:#555555;}
+.choiceCar .cc-selectUl>li{margin-bottom: 10px;position: relative;}
+.choiceCar .cc-selectUl>li>div.selectELem{height: 34px;border: 1px solid #cccccc;line-height: 34px;width:213px;*width:170px;padding-right: 33px;padding-left: 10px;position: relative;cursor: pointer;}
+.choiceCar .cc-selectUl>li>div.selectELem{color:#555;}
+.choiceCar .cc-selectUl>li>div.selectELem.disabled{color:#999;}
+.choiceCar .cc-selectUl>li>div.selectELem i{background: url(../images/selectCarDown.png) no-repeat 0 0;width: 13px;height: 7px;display: block;position: absolute;top:13px;right:10px;}
+.choiceCar .cc-selectUl>li>div.selectOptions{position: absolute;top:35px;left:0;background-color: white;width: 100%;z-index: 10;border:1px solid #dcdcdc;box-shadow: 0 0 5px #ccc;border-bottom: 0;overflow:hidden;}
+.choiceCar .cc-selectUl>li>div.selectOptions>ul{max-height: 260px;_height:260px;overflow-x:hidden;overflow-y: auto;margin-bottom:-1px;}
+.choiceCar .cc-selectUl>li>div.selectOptions>ul>li{line-height: 26px;border-bottom:1px dashed #dcdcdc;text-indent: 10px;cursor: pointer;height:26px;}
+.choiceCar .cc-pic{margin-bottom: 18px;}

@@ -1,0 +1,139 @@
+/*收支记录*/
+.income_main{background-color: #fff;float: right;width: 956px;*width: 936px;padding-left: 20px;}
+.income_main .income_main_nav{height: 60px;*height: 39px;padding-top: 19px;padding-left: 10px;width: 910px;*width: 900px;}
+.income_main .income_main_nav .nav_left span{margin-right: 35px;display: inline-block;*display:inline;zoom:1;width: 62px;height: 23px;line-height: 23px;text-align: center;cursor:pointer;border-bottom: 2px solid #fff;}
+.income_main .income_main_nav .nav_left span:hover{color: #ff6600;border-bottom: 2px solid #FF6600;}
+.income_main .income_main_nav .nav_left .hover{color: #ff6600;border-bottom: 2px solid #FF6600;}
+.income_main .income_main_nav .nav_left{float: left;}
+.income_main .income_main_nav .nav_right{float: right;width: 345px;padding-top: 3px;}
+.income_main .income_main_nav .nav_right>div>input{width: 50px;height: 22px;line-height:22px;border: 1px solid #eee;text-align: center;}
+.income_main .income_main_nav .nav_right>div>span>a{display: inline-block;*display:inline;zoom:1;height: 22px;line-height: 22px;cursor:pointer;color: #333;}
+.income_main .income_main_nav .nav_right>div>span>a:hover{color: #ff6600;}
+.income_main .income_main_hader{width: 910px;height: 125px;*height: 123px;border: 1px solid #e4e4e4;background-color:#f5f5f5;}
+.income_main .income_main_hader .hader_left{margin-top: 30px;margin-left: 58px;width: 175px;height: 65px;border-right: 1px solid #e4e4e4;}
+.income_main .income_main_hader .hader_left>h2{font-size: 26px;color:#54AC22;}
+.income_main .income_main_hader .hader_leftto{margin-top: 30px;width: 300px;text-align: center;height: 65px;border-right: 1px solid #e4e4e4;}
+.income_main .income_main_hader .hader_leftto>h2{font-size: 26px;color: #FF6600;}
+.income_main .income_main_hader .hader_leftto>h4{color: #999;}
+.income_main .income_main_hader .hader_right{width: 375px;text-align: center;}
+.income_main .income_main_hader .hader_right>a>div{width: 180px;height: 40px;line-height: 40px;color: #fff;background-color: #FF6600;margin-top: 42px;}
+/*商品信息导航栏*/
+.income_main .income_nav{width: 910px;border: 1px solid #e4e4e4;height: 45px;*height: 43px;line-height: 45px;background-color:#f5f5f5;margin: 10px 0;text-align: center;}
+.w365{width: 365px;padding-left: 20px;border-right: 1px solid #e4e4e4;*width: 344px;text-align: left;}.w185{width: 184px;border-right: 1px solid #e4e4e4;*width: 183px;}.w210{width: 209px;border-right: 1px solid #e4e4e4;*width: 208px;}.w150{width: 150px;}
+/*记录——商品信息*/
+.ntx{width: 910px;border-top: 1px solid #e4e4e4;}
+table{width: 910px;text-align: center;border-bottom: 1px solid #e4e4e4;color: #666;}
+table img{width: 60px;height: 60px;}
+table .tdone .img{width: 60px;}
+table .tdone>.text{width: 250px;text-align:left;padding-left: 10px;*width: 240px;padding-top: 10px;}
+table .tdone>.text>p{font-size: 12px;color: #999;}
+table .tdw365{width: 365px;padding-left: 10px;*width: 335px;height: 105px;}.tdw210{width: 210px;}.tdw185{width: 185px;}.tdw150{width: 150px;}
+table .orange{color: #FF6600;font-size: 24px;}
+/*积分明细，收入支出展示*/
+#detail{padding-bottom: 30px;}
+#expenditure{display: none;padding-bottom: 30px;}
+#income{display: none;padding-bottom: 30px;}
+
+/*缴纳会费*/
+.payment{float: right;width: 956px;background-color: #fff;}
+.payment .payment_nav{height: 50px;line-height: 55px;font-size: 16px;padding-left: 20px;border-bottom: 1px solid #e4e4e4;}
+.payment .payment_subject_nav{position: absolute;top: 10px;left: 30px;}
+.payment .payment_main{padding-top: 25px;padding-left: 20px;width: 956px;*width: 936px;height: 375px;*height: 360px;color: #555;border-bottom: 1px solid #e4e4e4;}
+.payment .payment_main>div{margin-top: 20px;}
+.payment .payment_main>div>div>img{width: 278px;height: 278px;}
+.payment .payment_main .text{margin-left: 35px;padding-top: 10px;}
+.payment .payment_main .text>p{height: 55px;}
+.payment .payment_main .text>.input>input{width: 68px;height: 34px;border: 1px solid #e4e4e4;background-color: #fff;margin-right: 5px;}
+.payment .payment_main .text>.input .span{line-height: 34px;height: 34px;}
+.payment .payment_main .text>.input>input:hover{border: 1px solid #FF6600;}
+.payment .payment_main .text .input{height: 55px;}
+.payment .payment_main .text>p .span{width: 70px;}
+.payment .payment_main .text .button{}
+.payment .payment_input{height: 100px;line-height: 100px;text-align: center;}
+.payment .payment_input>input{width: 180px;height: 40px;background-color: #FF6600;color: #fff;border: 0;font-size: 16px;}
+
+/*支付页面*/
+.member_pay{background-color: #fff;font-size: 14px;padding-bottom: 30px;}
+.ft26{color: #FF6600;font-size: 26px;}
+.pay_nav{padding: 20px 20px;height: 75px;*height: 35px;}
+.pay_nav>div>span{height: 35px;line-height: 35px;}
+.pay_nav .pay_nav_left{width: 260px;padding-left: 15px;*width: 245px;border-right: 1px solid #cdcdcd;}
+.pay_nav .pay_nav_right{padding-left: 40px;}
+.pay_nav .pay_nav_right>.nav_right_span{margin-left: 30px;color: #888;}
+.member_pay .halving{border-bottom: 2px solid #e5e5e5;}
+/*支付公共头部*/
+.pay_main_hader{height: 70px;padding: 22px 25px;*height: 26px;font-size: 16px;}
+.pay_main_hader>div>div{height: 26px;line-height: 22px;}
+/*微信支付*/
+.pay_main{padding-top: 28px;padding-left: 28px;}
+.pay_main .pay_we_chat{width: 1145px;height: 431px;border: 2px solid #e5e5e5;*width: 1141px;*height: 427px;}
+.we_chat{width: 26px;height: 23px;background: url(../images/zhifutubaio.png)no-repeat;background-position-x: -3px;background-position-y: -3px;}
+.we_chat_main{height: 357px;background-color: #F5F5F5;padding-left: 25px;padding-top: 30px;*height: 327px;}
+.we_chat_main>div{width: 1090px;height: 290px;}
+.we_chat_main>div>.we_chat_main_left{width: 480px;background-color: #fff;height: 290px;}
+.we_chat_main>div>.we_chat_main_right{width: 610px;background-color: #f1f1f1;height: 290px;}
+.we_chat_main>div>.we_chat_main_left>div{width: 213px;height: 213px;margin-top: 39px;margin-left: 134px;text-align: center;line-height: 213px;border: 1px solid #eee;}
+.we_chat_main>div>.we_chat_main_left img{width: 175px;height: 175px;}
+#triangle-up {position: absolute;left: -47px;top: 77px;width: 0;height: 0;border-top: 68px solid transparent;border-bottom: 68px solid transparent;border-right: 47px solid #f1f1f1;}
+.we_chat_main>div>.we_chat_main_right>.text{width: 204px;text-align: center;margin-top: 75px;margin-left: 195px;}
+.we_chat_main>div>.we_chat_main_right>.text>p{font-size: 20px;color: #999;font-weight: bold;}
+.we_chat_main>div>.we_chat_main_right>.text>h5{color: #777;margin-top: 30px;}.we_chat_main>div>.we_chat_main_right>.text>h5>span{color: #004DC5;}
+/*支付宝支付*/
+.alipay{width: 1145px;height:475px;border: 2px solid #E5E5E5;*width: 1141px;*height: 471px;margin-top: 15px;}
+.pay_alipay{width: 26px;height: 26px;background: url(../images/zhifutubaio.png)no-repeat;background-position-x: -42px;background-position-y: -2px;}
+.alipay_main{height: 401px;background-color: #F5F5F5;padding-left: 25px;padding-top: 30px;*height: 327px;}
+.alipay_main .alipay_main_left{width: 520px;height: 300px;}
+.alipay_main .alipay_main_left .hader{height: 65px;width: 520px;line-height: 65px;text-align: center;color: #999;font-size: 16px;background-color: #f1f1f1;}
+.alipay_main .alipay_main_left .main{height: 262px;background-color: #fff;text-align: center;padding-top: 40px;*height: 222px;}
+.alipay_main .alipay_main_right{width: 520px;height: 300px;}
+.alipay_main .alipay_main_right .hader{height: 65px;width: 520px;line-height: 65px;text-align: center;color: #999;font-size: 16px;background-color: #f1f1f1;}
+.alipay_main .alipay_main_right .main{height: 262px;background-color: #fff;padding-top: 70px;*height: 192px;text-align: center;}
+.alipay_main .alipay_main_right .main>input{height: 40px;width: 180px;border: 0;background-color: #ff6500;color: #fff;margin-top: 20px;}
+.alipay_main .huo{width: 25px;text-align: center;height: 320px;line-height: 400px;}
+/*银联支付*/
+.union_pay{width: 1145px;height:179px;border: 2px solid #E5E5E5;*width: 1141px;*height: 174px;margin-top: 15px;}
+.union_pay .union_pay_main{height: 105px;background-color: #F5F5F5;padding-left: 25px;padding-top: 30px;*height: 75px;text-align: right;}
+.union_pay .union_pay_main>input{height: 40px;width: 180px;border: 0;background-color: #ff6500;color: #fff;margin-right: 30px;}
+.union_pay .pay_union{width: 30px;height: 23px;background: url(../images/zhifutubaio.png)no-repeat;background-position-x: -89px;background-position-y: -2px;margin-top: 3px;}
+
+/*订单支付失败*/
+.flowchart_process{width: 535px;padding-top: 5px;}
+.flowchart_process .box { width: 22px; height: 22px; line-height: 22px; position: relative; overflow: hidden; font-size: 14px;}
+.flowchart_process .radius { position: absolute; width: 100%; height: 100%; border-radius: 50%; border: 21px dotted;margin: 0 0 0px 1px; border-width: 0vw; margin: 0vw; color: #ff6600; background-color: currentColor; }
+.flowchart_process .schedule{padding-left: 15px;}
+.flowchart_process .schedule p{ position: relative; color: #fff; text-align: center;z-index: 15;}
+.flowchart_process .schedule>div{float: left;}
+.flowchart_process .schedule .line{width: 135px;height: 4px;background-color: #ff6600;margin-top: 9px;}
+.flowchart_process .schedule .lineh{width: 135px;height: 4px;background-color: #ddd;margin-top: 9px;}
+.flowchart_process .schedule .lineh>div{width: 68px;position: absolute;top: 0px;left: 0;height: 4px;background-color: #ff6600;}
+.flowchart_process .radiush {position: absolute;width:100%;height:100%;border-radius:50%;border:21px dotted;margin: 0 0 0px 1px;border-width:0vw;margin: 0vw; color:#ddd;background-color:currentColor; }
+.flowchart_process .text{width: 156px;padding-left: 15px;*width: 141px;}.flowchart_process .padd{padding-left: 15px;}
+.flowchart_process .section{margin-top: 10px;}
+.failed_order{background-color: #fff;}
+.failed_order_nav{height: 68px;line-height: 68px;color: #666;padding-left: 30px;}
+.failed_order_main{height: 270px;}.failed_order_main>div{width: 330px;color: #222;margin: 0 auto;padding-top: 80px;}
+.failed_order_main>div .duihao{width: 38px;height: 38px;background: url(../images/nxiaotubiao.png) no-repeat -1px 0px;}
+.failed_order_main>div .text{margin-top: 5px;}
+.failed_order_main>div>div>a{color: #fff;}.failed_order_main .button{padding-top: 50px;}
+.failed_order_main>div .purchase{width: 130px;height: 35px;border: 1px solid #ff6600;*width: 128px;*height: 33px;line-height: 33px;color: #fff;background-color: #ff6600;text-align: center;margin-right: 20px;}
+.failed_order_main>div .service{width: 130px;height: 35px;border: 1px solid #ff6600;*width: 128px;*height: 33px;line-height: 33px;text-align: center;}
+
+/*订单支付成功*/
+.succeed_order{background-color: #fff;}
+.succeed_order_nav{height: 68px;line-height: 68px;background-color: #FAFAFA;color: #666;padding-left: 30px;}
+.succeed_order_main{height: 350px;}.succeed_order_main>div{width: 330px;color: #222;margin: 0 auto;padding-top: 55px;}
+.succeed_order_main>div .duihao{width: 38px;height: 38px;background: url(../images/nxiaotubiao.png) no-repeat -1px 0px;}
+.succeed_order_main>div .text{margin-top: 5px;}
+.succeed_order_main>div>div>a{color: #fff;}.succeed_order_main .button{padding-top: 30px;}
+.succeed_order_main>div .purchase{width: 130px;height: 35px;border: 1px solid #ff6600;*width: 128px;*height: 33px;line-height: 33px;color: #fff;background-color: #ff6600;text-align: center;margin-right: 20px;}
+.succeed_order_main>div .service{width: 130px;height: 35px;border: 1px solid #ff6600;*width: 128px;*height: 33px;line-height: 33px;text-align: center;}
+.succeed_order_main .section{padding-left: 50px;padding-top: 15px;font-size: 14px;color: #999;}
+.succeed_order_main .section .span{width: 80px;height: 35px;}
+
+/*分页功能*/
+.tcdPageCode{padding: 20px 0px;text-align: left;text-align:right;padding-bottom: 20px;width: 850px;}
+.tcdPageCode a{display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;vertical-align: middle;color: #333;}
+.tcdPageCode a:hover{text-decoration: none;background-color: #FF6600;color: #ffffff;}
+.tcdPageCode span.current{display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;color: #fff;background-color: #FF6600;vertical-align: middle;}
+.tcdPageCode span.disabled{	display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;	color: #bfbfbf;background: #f2f2f2;vertical-align: middle;}
+.number{padding-top: 22px;color: #999;}  

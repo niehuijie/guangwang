@@ -1,0 +1,33 @@
+/*弹窗*/
+.popup{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5000000,endColorstr=#E5000000);z-index: 1000;}
+.popup_main{margin: 0 auto;background-color: #fff;background: url(../images/51_popup.png) no-repeat;}
+.popup_main h1.h1{position: absolute;left: 280px;top: 15px;width: 275px;text-align: center;font-size: 30px;color: #fff;font-weight: bold;}
+.popup_section h2{font-size:18px;color: #D11650;margin-bottom: 10px;font-weight: bold;}
+.popup_section p{line-height: 33px;}
+.popup_section p.p{padding-right: 57px;}
+.section_item{margin-bottom: 20px;}
+
+.popup a.close{display: block;width:20px;height: 20px;position: absolute;top: 2px;right: -25px;background: url(../images/38_close.png) no-repeat;}
+
+.festival-img{width: 100%;background: url(../images/51benner.jpg) center center;}.mg-lt15{margin-left: 15px;}.clor5{color: #555;}.mg-lt10{margin-left: 10px;}
+.four_mn .item{width: 284px;height: 360px;border: 2px solid #11a1a5;margin-right: 16px;float: left;margin-bottom: 16px;z-index: 10;background-color: #fff;}.ft13{font-size: 13px;}.clorz{color: #dd0202;}
+.four_mn .item .img{width: 284px;height: 284px;overflow: hidden;z-index: 1000;}
+.four_mn .item .img img{width: 100%;}
+.four_mn .item .h2{width: 273px;height: 30px;margin: 10px 0px 5px 0px;}
+.four_mn .item .h2 h2{padding: 0 15px;line-height: 30px;color: #222;}
+.four_mn .item:hover{border: 2px solid #dd0202;}
+.four_mn .item:hover .botm a{background-color: #dd0202;}
+.four_mn .item .botm a{display: block;position: absolute;top: 3px;right: 15px;width: 55px;height: 20px;color: #fff;text-align: center;background-color: #11a1a5;line-height: 19px;}
+.four_mn .item .botm .money{width: 100px;}
+.four_mn .item .botm .scj{display: block;float: left;padding-top: 7px;}
+.qd-bj51{padding: 30px 0 50px;}
+.qd51{width: 454px;height: 195px;background: url(../images/festival-five-bj.png) no-repeat -204px -170px;margin: 0px auto;}
+/*左侧浮动栏*/
+.m_fixed{position: fixed;left: 50%;top: 20%;margin-left: -810px;width: 200px;height: 320px;background: url(../images/festival-five-bj.png) no-repeat 0 -0px;z-index: 100;}
+.mf_mainTO{width: 118px;margin: 4px;border: 1px solid rgba(255,255,255,.8);padding-top: 5px;}
+.mf_main{position: absolute;top: 78px;left: 70px;width: 128px;text-align: center;background-color: #15aba6;}
+.mf_main a{display: inline-block;*display: inline;*zoom:1;width: 118px;height: 39px;line-height: 39px;color: #fff;text-align: center;font-size: 14px;margin-bottom: 5px;}
+.mf_main a:hover{background-color: #099590;}
+
+.right_fixed{position: fixed;left: 50%;top: 60%;margin-left: 650px;width: 230px;height: 170px;background: url(../images/festival-five-bj.png) no-repeat -227px -0px;}
+.right_fixed a{display: block;position: absolute;top: 50px;left: 45px;width: 140px;height: 50px;}

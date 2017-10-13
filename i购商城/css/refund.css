@@ -1,0 +1,49 @@
+.nright_refund{float: right;position: relative;width: 930px;height: 100%;}
+.nright_refund .nright_one{position: relative;width:888px;height: 35px;line-height: 35px;border: 1px solid #dcdcdc;padding-left: 40px;font-size: 16px;color: #e11919;}
+.nright_refund .nright_to{width: 100%;height: 80px;line-height: 70px;font-size: 14px;}
+.nright_refund .nright_to>span{padding: 0 15px;position: relative;}
+.nright_refund .nright_to .red{color: #e11919;}
+.nright_refund .nright_to .long_string{position: absolute;right: 0px;top: 28px;width: 1px;height: 15px;background-color: #C7C7C7;}
+.nright_refund .nright_to .long_stringb{position: absolute;right: 85px;top: 29px;width: 1px;height: 15px;background-color: #C7C7C7;}
+#gerendata,#gerenphotg{border:0;outline:0;vertical-align: middle;background-color: #fffff !important;}
+.zfd{float:left}
+.yfd{float:right}
+/*导航*/
+.nright_refund .commodity_nva{width: 100%;height: 40px;line-height: 40px;background-color:#f4f4f4;margin-bottom: 10px;text-align: center;color: #6b6b6b;font-size: 14px;}
+.nright_refund .commodity_nva33{width: 335px;padding-left: 100px;}
+.nright_refund .commodity_nva22{width: 160px;}
+
+
+.commodity{padding-bottom: 15px;}
+.nright_refund .name{padding-left: 15px;}
+.nright_refund table img{width: 80px;width: 80px;border: 1px solid #eeeeee;}
+.nright_refund .w35{padding-top: 0px;padding-left: 20px;height: 124px;}
+.nright_refund .w20{width: 150px;}
+.nright_refund .w25{width: 170px;}
+.nright_refund .w5>div{width:100px;margin: 0 auto;text-align: left;padding-top: 34px;font-size: 14px;}
+.nright_refund .w35>div{margin: 0 auto;text-align: left;}
+.nright_refund table tr{text-align: center;font-size: 14px;}
+.nright_refund .td{border-right: 1px solid #eeeeee;}
+.nright_refund .tdb{border-bottom: 1px solid #eeeeee;}
+.nright_refund table a{color: #808080;}
+.nright_refund table{width: 928px;margin-top: 15px;border-color: #E11919;border-collapse: separate;}
+.nright_refund table p{height: 35px;line-height:35px;background-color: #f4f4f4;font-size: 12px;}
+.nright_refund .nav{width: 930px;line-height: 30px;text-align: left;}
+.nright_refund .table:hover{border: 1px solid #E11919 !important;}
+.nright_refund table .footer:hover{color: #ffffff;background-color: #E11919;}
+.nright_refund table .footer{display: inline-block;line-height: 25px;background-color: #ffffff;width:80px;min-width: 80px;}
+.nright_refund table h4{width: 80px;font-size: 14px;}
+.nright_refund table h5{color: #9d9d9d;font-size: 12px;}
+.nright_refund table h5,.I_refund_main table h4{text-align: left;line-height: 22px;}
+/*退货*2*/
+.nright_refund table .footer1{display: inline-block;line-height: 25px;background-color: #ffffff;width:110px;min-width: 110px;}
+.nright_refund table .footer1:hover{color: #ffffff;background-color: #E11919;}
+.nright_refund .table{width: 930px;margin-top: 15px;height: 153px;border: 1px solid #E4E4E4;}
+.nright_refund .gzgz{position: relative;}
+.main_footer .details_footer img{width: 32px;height: 32px;border: none;}
+.h135{height: 100px;padding-top: 30px;padding-left: 30px;width: 274px;}
+#w350{padding: 0;}
+.xb{border-bottom: 1px solid #eeeeee;}
+.hh135{height: 86px;width: 106px !important;padding-left: 45px;padding-top: 35px;text-align: left;}
+#xb{width: 100%;border-bottom: 1px solid #eeeeee;padding: 0;}
+.amount{border-bottom: 1px solid #eeeeee;width: 474px;}

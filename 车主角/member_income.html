@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible"  content="IE=edge,chrome=1" />
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<title>收支记录</title>
+	<link rel="stylesheet" href="css/base.css?ver=20161124" />
+	<link rel="stylesheet" href="css/common.css?ver=20161124"/>
+	<link rel="stylesheet" href="css/nmember.css?ver=20161124" />
+	<link rel="stylesheet" href="css/member_income.css?ver=20161124" />
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+	<![endif]-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+</head>
+    <body class="f5">
+	     <!--头部-->
+		<div id="head">
+		<div class="head-top m">
+			<p class="ht-left fl">您好，欢迎来到 车主角，
+				<!-- <a href="" class="headLoginLink">请登录</a><a href="" class="headRegLink">免费注册</a> -->
+				<a href="" class="headLoginLink">_Legendary</a><a href="" class="headRegLink">退出</a>
+			</p>
+			<div class="ht-right fr clf">
+				<div class="myInfoList fl">
+					<ul class="myInfoItem clf">						
+						<li class="noDownList">
+							<a href="javascript:;">我的订单</a>|
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">我的收藏<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">收藏的车型</a>
+								<a href="javascript:;">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">商家中心<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">免费开店</a>
+								<a href="javascript:;">出售中的商品</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">客户服务<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">已买到的宝贝</a>
+								<a href="javascript:;">我的足迹</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">网站导航<i class="ico myInfoIcon"></i></a>
+							<div class="downList siteNav">
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	    </div>
+	    <!-- logo+search+cart -->
+	    <div class="lsc m clf">
+		    <div id="logo" class="fl">
+			    <h1 class="logo-hd fl"><a href="index.html">车主角</a></h1>
+		</div>
+		<!-- <div id="search" class="fr clf pr">
+			<form action="">
+				<div class="fl inputBox pr">
+					<input type="text" autocomplete="off">
+					<i class="icon luIcon"></i>
+				</div>
+				<div class="fl"><button class="searchBtn">搜索</button></div>
+			</form>
+			<div class="search-zUp clf">
+				<i class="fl searhico ico"></i>
+				<ul class="fl hotword clf">
+					<li><a href="">手机</a></li>
+					<li><a href="">冰箱</a></li>
+					<li><a href="">洁面奶</a></li>
+				</ul>
+			</div>
+		</div> -->
+		<!-- 会员中心与商家中心搜索 -->
+		    <div class="centerSearch fr">
+			    <input type="text" name="" placeholder="奔驰系列">
+			    <button type="type">搜索</button>
+		    </div>
+	    </div>
+	    <div class="top_xian"></div>
+		<!--中间部分-->
+		<div class="n_main clf">
+			<!--左侧导航-->
+		    <div class="member_main">
+			    <ul>
+			        <li class="member_nav"><a href="member_center.html">会员中心</a></li>
+			        <li><a href="member_message.html">个人信息</a></li>
+			        <li><a href="account_security.html">账户安全</a></li>
+			        <li><a href="reservation_record.html">预约订单</a></li>
+			        <li><span><a href="javascript:;">会费管理</a></span><i class="i"></i></li>
+			        <li  class="li_div"><div class="nbx"><a href="payment_dues.html">缴纳会费</a></div><div><a href="pay_record.html">缴纳记录</a></div></li>
+			        <li><span><a href="javascript:;">积分管理</a></span><i class="i"></i></li>
+			        <li class="li_div show"><div class="nbx"><a href="member_income.html" class="f60">收支记录</a></div><div><a href="exchanged_order.html">兑换订单</a></div></li>
+			        <li><a href="">养护记录</a></li>
+			    </ul>
+		    </div>
+		    <!--右侧内容-->
+		    <div class="income_main">
+		    	<div class="income_main_nav">
+		    		<div class="nav_left">
+		    			<span class="detail">积分明细</span>
+		    			<span class="incomed">积分收入</span>
+		    			<span class="expenditure">积分支出</span>
+		    		</div>
+		    		<div class="nav_right ft12">
+		    			<div class="nhnk">
+		    			    <span><a href="">近一个月</a></span>
+		    			    <i>&nbsp;|&nbsp;</i>
+		    			    <span><a href="">近三个月</a></span>
+		    			    <i>&nbsp;|&nbsp;</i>
+		    			    <span><a href="">近六个月</a></span>
+		    			</div>
+		    			<div class="nhnk">
+		    				&#x3000;<input type="text" placeholder="请选择"/>
+		    				-
+		    				<input type="text" placeholder="请选择"/>
+		    				<span>&nbsp;查询</span>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<!--第二栏-->
+		    	<div class="income_main_hader">
+		    		<div class="nhnk hader_left nzfd">
+		    			<p>可用积分</p>
+		    			<h2>2999</h2>
+		    		</div>
+		    		<div class="nhnk hader_leftto nzfd">
+		    			<p>将要过期的积分</p>
+		    			<h2>0</h2>
+		    			<h4>(将于2016.12.31过期)</h4>
+		    		</div>
+		    		<div class="nhnk hader_right">
+		    			<a href=""><div class="nhnk">
+		    				兑换超值商品
+		    			</div></a>
+		    		</div>
+		    	</div>
+		    	<!--商品信息导航栏-->
+		    	<div class="income_nav">
+		    		<span class="nhnk w365 nzfd">来源/用途</span>
+		    		<span class="nhnk w185 nzfd">积分变化</span>
+		    		<span class="nhnk w210 nzfd">日期</span>
+		    		<span class="nhnk w150 nzfd">备注</span>
+		    	</div>
+		    	<!--商品信息-->
+		    	<div class="ntx"></div>
+		    	<!--积分明细-->
+		    	<div id="detail">
+		    	<table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	<table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">-199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	<table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">-199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	<table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	<table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	<!--分页-->
+		    	<div>
+		    	<div class="tcdPageCode fl pr" id="detail_number">
+			    		<span class="disabled"><上一页</span>
+			    		<span class="current">1</span>
+			    		<a href="javascript:;" class="tcdNumber">2</a>
+			    		<a href="javascript:;" class="tcdNumber">3</a>
+			    		<a href="javascript:;" class="tcdNumber">4</a>		    		
+			    		<a href="javascript:;" class="tcdNumber">8</a>
+			    		<a href="javascript:;" class="nextPage">下一页></a>			    		
+			    </div>
+			    <div class="fl number">共8页</div>
+			    </div>	
+		    	</div>
+		    	<!--积分收入-->
+		    	<div id="income">
+		    		<table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">+199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <div>
+		    	        <div class="tcdPageCode fl pr" id="income_number">
+			    		<span class="disabled"><上一页</span>
+			    		<span class="current">1</span>
+			    		<a href="javascript:;" class="tcdNumber">2</a>
+			    		<a href="javascript:;" class="tcdNumber">3</a>
+			    		<a href="javascript:;" class="tcdNumber">4</a>		    		
+			    		<a href="javascript:;" class="tcdNumber">8</a>
+			    		<a href="javascript:;" class="nextPage">下一页></a>			    		
+			            </div>
+			            <div class="fl number">共8页</div>
+			        </div>
+		    	</div>
+		    	<!--积分支出-->
+		    	<div id="expenditure">
+		    		<table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">-199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">-199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+   		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">-199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">-199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <table>
+		    		<tr>
+		    			<td class="tdw365">
+		    				<div class="tdone clf">
+		    					<div class="nzfd img"><img src="images/nche.gif" alt="" /></div>
+		    					<div class="nzfd text">
+		    					    <h4>充值12个月/￥1999元会费</h4>
+		    					    <p><span>编号 : </span>1235462574</p>
+		    				    </div>
+		    				</div>	
+		    			</td>
+		    			<td class="tdw185 orange">-199</td>
+		    			<td class="tdw210">
+		    				<p>2016-09-12</p>
+		    				<p>17:35:20</p>
+		    			</td>
+		    			<td class="tdw150">会员充值获得</td>
+		    		</tr>
+		    	</table>
+		    	    <div>
+		    	        <div class="tcdPageCode fl pr" id="expenditure_number">
+			    		<span class="disabled"><上一页</span>
+			    		<span class="current">1</span>
+			    		<a href="javascript:;" class="tcdNumber">2</a>
+			    		<a href="javascript:;" class="tcdNumber">3</a>
+			    		<a href="javascript:;" class="tcdNumber">4</a>		    		
+			    		<a href="javascript:;" class="tcdNumber">8</a>
+			    		<a href="javascript:;" class="nextPage">下一页></a>			    		
+			            </div>
+			            <div class="fl number">共8页</div>
+			        </div>
+		    	</div>
+		    </div>
+		</div>
+		<div class="footer">
+		<div class="footer_main m clf">
+			<div class="footer_main_left fl">
+				<div class="footer_czj"></div>
+				<div class="footer_left_text">
+					<p>咨询电话 : 400-123-456</p>
+					<p>( 周一至周日  : 8 : 00-19 : 00)</p>
+					<p>售后服务 : 400-123-456</p>
+				</div>
+			</div>
+			<div class="footer_main_right fl">
+				<div class="footer_nav">
+					<ul class="clf">
+						<li><a href="">车型展览</a><span>|</span></li>
+						<li><a href="">0元购</a><span>|</span></li>
+						<li><a href="">资讯活动</a><span>|</span></li>
+						<li><a href="">运营网站</a><span>|</span></li>
+						<li><a href="">积分兑换</a><span>|</span></li>
+						<li><a href="">会员中心</a><span>|</span></li>
+						<li><a href="">会员权益</a></li>
+					</ul>
+				</div>
+				<div class="footer_copyright">
+					<p>CopyRight © 2016 ,All Rights Reserved.版权所有 北京车主角有限公司</p>
+					<p>经营许可证编号 : 京lCP证060175 ; 公安备案号码 : 110108020200002号 ; 京网[2016]1143-143号;</p>
+				</div>
+			</div>
+			<div class="footer_ewm fl">
+				<p>关注公众号</p>
+                <div><img src="images/nguanzhuwomen.png" alt=""></div>
+			</div>
+		</div>
+	    </div>
+		<script type="text/javascript"  src="js/jquery-1.11.1.js"></script>
+		<script type="text/javascript"  src="js/jquery.page.js?ver=20161124"></script>
+		<script type="text/javascript"  src="js/common.js?ver=20161124"></script>
+		<script type="text/javascript"  src="js/nmember.js?ver=20161124"></script>
+		<script type="text/javascript"  src="js/income.js?ver=20161124"></script>
+	</body>
+</html>

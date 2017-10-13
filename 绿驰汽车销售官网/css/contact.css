@@ -1,0 +1,28 @@
+.cUs-phone{height: 215px;border-bottom: 1px solid #e4e4e4;*height: 116px;padding-top: 98px;}
+.cUs-phone .cUs-phone-in>div{height: 54px;}
+.cUs-phone .cUs-phone-in .cUs-phone-jm,.cUs-phone .cUs-phone-in .cUs-phone-ask{border-right: 1px solid #dfdfdf;}
+.cUs-phone .cUs-phone-in .cUs-phone-jm>div,.cUs-phone .cUs-phone-in .cUs-phone-ask>div,.cUs-phone .cUs-phone-in .cUs-phone-service>div{padding-left: 15px;}
+.cUs-phone .cUs-phone-in .cUs-phone-jm{width:372px;*width: 347px;padding-left: 24px;}
+.cUs-phone .cUs-phone-in .cUs-phone-ask{width: 358px;*width: 293px;padding-left: 64px;}
+.cUs-phone .cUs-phone-in .cUs-phone-service{width: 470px;padding-left: 68px;*width:402px;}
+.cUs-phone .cUs-phone-in .cUs-phone-jm>img{margin-top: 2px;}
+.cUs-phone .cUs-phone-in .cUs-phone-ask>img{margin-top: 4px;}
+.cUs-phone-in .title{font-size: 16px;color:#555;margin-bottom: 4px;}
+.cUs-phone-in .cUs-phone-service .title{font-size: 18px;color: #333;}
+.cUs-phone-in .cUs-phone-jm .jm-num,.cUs-phone-in .cUs-phone-ask .ask-num{font-size: 24px;font-weight: 700;}
+.cUs-phone-in .cUs-phone-jm .jm-num{color:#ff9600;}
+.cUs-phone-in .cUs-phone-ask .ask-num{color:#38a8d1;}
+.cUs-phone-in .cUs-phone-service .service-text{color:#a9a9a9;font-size: 14px;}
+.cUs-phone-in .cUs-phone-service .cUs-service-btn{border:1px solid #d7d7d7;width: 142px;height: 40px;*height: 38px;*width: 140px;font-size: 14px;color:#666;float: left;line-height: 38px;text-align: center;margin-left:48px;margin-top: 5px;}
+.cUs-map{height: 590px;padding-top: 62px;*height: 528px;}
+.cUs-map>img{float: left;}
+.cUs-map .cUs-companyInfo{padding-top: 65px;padding-left: 40px;}
+.cUs-map .cUs-companyInfo>dl>dt{font-size: 24px;color: #222;margin-bottom: 37px;}
+.cUs-map .cUs-companyInfo>dl>dd{margin-bottom:27px;font-size: 16px;color:#777;}
+.cUs-map .cUs-companyInfo>dl>dd i.cus-icon{background:url(../images/cus-map.png) no-repeat 0 0;display:inline-block;vertical-align: middle;width: 20px;height: 23px;margin-top: -2px;margin-right: 13px;}
+.cUs-map .cUs-companyInfo>dl>dd i.cus-icon.cus-adress-icon{background-position: 0 0;}
+.cUs-map .cUs-companyInfo>dl>dd i.cus-icon.cus-yb-icon{background-position: 0 -23px;margin-top: 0px;*margin-top: 4px;}
+.cUs-map .cUs-companyInfo>dl>dd i.cus-icon.cus-cz-icon{background-position: 0 -46px;}
+.cUs-map .cUs-companyInfo>dl>dd i.cus-icon.cus-email-icon{background-position: 0 -69px;}
+.cUs-map .cUs-companyInfo>dl>dd i.cus-icon.cus-qq-icon{background-position: 0 -92px;}
+.cUs-map .cUs-companyInfo>dl>dd i.cus-icon.cus-weixin-icon{background-position: 0 -115px;}

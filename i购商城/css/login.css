@@ -1,0 +1,45 @@
+.loginBox{background-color:white;width:353px;margin-left:-172px;left:50%;margin-top:212px;}
+.loginInset-hd{padding:0 13px;height:60px;}
+.login-bb{border-bottom:2px solid #ddd;}
+.loginInset-hd .closeDialog{top:26px;right:13px;}
+.loginInset-hdUl li{cursor:pointer;padding:0 8px;float:left;font-size:18px;height:60px;line-height:60px;margin-right:15px;color:#747474;}
+.loginInset-hdUl li.current{border-bottom:2px solid #e30005;}
+.loginC,
+.regC{}
+.loginInset-body{padding:20px 13px 16px;}
+.loginInset-body input[type='checkbox']{margin-right:4px;}
+.loginInset-body .inputBox{height:44px;margin-bottom:23px;border:1px solid #cacaca;overflow: hidden;}
+.loginInset-body .inputBox.brClor{border-color:#e30005;}
+.loginInset-body .inputBox .inputIcon{width:43px;height:43px;float:left;background:url(../images/lreg-icon.png) no-repeat 0 0;}
+.loginInset-body .inputBox .inputIcon-psd{background-position:0 -68px;}
+.loginInset-body .inputBox .inputIcon-psd2{background-position:0 -135px;}
+.loginInset-body .inputBox .inputIcon-code{background-position:0 -203px;}
+.loginInset-body .inputBox .inputK{float:left;}
+.loginInset-body .inputBox .inputK input{color:#b5b5b5;width:252px;height:43px;padding-left:30px;line-height:43px;+line-height:42px;+margin-top:-1px;border:0;outline: 0;}
+.loginInset-body .inputBox .inputK input.clor{color:#e30005;}
+.loginInset-body .inputBox .inputK.inputKcode input{width:178px;}
+.loginInset-body .inputBox .inputK.inputKcode .codeImg{width:74px;height:43px;overflow:hidden;}
+.loginInset-body .inputBox .inputK.inputKcode .codeImg img{width:100%;}
+.loginInset-body .btn-enter{padding:10px 0;display: block;width: 100%;}
+.loginInset-body .loginC{height:353px;}
+.loginInset-body .loginC .inputWrap{height:235px;overflow:hidden;}
+.loginC .autoLogin-forgetPsd{padding:29px 0 22px;}
+.loginC .autoLogin-forgetPsd,
+.loginC .forgetPsd,
+.loginInset-body .regC .agreeXy{font-size:12px;color:#817f80;}
+.loginInset-body  .loginC .inputBox{margin-bottom:18px;}
+.loginInset-body .regC .inputWrap{height:249px;overflow:hidden;}
+.loginInset-body .regC{height:347px;}
+.loginInset-body .regC .agreeXy{padding:16px 0 24px;}
+.loginInset-body .regC .agreeTextLink{color:#2173c7;}
+.loginHead{height:77px;padding:11px 0 12px;}
+.loginHead .tipLogin{color:#adadad;line-height:100px;margin-right:50px;}
+.loginHead .tipLogin a{color:#505050;}
+.loginHead .tipLogin a:hover{color:#e30005;}
+.loginBaner{background:url(../images/reg-banner.jpg) no-repeat center center;height:489px;}
+.loginBaner .loginBox{right:0;left:initial;top:33px;margin:0;}
+.loginBaner .loginInset-hd li{padding:0;font-size:20px;}
+.loginBaner .loginInset-body{padding-top:0px;}
+.loginBaner .toReg{position:absolute;top:17px;right:15px;}
+.loginBaner .toReg img{margin-right:2px;}
+.pCode{height: 43px;line-height: 43px;width: 74px;text-align: center;float: right;white-space: nowrap;cursor: pointer;background-color: #eee;}

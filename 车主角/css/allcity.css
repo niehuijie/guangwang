@@ -1,0 +1,22 @@
+#allCity-search{border:2px solid #1c3f82;font-size:14px;margin-top:7px;margin-right:16px;border-radius: 4px;}
+#allCity-search input{width:306px;padding:10px 0 10px 14px;vertical-align:baseline;float: left;}
+#allCity-search button{width:110px;height:39px;background-color:#1c3f82;color:white;line-height:39px;font-size:16px;float: left;}
+.allCityChannel{padding-top: 7px;}
+.acc-hotCity h4,.acc-allCity h4{border-bottom:2px solid #e5e5e5;height: 60px;line-height: 60px;font-size: 25px;font-weight: 700;}
+.allCityChannel .acc-hc-city{width:1247px;}
+.allCityChannel .acc-hc-city a{margin-right:51px;color:#333333;font-size: 14px;white-space: nowrap;margin-top: 30px;display: block;float: left;}
+.allCityChannel .acc-hc-city a:hover{text-decoration: underline;color:#ff6600;}
+.allCityChannel .acc-hc-city a i{width: 4px;height: 4px;background-color: #4284d9;display: inline-block;vertical-align: middle;margin-top: -1px;margin-right: 5px;border-radius: 50%;}
+.acc-allCity{margin-top: 30px;}
+.acc-allCity .acc-26{margin-top: 18px;}
+.acc-allCity .acc-26 a{float:left;display: block;padding:0 5px;height: 20px;line-height: 20px;color:#333;font-size: 16px;margin-right: 24px;}
+.acc-allCity .acc-26 a:hover{background-color: #ff6600;color: white;border-radius: 2px;}
+.acc-26cityList{margin-top: 35px;}
+.acc-26cityList li{display: block;overflow:hidden;padding-top:15px;cursor: pointer;}
+.acc-26cityList li>span{float:left;width: 119px;display: block;font-size: 14px;text-indent:5px;font-weight: 700;text-align: right;}
+.acc-26cityList li>span+dl{float:left;overflow:hidden;width: 1065px;margin-left: 15px;}
+.acc-26cityList li>span+dl>dd{float:left;margin-right: 20px;}
+.acc-26cityList li>span+dl>dd a{color:#333333;width: 56px;display: block;font-size: 14px;margin-bottom: 20px;}
+.acc-26cityList li>span+dl>dd.clor9  a{color:#999;}
+.acc-26cityList li>span+dl>dd.clor9  a:hover{color:#999;}
+.acc-26cityList li>span+dl>dd a:hover{color:#ff6600;}

@@ -1,0 +1,49 @@
+.message{width: 940px;padding-left: 20px;*width: 920px;background-color: #fff;padding-top: 20px;}
+.message_nav{height: 45px;}
+.message_nav>span{width: 75px;height: 30px;margin-right:15px;line-height:25px;border: 2px solid #fff;*height: 28px;*line-height: 25px;text-align: center;cursor: pointer;}
+.message_nav>span:hover{color: #ff6600;border-bottom: 2px solid #FF6600;font-size: 16px;}
+.message_nav .nav_hover{color: #ff6600;border-bottom: 2px solid #FF6600;font-size: 16px;}
+/*个人信息*/
+.message_main{height: 420px;}
+.message_main>form>div{height: 45px;}
+.message_main>form>div>span{width: 90px;height: 30px;line-height: 30px;text-align: right;padding-right: 10px;*width: 80px;}
+.message_main>form>div>input{border: 1px solid #eee;height: 30px;line-height: 30px;width: 296px;padding-left: 5px;}
+.message_main i{color: #C51A2C;margin-right: 5px;}
+.message_main .login{height: 80px;}
+.message_main .login>input{border: 1px solid #eee;height: 30px;line-height: 30px;width: 190px;*height: 28px;}
+.message_main .login>h4{margin-left: 90px;font-size: 12px;color: #666;line-height: 40px;height: 40px;}
+.message_main .login>p{margin-left: 10px;font-size: 12px;color: #999;}
+/*选择男女*/
+input[type="radio"] {margin: 3px 3px 0px 5px;display: none;}
+label {padding-left: 20px;margin-right: 5px;cursor: pointer;background: url(../images/nxuanze.png) no-repeat 0 -2px;}
+label.checked {background-position: 0 -28px;}
+/*生日*/
+select{	border: solid 1px #000;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+select::-ms-expand {display: none;}
+select{width: 59px;height: 25px;border:1px solid #cdcdcd;padding-left: 5px;}
+.message_main .submit>input{margin-left: 90px;width: 91px;height: 26px;line-height: 22px;background-color: #FF6600;color: #fff;padding: 0;}
+input[type="submit"]{border:0;outline:0;vertical-align: middle;}
+input[type="button"]{border:0;outline:0;vertical-align: middle;}
+/*头像+会员名*/
+.message_main .portrait{position: absolute;right: 30px;top: -30px;width: 194px;height: 124px;background-color: #f4f4f4;}
+.message_main .portrait img{width: 75px;height: 75px;border-radius: 50%;}
+.message_main .portrait>div{margin-top: 25px;margin-left: 20px;}
+.message_main .portrait>div>div{width: 75px;height: 75px;}
+.message_main .portrait>div>span{height: 75px;line-height: 75px;padding-left: 10px;width: 95px;*width: 85px;}
+/*头像照片*/
+.profile_pictures{height: 370px;margin-top: 10px;display: none;margin-bottom: 50px;}
+.profile_pictures .pictures_left{width: 560px;border-right: 1px solid #888;}
+.a-upload {padding: 4px 10px;height: 30px;*height:22px;line-height: 20px;position: relative;cursor: pointer;color: #666;background: #fafafa;border: 1px solid #ddd;border-radius: 4px;overflow: hidden;display: inline-block;*display: inline;*zoom: 1;width: 190px;text-align: center;}
+.a-upload  input{position: absolute;font-size: 100px;right: 0;top: 0;opacity: 0;filter: alpha(opacity=0);cursor: pointer;width: 190px;}
+.a-upload:hover {color: #444;background: #eee;border-color: #ccc;text-decoration: none}
+.upload>p{height: 30px;line-height: 30px;color: #888;font-size: 12px;margin-left: 0px;}
+.profile_pictures .pictures{width: 506px;height: 305px;background-color: #f4f4f4;margin-top:5px;padding-top: 65px;*height: 240px;}
+.profile_pictures .pictures>div{margin-left: 165px;width: 180px;height: 180px;}
+.profile_pictures img{width: 100%;height: 100%;}
+.profile_pictures .pictures_right{width: 335px;padding-left: 60px;*width: 275px;padding-top: 5px;}
+.profile_pictures .pictures_right .p{color: #888;line-height: 20px;}
+.pictures_right .pictures100{width: 100px;height: 165px;margin-top: 30px;}
+.pictures_right .pictures100>div{width: 100px;height: 100px;overflow: hidden;}
+.pictures_right .pictures50{width: 70px;height: 50px;overflow: hidden;}
+.pictures_right .pictures50>div{width: 50px;height: 50px;}
+#profile_button{position: absolute;bottom: -95px;left: 0px;width: 91px;height: 26px;line-height: 22px;background-color: #FF6600;color: #fff;padding: 0;border: 0;}

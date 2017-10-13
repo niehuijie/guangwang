@@ -1,0 +1,96 @@
+.ft20{font-size: 20px;}.ft14{font-size: 14px;}.mtr10{margin: 0 10px;}
+.ml42{margin-left: 42px;}.clorff0{color: #ff0000;}.clorQ{color: #00349a;}
+.ml20{margin-left: 20px;}.ml80{margin-left:80px;}
+.clorA{color: #ff4200;}.mb10{margin-bottom: 10px;}
+
+.payState{font-size: 24px;color: #222;line-height: 51px;}
+.payState i{display: inline-block;*display: inline;*zoom: 1;width: 1px;height: 31px;background-color: #888;vertical-align: middle;margin: 0 10px 0 20px; }
+
+.flowchart_process{margin-top: 2px;}
+.flowchart_process .box { width: 26px; height: 26px; line-height: 26px; position: relative; overflow: hidden; font-size: 14px;}
+.flowchart_process .radius { position: absolute; width: 100%; height: 100%; border-radius: 50%; border: 25px dotted;margin: 0 0 0px 1px; border-width: 0vw; margin: 0vw; color: #ff6600; background-color: currentColor; }
+.flowchart_process .schedule{padding-left: 15px;}
+.flowchart_process .schedule p{ position: relative;color: #fff; text-align: center;z-index: 15;}
+.flowchart_process .schedule>div{float: left;}
+.flowchart_process .schedule .line{width: 144px;height: 4px;background-color: #ff6600;margin-top:11px;}
+.flowchart_process .schedule .lineh{width: 144px;height: 4px;background-color: #ddd;margin-top: 11px;}
+.flowchart_process .schedule .lineh.cur>div{width: 72px;position: absolute;top: 0px;left: 0;height: 4px;background-color: #ff6600;}
+.flowchart_process .radiush {position: absolute;width:100%;height:100%;border-radius:50%;border:25px dotted;margin: 0 0 0px 1px;border-width:0vw;margin: 0vw; color:#ddd;background-color:currentColor; }
+.flowchart_process .text{width: 170px;padding-left: 0px;font-size: 14px;}.flowchart_process .padd{padding-left: 0px;font-size: 14px;}
+.flowchart_process .section{margin-top: 10px;}
+
+.pay-hd{text-align: center;padding: 15px 0 25px;border-top:1px solid #c4c4c4;border-bottom: 1px dashed #b2b2b2;font-size: 18px;color: #777;}
+.pay-hd h3{font-size: 24px;line-height: 45px;font-weight: normal;color: #333;}
+
+.pay-m{height: 390px;border-bottom: 1px solid #ccc;}
+.payM-lt{width: 840px;padding-left: 75px;*width: 765px;padding-top: 54px;}
+.payM-lt .h4{margin-bottom: 10px;}
+.payM-lt .h4 i{display: inline-block;*display: inline;*zoom: 1;width: 34px;height: 32px;background: url(../images/pay-zico.png) no-repeat -12px -5px;vertical-align: middle;margin-top: -9px;}
+.payM-lt .h4 span{margin-left: 8px;font-size: 24px;color: #000;}
+.payM-lt .pay-fs{margin-top: 45px;margin-left: 42px;height: 65px;}
+.payM-lt .pay-fs li{float: left;margin-right: 5px;width: 260px;height: 65px;*width: 258px;*height: 63px;border: 1px solid transparent;cursor: pointer;}
+.payM-lt .pay-fs li>div{height: 43px;background: url(../images/pay-zico.png) no-repeat;margin-top: 11px;margin-left: 50px;}
+.payM-lt .pay-fs li.cur{border: 1px solid #ccc;}
+.payM-lt .pay-fs li>div.zfb{width: 127px;background-position: -13px -56px;}
+.payM-lt .pay-fs li>div.wx{width: 160px;background-position: -13px -120px;}
+.payM-lt .submit{display: block;width: 270px;height: 45px;background-color: #ff6600;border-radius: 5px;margin-top: 40px;margin-left: 42px;color: #fff;text-align: center;line-height: 45px;}
+.payM-lt .submit span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;margin-top: -5px;*margin-top: 0;}
+
+.payM-rt{width: 360px;background-color: #f0f5ff;height: 389px;*height: 385px;padding-top: 5px;}
+.payM-rt ul li{margin-top: 25px;color: #666;}
+.payM-rt ul li>div span{margin: 0 10px 0 28px;display: block;float: left;line-height: 21px;}
+.payM-rt ul li>div p{float: left;width: 310px;line-height: 21px;}
+
+.payM2{border: 1px solid #c4c4c4;*width: 1198px;}
+.payM2-hd{padding-left: 30px;}
+.payM2-hd p{line-height: 60px;margin-top: 5px;font-size: 18px;color: #222;}
+.payM2-hd p .cur{color: #FF4200;}
+.payM2-hd .ul{padding-bottom: 10px;}
+.payM2-hd .ul li{height: 35px;line-height: 35px;}
+.payM2 .item{width: 100%;}
+.payM2 .item li{height: 222px;border-top: 1px dashed #b2b2b2;padding: 35px 0px 20px 30px;*height: 167px;}
+.payM2 .item li h4{font-size: 18px;height: 22px;line-height: 22px;margin-bottom: 30px;}
+.payM2 .item li h4 a{display: inline-block;*display:inline;*zoom: 1;margin-left: 20px;color: #003399;font-size: 14px;font-weight: normal;vertical-align: middle;margin-top: 3px;*margin-top: 0;height: 16px;line-height: 16px;}
+.payM2 .item li .h6{font-size: 18px;color: #333;margin-bottom: 14px;height: 36px;overflow: hidden;}
+.payM2 .item li .h6 .sm{font-size: 14px;}
+.payM2 .item li .h6 .sm .cur{font-size: 18px;color: #ff6600;font-weight: bold;}
+.payM2 .item li p.p{line-height: 30px;}
+.payM2 .item li p.p a{color: #003399;margin-left: 10px;}
+
+/*提交订单*/
+.order-m{width: 1200px;margin: 0 auto;border: 1px solid #c4c4c4;*width: 1198px;font-size: 14px;color: #222;}
+.order-m1{padding: 40px;border-bottom: 1px dashed #b2b2b2;}
+.order-m1 .img{width: 150px;height: 150px;overflow: hidden;}
+.order-m1 .img img{width: 100%;}
+.order-m1 .text{margin-left: 35px;}
+.order-m1 .text p.h4{font-size: 24px;color: #222;margin: 5px 0 25px 0;}
+.order-m1 .text .ul{height: 32px;margin-bottom: 25px;}
+.order-m1 .text .ul li{float: left;width: 121px;height: 32px;border: 1px solid #ccc;*width: 119px;*height: 30px;line-height: 30px;margin-right: 20px;text-align: center;overflow: hidden;cursor: pointer;}
+.order-m1 .text .ul li.cur{background-color: #498ee9;color: #fff;border: 1px solid #498ee9;}
+.order-m1 .text .ul li.span{width: 76px;text-align: left;border: 0;margin-right: 0;}
+.order-m2{padding: 40px 0 40px 28px;border-bottom: 1px dashed #b2b2b2;}
+.order-m2>div.colors{*margin-bottom: 30px;}
+.order-m2>div p{width: 76px;height: 32px;line-height: 32px;}
+.order-m2>div ul.ul{width: 915px;height: 32px;margin-bottom: 25px;overflow: hidden;}
+.order-m2>div ul.ul.zk{height: auto;margin-bottom: 10px;}
+.order-m2>div ul.ul li{float: left;width: 109px;height: 32px;*width: 107px;*height: 30px;line-height: 30px;margin-right: 20px;text-align: center;border: 1px solid #ccc;margin-bottom: 20px;cursor: pointer;}
+.order-m2>div ul.ul li.cur{border: 1px solid #498EE9;}
+.order-m2>div ul.ul li i{display: inline-block;*display: inline;*zoom: 1;width: 14px;height: 14px;margin-right: 5px;vertical-align: middle;margin-top: -2px;*margin-top: 0;}
+.order-m2>div a{display: none;height: 32px;line-height: 32px;}
+.order-m2>div ul.ul.gcJh li{width: 132px;*width: 130px;}
+.order-m2>div.p{height: 14px;margin-top: 10px;}
+.order-m2>div.p span{display: block;width: 76px;float: left;}
+.order-m3{padding: 40px 0 10px 28px;border-bottom: 1px dashed #b2b2b2;}
+.order-m3 .wxm .input{height: 55px;}
+.order-m3 .wxm .input>span{display: block;float: left;width: 76px;line-height: 32px;}
+.order-m3 .wxm .input>input{float: left;width: 315px;*width: 305px;height: 32px;border: 1px solid #ccc;line-height: 30px;padding-left: 10px;}
+.order-m3 .wxm .input.yzm>input{width: 200px;margin-right: 10px;*width: 190px;*height: 30px;}
+a[data-yzm]{display: block;float: left;width: 105px;height: 32px;color: #fff;background-color: #498ee9;text-align: center;line-height: 30px;padding: 0;border: 1px solid #498ee9;cursor: pointer;*height: 30px;}
+.order-m3 .yName{}
+.order-m3 .yName>div{height: 50px;}
+.order-m3 .yName>div>span{display: block;float: left;width: 76px;}
+.order-m4{padding: 68px 0 48px 0;}
+.order-m4 p{text-align: center;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none; user-select: none;}
+.order-m4 p i{display: inline-block;*display: inline;*zoom: 1;width: 15px;height: 15px;background: url(../images/pay-zico.png) no-repeat -76px -6px;vertical-align: middle;margin-right: 5px;margin-top: -3px;*margin-top: 0;cursor: pointer;}
+.order-m4 p i.cur{background-position: -98px -6px;}
+.order-m4 a{display: block;width: 195px;height: 45px;background-color: #ff6600;color: #fff;font-size: 20px;text-align: center;line-height: 45px;margin: 20px auto 0;border-radius:5px;}

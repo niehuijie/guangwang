@@ -1,0 +1,75 @@
+/*城市选择*/
+.l-choiceCity{position:relative;margin-left:39px;margin-top:13px;z-index:52;}
+.l-choiceCity>a{height:34px;*width:72px;*height:32px;padding-left:16px;border:1px solid #e5e5e5;font-size:14px;color:#666;display:block;line-height: 30px}
+.l-choiceCity>a i{width:12px;height:7px;display:inline-block;background-position:0 -24px;margin-left:16px;margin-right:15px;vertical-align:middle;margin-top:-1px;*margin-top: 0;}
+.l-choiceCity>a.cur{color:#ff6600;border-bottom:none;position:relative;z-index:13;background-color:white;*height:33px;}
+.l-choiceCity>a.cur i{background-position:0 -36px;}
+.l-choiceCity .l-hideCityList{background-color:white;position:absolute;left:0px;top:33px;width:570px;*width:556px;padding:25px 7px 15px;border:1px solid #e5e5e5;font-size:14px;}
+
+/*边距公用*/
+.plpr17{padding-left:17px;padding-right:17px;}
+.mb14,
+.l-hc-hotCity ul li,
+.l-specificCity a{margin-bottom:14px;}
+.mt10{margin-top:10px;}
+/*热门城市*/
+.l-hc-title,
+.l-hc-title a,
+.l-letterList .l-letterDl dt{color:#999;}
+.l-hotCityWrap{margin-bottom:5px;+margin-bottom:14px;}
+.l-hotCityWrap .l-hc-hotCity{width:517px;}
+.l-hotCityWrap .l-hc-hotCity ul{width:540px;}
+.l-hc-hotCity ul li,
+.l-specificCity a{float:left;margin-right:20px;white-space:nowrap;}
+.l-hc-hotCity ul li a,
+.l-letterList .l-letterDl dd a{color:#333;}
+
+/*字母*/
+.l-letterList .l-letterDl dt{width:100%;}
+.l-letterList .l-letterDl dd{float:left;margin-right:12px;}
+.l-letterList .l-letterDl dd a{display:block;width:20px;height:20px;text-align:center;line-height:20px;}
+.l-letterList .l-letterDl dd a:hover,
+.l-letterList .l-letterDl dd.current a{background-color:#ff6600;color:white;border-radius:2px;}
+
+/*字母城市*/
+.l-letterCityList{border-top:1px solid #e1e1e1;padding-left:22px;}
+.l-letterCityList>ul{overflow-y:auto;overflow-x:hidden;height:214px;padding-top:18px;*height:196px;}
+.l-letterCityList>ul>li{font-size:0;letter-spacing:-1px;white-space:nowrap;}
+.l-letterCityList>ul>li>span{width:5%;}
+.l-muchCityList{width:94%;}
+.l-muchCityList>.l-muchCityItem>span{width:11%;}
+.l-letterCityList>ul>li>span em{margin-right:18px;}
+.l-specificCity,
+.l-letterCityList>ul>li>span,
+.l-muchCityList,
+.l-muchCityList>.l-muchCityItem>span{display:inline-block;*display:inline;zoom:1;vertical-align:top;font-size:14px;overflow:hidden;line-height: normal;}
+.l-specificCity a,
+.l-letterCityList>ul>li>span{letter-spacing:0;}
+.l-specificCity{width:90%;+margin-bottom:14px;}
+.l-specificCity a{color:#666;}
+/*所在地选择*/
+.curCity{font-size:14px;color:#555555;margin-top:8px;*margin-top:12px;}
+.curCity select{height:34px;width:120px;*width:106px;border:1px solid #cccccc;padding-left:12px;color:#555555;height:auto\9;vertical-align:middle;}
+.curCity button.searchCurCity{display: inline-block;padding:9px 14px;background-color:#08377f;border-color:#08377f;color:white;margin-right:10px;margin-left:6px;*padding:0;margin-top: -1px;cursor: pointer;}
+/*位置导航*/
+.ln-location{height:34px;line-height:34px;margin:8px 0;font-size: 14px;}
+.ln-location a{color:#555;}
+.ln-location .cur{color:#ff4700;}
+.ln-location span{font-family:simsun;margin:0 4px;}
+/*页码*/
+.listPage{text-align:right;margin-top:30px;margin-bottom:35px;font-size:14px;font-size: 0;}
+.listPage a{display:inline-block;padding:0 14px;font-size:14px;margin-right:5px;height:38px;line-height:36px;*height:36px;border:1px solid #eee;color:#555;background-color: #f6f6f6;}
+.listPage a.prev em,.car-list-wrapper .page a.next em{color:#aaa;font-size: 15px;}
+.listPage a.prev.disabled,.car-list-wrapper .page a.next.disabled{color:;background-color: white;color:#c8c8c8;}
+.listPage a.prev.disabled em,.car-list-wrapper .page a.next.disabled em{color:#ccc;}
+.listPage a.prev em{margin-right: 4px;position: relative;top:1px;}
+.listPage a.next em{margin-left: 4px;}
+.listPage a .jt{font-family:simsun;color:#cccccc;}
+.listPage a.disc{border:none;background-color: transparent;}
+.listPage form{display:inline-block;margin-left: 15px;*display: inline;zoom:1;}
+.listPage form input[type="text"]{width:38px;height:38px;font-size:14px;line-height:38px;text-align:center;padding-left:0;margin-top:-2px;+margin-top:0;border:1px solid #cccccc;}
+.listPage form .input_b{overflow:hidden;border-radius:3px;display:inline-block;width:55px;height:38px;*height:36px;vertical-align:middle;border:1px solid #e4e4e4;background-color: #f5f5f5;}
+.listPage form input[type="submit"]{width:55px;height:38px;cursor:pointer;text-align:center;line-height: 38px;+line-height:28px;text-align:center;padding-left:0;background:none;color:#999999;box-shadow:none;border:0;outline: none;}
+.listPage a.left{background:#f4f4f4;color:#cbcbcb;}
+.listPage a.current{background-color:transparent;color:#ff6600;border:none;}
+.listPage span{font-size: 14px;}

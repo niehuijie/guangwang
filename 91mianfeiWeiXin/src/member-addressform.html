@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+	<title>地址表单</title>
+	<!-- build:css css/app.css -->
+	<link rel="stylesheet" type="text/css" href="css/page.css"/>
+	<!-- endbuild -->
+</head>
+<body>
+	<div class="overlayer"></div>
+	<div class="page-content">
+		<section class="addredd-f bg-white">
+			<form action="" name="addressF" method="">
+				<div class="af-item">
+					<div class="af-key">收货人：</div>
+					<input type="text" name="" placeholder="姓名"/>
+				</div>
+				<div class="af-item">
+					<div class="af-key">联系方式：</div>
+					<input type="text" name="" placeholder="手机号码"/>
+				</div>
+				<div class="af-item open-modal" id="area-e" data-modal="modal-address">
+					<div class="af-key">区域选择：</div>
+					<div class="areainput" id="area-input-div">河南省 郑州市 郑东新区</div>
+					<i class="sprite-32-right-jt"></i>
+				</div>
+				<div class="af-item">
+					<div class="af-key">详细地址：</div>
+					<textarea placeholder="请输入街道、楼牌号" maxlength="410"></textarea>
+				</div>
+				<p class="tc ptb10"><button type="submit" class="btn btn-confirm">保存收货地址</button></p>
+				<p class="tc"><button type="button" class="btn btn-default" id="deladdress">删除收货地址</button></p>
+			</form>
+		</section>
+	</div>
+	<div class="modal modal-address">
+		<div class="modal-head">
+			<span class="modal-tip">选择地址</span>
+			<div class="close-modal"><i class="sprite-32-close"></i></div>
+		</div>
+		<div class="modal-body">
+			<div class="arear-value" id="area-btn">
+				<span data-index="0">请选择</span>
+				<span data-index="1"></span>
+				<span data-index="2"></span>
+			</div>
+			<div class="arear-value-list" id="area-con-div">
+				<div id="area-con-dl" class="area-list">
+					<dl data-index="1"></dl>
+					<dl data-index="2"></dl>
+					<dl data-index="3"></dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+	<!-- build:js js/app.js -->
+	<script type="text/javascript" src="js/tool.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/page.js"></script>
+	<!-- endbuild -->
+
+</body>
+</html>

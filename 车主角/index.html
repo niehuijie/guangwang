@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1" />
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<title>首页</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/base.css?ver=20161124" />
+	<link rel="stylesheet" href="css/common.css?ver=20161124" />
+	<link rel="stylesheet" href="css/index_common.css?ver=20161124">
+	<link rel="stylesheet" href="css/index.css?ver=20161124" />
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+	<![endif]-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+</head>
+<body class="indexPage">
+	<!-- 头部 -->
+	<div id="head">
+		<div class="head-top m">
+			<p class="ht-left fl">您好，欢迎来到 车主角，
+				<a href="login.html" class="headLoginLink">请登录</a><a href="reg.html" class="headRegLink">免费注册</a>
+				<!-- <a href="" class="headLoginLink">_Legendary</a><a href="" class="headRegLink">退出</a> -->
+			</p>
+			<div class="ht-right fr clf">
+				<div class="myInfoList fl">
+					<ul class="myInfoItem clf">						
+						<li class="noDownList">
+							<a href="javascript:;">我的订单</a>|
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">我的收藏<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">收藏的车型</a>
+								<a href="javascript:;">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">商家中心<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">免费开店</a>
+								<a href="javascript:;">出售中的商品</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">客户服务<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">已买到的宝贝</a>
+								<a href="javascript:;">我的足迹</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">网站导航<i class="ico myInfoIcon"></i></a>
+							<div class="downList siteNav">
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- logo+search+cart -->
+	<div class="lsc m clf">
+		<div id="logo" class="fl">
+			<h1 class="logo-hd"><a href="index.html">车主角</a></h1>
+		</div>
+		<!-- 选择城市 -->
+		<div class="choiceCity fl">
+			<a href=""><span>全国</span><i class="ico"></i></a>
+			<div class="hideCityList none">
+				<!-- 热门城市 -->
+				<div class="hotCityWrap plpr17">
+					<p class="hc-title mb14 clf hidden"><span class="fl">热门</span><a href="allCity.html" class="fr">全部城市&gt;</a></p>
+					<div class="hc-hotCity">
+						<ul class="clf">
+							<li><a href="">北京</a></li>
+							<li><a href="">上海</a></li>
+							<li><a href="">广州</a></li>
+							<li><a href="">天津</a></li>
+							<li><a href="">杭州</a></li>
+							<li><a href="">深圳</a></li>
+							<li><a href="">济南</a></li>
+							<li><a href="">南京</a></li>
+							<li><a href="">福州</a></li>
+							<li><a href="">青岛</a></li>
+							<li><a href="">苏州</a></li>
+							<li><a href="">东莞</a></li>
+							<li><a href="">太原</a></li>
+							<li><a href="">宁波</a></li>
+							<li><a href="">佛山</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 字母 省-城市 -->
+				<div class="letterList">
+					<dl class="plpr17 clf letterDl hidden">
+						<dt class="mb14 fl">省份首字母</dt>
+						<dd class="current"><a href="">A</a></dd>
+						<dd><a href="">F</a></dd>
+						<dd><a href="">G</a></dd>
+						<dd><a href="">L</a></dd>
+						<dd><a href="">M</a></dd>
+						<dd><a href="">X</a></dd>
+					</dl>
+					<div class="letterCityList mt10">
+						<ul>
+							<li>
+								<span>A</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>安微</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">泉州</a>
+											<a href="">阜阳</a>
+											<a href="">滁州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>F</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>福建</span>
+										<div class="specificCity clf">
+											<a href="">福州</a>
+											<a href="">厦门</a>
+											<a href="">莆田</a>
+											<a href="">三明</a>
+											<a href="">泉州</a>
+											<a href="">漳州</a>
+											<a href="">南平</a>
+											<a href="">龙岩</a>
+											<a href="">宁德</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>G</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>广西</span>
+										<div class="specificCity clf">
+											<a href="">南宁</a>
+											<a href="">柳州</a>
+											<a href="">桂林</a>
+											<a href="">玉林</a>
+											<a href="">百色</a>
+										</div>
+									</div>
+									<div class="muchCityItem">
+										<span>甘肃</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">蚌埠</a>
+											<a href="">淮南</a>
+											<a href="">马鞍山</a>
+											<a href="">淮北</a>
+											<a href="">铜陵</a>
+											<a href="">安庆</a>
+											<a href="">黄山</a>
+											<a href="">滁州</a>
+											<a href="">阜阳</a>
+											<a href="">宿州</a>
+											<a href="">巢湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>L</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>M</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>X</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="search" class="fr clf pr">
+			<!-- 搜索框 -->
+			<form action="">
+				<div class="fl inputBox pr">
+					<input type="text" autocomplete="off">
+					<i class="icon luIcon"></i>
+				</div>
+				<div class="fl"><button type="submit" class="searchBtn">搜 索</button></div>
+			</form>
+			<!-- 搜索热词 -->
+			<div class="search-zUp clf">
+				<i class="fl searhico ico"></i>
+				<ul class="fl hotword clf">
+					<li><a href="">手机</a></li>
+					<li><a href="">冰箱</a></li>
+					<li><a href="">洁面奶</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="nav">
+		<!-- 导航分类 -->
+		<div class="navClass clf m">
+			<div class="classWrap fl pr">
+				<h3 class="classTitle">
+					<a href="list.html">汽车分类<i class="ico"></i></a>
+				</h3>
+				<div class="classListWrap">
+					<div class="classListBg"></div>
+					<div class="classList">
+						<div class="classItem">
+							<h4>品牌</h4>
+							<div>
+								<dl class="clf">
+									<dd><a href="list.html">大众</a></dd>
+									<dd><a href="list.html">本田</a></dd>
+									<dd><a href="list.html">吉利汽车</a></dd>
+									<dd><a href="list.html">马自</a></dd>
+									<dd><a href="list.html">现代</a></dd>
+									<dd><a href="list.html">别克</a></dd>
+									<dd><a href="list.html">奥迪</a></dd>
+									<dd><a href="list.html">福特</a></dd>
+									<dd><a href="list.html">哈弗</a></dd>
+									<dd><a href="list.html">长安</a></dd>
+									<dd><a href="list.html">宝马</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>价格</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="list.html">5万以下</a></dd>
+									<dd><a href="list.html">5-8万</a></dd>
+									<dd><a href="list.html">8-15万</a></dd>
+									<dd><a href="list.html">15-25万</a></dd>
+									<dd><a href="list.html">25-30万</a></dd>
+									<dd><a href="list.html">30-40万</a></dd>
+									<dd><a href="list.html">40-45万</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>级别</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="list.html">微型车</a></dd>
+									<dd><a href="list.html">小型车</a></dd>
+									<dd><a href="list.html">紧凑型车</a></dd>
+									<dd><a href="list.html">中型车</a></dd>
+									<dd><a href="list.html">中大型车</a></dd>
+									<dd><a href="list.html">豪华型c车</a></dd>
+									<dd><a href="list.html">MPV</a></dd>
+									<dd><a href="list.html">SUV</a></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- 导航条 -->
+			<div class="navBar fl">
+				<ul class="clf">
+					<li><a href="">首页</a></li>
+					<li><a href="">车型展览</a></li>
+					<li><a href="">0元购</a></li>
+					<li><a href="">咨询活动</a></li>
+					<li><a href="">运营网站</a></li>
+					<li><a href="">积分兑换</a></li>
+					<li><a href="">会员中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 轮播图-->
+	<div id="slider" class="pr hidden">
+		<ul class="sliderUl pa">
+			<li><a href=""><img src="images/banner1.jpg" alt=""></a></li>
+			<li><a href=""><img src="images/banner2.jpg" alt=""></a></li>
+			<li><a href=""><img src="images/banner3.jpg" alt=""></a></li>
+		</ul>
+	</div>
+	<!-- 0元购广告 -->
+	<div class="zeroAd m">
+		<img src="images/zeroAd.jpg" alt="">
+	</div>
+	<!-- 品牌广告 -->
+	<div class="brandShow">
+		<h4 class="tc bs-title m">品牌展示</h4>
+		<div class="bs-brand m">
+			<div class="bs-brandList m">
+				<ul class="brandSliderUl">
+					<li>
+						<div class="brandName clf">
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+						</div>
+					</li>
+					<li>
+						<div class="brandName clf">
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+						</div>
+					</li>
+					<li>
+						<div class="brandName clf">
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+							<a href=""><img src="" alt=""></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 热门车型 -->
+	<div class="hotCarType m">
+		<div class="hct-title">
+			<h4 class="fl">热门车型</h4>
+			<ul class="clf fr">
+				<li><a href="list.html">5万以下</a><em>|</em></li>
+				<li><a href="list.html">5-8万</a><em>|</em></li>
+				<li><a href="list.html">8-15万</a><em>|</em></li>
+				<li><a href="list.html">15-25万</a><em>|</em></li>
+				<li><a href="list.html">25-30万</a><em>|</em></li>
+				<li><a href="list.html">30-40万</a><em>|</em></li>
+				<li><a href="list.html">40-45万</a><em>|</em></li>
+				<li><a href="list.html">200万以上</a><em>|</em></li>
+				<li><a href="list.html">全部</a></li>
+			</ul>
+		</div>
+		<div class="hct-con clf">
+			<div class="hct-ad fl pr">
+				<div class="ad-con pa">
+					<h4>热门车型</h4>
+					<p>0元购车广告文案</p>
+				</div>
+				<a href=""><img src="images/hct-ad.jpg" alt=""></a>
+				<ul class="hct-product-tab">
+					<li class="cur"><a href="">经济代步</a></li>
+					<li><a href="">小资格调</a></li>
+					<li><a href="">商务典范</a></li>
+					<li><a href="">拖家带口</a></li>
+				</ul>
+			</div>
+			<div class="hct-product fl">
+				<div>
+					<ul>
+						<li>
+							<a href="content.html">
+								<h5>捷豹XE</h5>
+								<p>0元购车：<em>65万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>保时捷Cayenne</h5>
+								<p>0元购车：<em>35万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>沃尔沃XC90(进口)</h5>
+								<p>0元购车：<em>95万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奥迪A4L</h5>
+								<p>0元购车：<em>45万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奔驰C级</h5>
+								<p>0元购车：<em>55万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>宝马5系</h5>
+								<p>0元购车：<em>25万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<a href="content.html">
+								<h5>捷豹XE2</h5>
+								<p>0元购车：<em>65万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>保时捷Cayenne</h5>
+								<p>0元购车：<em>35万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>沃尔沃XC90(进口)</h5>
+								<p>0元购车：<em>95万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奥迪A4L</h5>
+								<p>0元购车：<em>45万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奔驰C级</h5>
+								<p>0元购车：<em>55万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>宝马5系</h5>
+								<p>0元购车：<em>25万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<a href="content.html">
+								<h5>捷豹XE3</h5>
+								<p>0元购车：<em>65万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>保时捷Cayenne</h5>
+								<p>0元购车：<em>35万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>沃尔沃XC90(进口)</h5>
+								<p>0元购车：<em>95万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奥迪A4L</h5>
+								<p>0元购车：<em>45万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奔驰C级</h5>
+								<p>0元购车：<em>55万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>宝马5系</h5>
+								<p>0元购车：<em>25万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<a href="content.html">
+								<h5>捷豹XE4</h5>
+								<p>0元购车：<em>65万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>保时捷Cayenne</h5>
+								<p>0元购车：<em>35万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>沃尔沃XC90(进口)</h5>
+								<p>0元购车：<em>95万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奥迪A4L</h5>
+								<p>0元购车：<em>45万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>奔驰C级</h5>
+								<p>0元购车：<em>55万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<h5>宝马5系</h5>
+								<p>0元购车：<em>25万</em></p>
+								<img src="" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 地图网点 -->
+	<div class="runPoint">
+		<div class="m">
+			<div class="rp-hd">
+				<h4 class="tc rp-title">运营网点</h4>
+				<div class="rp-point auto">
+					<!-- 网点列表 -->
+					<ul class="rp-pointUl clf">
+						<li><a href="">天津</a></li>
+						<li><a href="">杭州</a></li>
+						<li><a href="">深圳</a></li>
+						<li><a href="">济南</a></li>
+						<li><a href="">南京</a></li>
+						<li><a href="">福州</a></li>
+						<li><a href="">青岛</a></li>
+						<li><a href="">苏州</a></li>
+						<li><a href="">太原</a></li>
+						<li><a href="">佛山</a></li>
+						<li><a href="">石家庄</a></li>
+						<li><a href="">合肥</a></li>
+						<li><a href="">全部</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="rp-bd">
+				<!-- 网点地图 -->
+				<div class="rp-map auto">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 精选咨讯 -->
+	<div class="bestInfo m">
+		<h4 class="tc bi-title">精选资讯</h4>
+		<p class="bi-desc tc">活动信息 新闻信息概况广告宣传文案</p>
+		<div class="bi-info clf">
+			<div class="bi-sliderInfoPic fl">
+				<ul>
+					<li><a href=""><img src="images/banner1.jpg" alt=""></a></li>
+					<li><a href=""><img src="images/banner2.jpg" alt=""></a></li>
+					<li><a href=""><img src="images/banner3.jpg" alt=""></a></li>
+					<li><a href=""><img src="images/banner1.jpg" alt=""></a></li>
+					<li><a href=""><img src="images/banner2.jpg" alt=""></a></li>
+					<li><a href=""><img src="images/banner3.jpg" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="bi-infoText fl">
+				<ul>
+					<li class="txt_ows"><a href="">网约车合法了 妹子们就安心了吗？</a></li>
+					<li class="txt_ows"><a href="">林丹出轨女主角道歉 不停抽泣眼睛红肿</a></li>
+					<li class="txt_ows"><a href="">美女球技高超，秀足球底裤都漏了！</a></li>
+					<li class="txt_ows"><a href="">中国和德国的自动化智能停车场对比</a></li>
+					<li class="txt_ows"><a href="">伊拉克摩苏尔西部塔拉法尔机场战斗片段</a></li>
+				</ul>
+				<p class="tr mt10 bi-lookAll"><a href="" class="clorO ft14 underline">查看全部&gt;&gt;</a></p>
+			</div>
+		</div>
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<div class="footer_main m clf">
+			<div class="footer_main_left fl">
+				<div class="footer_czj"></div>
+				<div class="footer_left_text">
+					<p>咨询电话 : 400-123-456</p>
+					<p>( 周一至周日  : 8 : 00-19 : 00)</p>
+					<p>售后服务 : 400-123-456</p>
+				</div>
+			</div>
+			<div class="footer_main_right fl">
+				<div class="footer_nav">
+					<ul class="clf">
+						<li><a href="">车型展览</a><span>|</span></li>
+						<li><a href="">0元购</a><span>|</span></li>
+						<li><a href="">资讯活动</a><span>|</span></li>
+						<li><a href="">运营网站</a><span>|</span></li>
+						<li><a href="">积分兑换</a><span>|</span></li>
+						<li><a href="">会员中心</a><span>|</span></li>
+						<li><a href="">会员权益</a></li>
+					</ul>
+				</div>
+				<div class="footer_copyright">
+					<p>CopyRight © 2016 ,All Rights Reserved.版权所有 北京车主角有限公司</p>
+					<p>经营许可证编号 : 京lCP证060175 ; 公安备案号码 : 110108020200002号 ; 京网[2016]1143-143号;</p>
+				</div>
+			</div>
+			<div class="footer_ewm fl">
+				<p>关注公众号</p>
+                <div><img src="images/nguanzhuwomen.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<!-- 悬浮广告 -->
+	<a href="" class="suspendAd">
+		<img src="images/suspendAd.png" alt="">
+		<i class="ico susp-close"></i>
+	</a>
+	<div class="rightFixed">
+        <div class="rightNav">
+            <a href="" class="rF1">
+            	<i></i>
+            </a>
+            <a href="" class="rF2">
+               	<i></i>
+            </a>
+            <a href="" class="rF3 backHead">
+               	<i></i>
+            </a>
+        </div>
+    </div>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/slider.js?ver=20161126"></script>
+	<script type="text/javascript" src="js/common.js?ver=20161126"></script>
+	<script type="text/javascript" src="js/index_common.js?ver=20161126"></script>
+	<script type="text/javascript" src="js/index.js?ver=20161126"></script>
+</body>
+</html>

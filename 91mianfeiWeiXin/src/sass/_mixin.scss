@@ -1,0 +1,11 @@
+@mixin btn($color,$padd,$width,$fontsize,$fontcolor,$radius){
+	border-color:$color;
+	background-color:$color;
+	@if $width!="auto"{
+	  width:$width;
+	}
+	border-radius:$radius;
+	font-size:$fontsize;
+	color:$fontcolor;
+	padding:$padd;
+}

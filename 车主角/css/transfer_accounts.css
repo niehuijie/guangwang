@@ -1,0 +1,34 @@
+.n-mianyou{width: 1200px !important;height:500px !important;background-color: #fff;}
+.n-mianyou .nbyh{width: 100%;line-height: 68px;background-color: #fafafa;color: #666;}
+.n-mianyou .nbyh>h4{padding-left: 25px;font-size: 18px;}
+#password_modification,#password{}
+/**/
+.chang_password_input{width: 800px;margin: 0 auto;padding-top: 65px;font-size: 14px;}
+.chang_password_input input{width: 210px;height: 35px;line-height: 35px;border: 1px solid #e4e4e4;padding-left: 5px;}
+.chang_password_input>div>span{width: 330px;text-align: right;padding-right: 15px;*width: 225px;color: #888;}
+.chang_password_input>div{height: 50px;}
+.chang_password_input .i{width: 200px;height: 35px;line-height: 35px;padding-left: 5px;*width: 195px;}
+.chang_password_input .i>div{width: 16px;height: 16px;background: url(../images/nxiaotubiao.png) no-repeat -175px 0px;margin-top: 11px;}
+.chang_password_input input[type="button"]{width: 128px;height: 33px;color: #fff;background-color: #E11919;margin-top: 10px;}
+input[type="submit"],input[type="button"]{border:0;outline:0;vertical-align: middle;}
+.prompt{margin-left: 250px;}
+.prompt>div{height: 23px !important;line-height:23px;border: 1px solid #E11919;width: 480px;background-color: #FFE7E7;color: #E11919;padding-left: 5px;}
+.tubiao{width: 19px;height: 19px;background: url(../images/tanhao.png);margin-top: 2px;}
+.chang_password_input .type{width: 150px;}
+
+/**/
+.succeed_order{background-color: #fff;}
+.succeed_order_nav{height: 68px;line-height: 68px;background-color: #FAFAFA;color: #666;padding-left: 30px;}
+.succeed_order_main{height: 350px;}.succeed_order_main>div{width: 330px;color: #222;margin: 0 auto;padding-top: 20px;}
+.succeed_order_main>div .duihao{margin-left: 30px;width: 38px;height: 38px;background: url(../images/nxiaotubiao.png) no-repeat -1px 0px;}
+.succeed_order_main>div .text{margin-top: 5px;}
+.succeed_order_main>div>div>a{color: #fff;}.succeed_order_main .button{padding-top: 30px;}
+.succeed_order_main>div .purchase{width: 130px;height: 35px;border: 1px solid #E11919;*width: 128px;*height: 33px;line-height: 33px;color: #fff;background-color: #E11919;text-align: center;margin-right: 20px;}
+.succeed_order_main>div .service{width: 130px;height: 35px;border: 1px solid #E11919;*width: 128px;*height: 33px;line-height: 33px;text-align: center;}
+.succeed_order_main .section{padding-left: 50px;padding-top: 15px;font-size: 14px;color: #999;}
+.succeed_order_main .section .span{width: 80px;height: 35px;}
+.color{color: #222 !important;}.kulian{width: 32px;height: 32px;background: url(../images/kulian.png);}
+.shibai{padding-left: 85px;}.button2{padding-top: 60px !important;padding-left: 40px;}
+
+
+.dialog .dialogWrap .dialog-hd{background-color: #fff;}

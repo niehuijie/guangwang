@@ -1,0 +1,153 @@
+/*热点新闻*/
+.news{position: absolute;top: -30px;left: 100px;width: 1000px;height: 110px;}
+.news .left{width: 185px;height:100%;background-color: #454952;padding-top: 30px;padding-left: 40px;*width: 145px;*height: 80px;}
+.news .right{width: 815px;height: 100%;background: url(../images/lc-jianbian-bj.png) no-repeat -6px -20px;padding-left: 45px;padding-top: 30px;*width: 770px;*height: 80px;}
+.news .right .p{line-height: 30px;color: #fff;}
+.news .right>div.ul{width: 650px;position: relative;}
+.news .right .a{position: absolute;top: 25px;right: 28px;}
+.news .right .a a{display: block;width: 32px;height: 20px;background: url(../images/ico.png) no-repeat 0 0;}
+.news .right .a a.sup{background-position: -45px 0;}
+.news .right .a a.sub{background-position: -45px -45px;margin-top: 23px;}
+
+.tab a{display: block;color: #fff;}
+.tab li.bj{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -139px;color: #fff;}
+.tab li:hover{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -139px;color: #fff;}
+.ft24{font-size: 24px;}
+.a-jt{display: block;}
+.next {position: absolute;width: 26px;height: 49px;background: url(../images/ico.png) no-repeat;background-position: -94px 0;left: 50%;top: 50%;margin-left: 626px;margin-top: -25px;cursor: pointer;}
+.prev{position: absolute;width: 26px;height: 49px;background: url(../images/ico.png) no-repeat;background-position: -95px -51px;left: 50%;top: 50%;margin-left: -626px;margin-top: -25px;cursor: pointer;}
+/*绘制三角图形*/
+#triangle-up {position: absolute;right: -8px;top: 50%;margin-top: -4px;border-top: 8px solid transparent;border-bottom: 8px solid transparent;border-left: 8px solid #454952;}
+
+/*标题*/
+.headline{padding-top: 50px;}
+.headline h2{font-size: 36px;color: #222;text-align: center;font-weight: 300;}
+.headline div{background: url(../images/lv-bt-bj.png) no-repeat 0 0;margin: 0 auto;margin-top: 15px;}
+.headline div.jTjJ{background-position: 0 0;}
+.headline div.gYlC{background-position: 0 -96px;}
+.headline div.zxZx{background-position: 0 -185px;}
+.headline div.cpZx{background-position: 0 -280px;}
+
+.jt-intro{padding-top: 80px;}
+.intro-hd{margin: 30px 0;font-weight: 300;}
+.intro-hd span{font-size:28px;margin: 0px 15px;}
+.jt-intro .section p{width: 1000px;margin: 0 auto;text-indent: 2em;font-size: 16px;line-height: 30px;color: #555;margin-bottom: 15px;}
+.intro-footer{display: block;width: 136px;height: 36px;border: 2px solid #c9c9c9;border-radius: 5px;margin: 30px auto;line-height: 32px;text-align: center;color: #c9c9c9;}
+.intro-footer:hover{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -139px;color: #fff;border: 0;line-height: 36px;}
+
+.lc-tab{width:666px;height: 50px;margin: 30px auto;border: 1px solid #dcdcdc;border-radius: 5px;overflow: hidden;font-size:16px;}
+.lc-tab li{float: left;width: 166px;border-right:1px solid #dcdcdc;height: 100%;text-align: center;line-height: 50px;cursor: pointer;*width: 165px;}
+.lc-tab li.bj{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -139px;color: #fff;}
+.lc-tab li:hover{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -139px;color: #fff;}
+
+
+.gy-lv .section{position: absolute;right: 288px;top: 68px;width: 1272px;height: 438px;background: url(../images/lc-jianbian-bj.png) no-repeat -6px -203px;z-index: 10;opacity: .8;}
+.gy-lv .img{position: absolute;left: 600px;top: 0;width: 960px;height: 572px;background: url(../images/index-cs.png) no-repeat;z-index: 9;}
+.gy-lv .secn{position: absolute;left: 100px;top: 148px;width: 690px;max-height: 272px;color: #fff;z-index: 11;overflow: hidden;color: rgba(255,255,255,.9);padding-bottom: 20px;}
+.gy-lv .secn h2{font-size: 30px;margin-bottom: 15px;}
+.gy-lv .secn p{text-indent: 2em;line-height: 30px;margin-bottom: 5px;}
+.gy-lv .secn i{display: block;position: absolute;bottom: -0px;right: 10px;width: 45px;height: 12px;background:url(../images/ico.png) no-repeat 0 -91px;}
+
+.information .section .left{width: 500px;margin-left: 100px;}
+.information .section .left li{padding-left: 60px;position: relative;padding-bottom: 20px;min-height: 75px;}
+.information .section .left li h2{font-weight: bold;margin-bottom: 15px;}
+.information .section .left li p{line-height: 30px;color: #777;}
+.information .section .left li i{display: block;position: absolute;left: 0;}
+.information .section .left li i.xh{top: -15px;width: 48px;height: 51px;background: url(../images/ico.png) no-repeat 0 -105px;z-index: 15;}
+.information .section .left li i.line{top: 32px;left: 27px;width: 1px;background-color: #d1d1d1;z-index: 11;height: calc(100% - 46px);z-index: 10;}
+.information .section .left li i.cur{background-position-y:-159px;}
+
+.product{width: 100%;height: 740px;background: url(../images/lc-cara.jpg) center center;}
+.lbt{margin-left: 100px;height: 280px;}
+.lbt li{margin-right: 25px;float: left;filter: brightness(.5);cursor: pointer;}
+.lbt li:hover{filter: brightness(1);}
+.lbt li:hover p{color: #00A2FF;}
+.lbt li a{display: block;}
+.lbt p{width: 230px;height: 50px;line-height: 50px;text-align: center;background-color: #fff;font-size: 16px;font-weight: bold;color: #5d5d5d;}
+.by-figure{margin-top:40px;height: 280px;}
+.by-figure .qh{position: absolute;display: block;width: 26px;height: 49px;background: url(../images/ico.png) no-repeat;top: 120px;}
+.by-figure #next{background-position: -94px 0;right: 15px;}
+.by-figure #prev{background-position: -95px -51px;left: 15px;}
+
+.rightScrollix-ul li{height: 60px;}
+
+.rightScrollix-ul li a{color: #fff;}
+
+/*公司概况*/
+.profile-m{padding-top: 77px;}
+.profe-tab{position: absolute;width: 1200px;height: 60px;background-color: #484a54;top: -30px;left: 0;font-size: 16px;}
+.profe-tab li{float: left;width: 171px;border-right:1px solid #666;height: 100%;text-align: center;line-height: 60px;cursor: pointer;color: #fff;}
+.profe-tab li.bj{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -651px;}
+.profe-tab li:hover{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -651px;color: #fff;}
+
+.profile-section{padding-bottom: 70px;}
+.profile-section h2{font-size: 24px;}
+h5.intro{color: #999;margin: 15px 0 35px 0;}
+.profile-section p{text-indent: 2em;line-height: 30px;font-size: 16px;text-align: left;margin-bottom: 30px;}
+.profile-section img{margin-bottom: 30px;}
+
+/*资讯中心*/
+.infon-tab{position: absolute;width: 1200px;height: 60px;background-color: #484a54;top: -30px;left: 0;font-size: 16px;}
+.infon-tab li{float: left;width: 300px;border-right:1px solid #666;height: 100%;text-align: center;line-height: 60px;cursor: pointer;color: #fff;}
+.infon-tab li.bj{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -20px !important;}
+.infon-tab li:hover{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -20px;color: #fff;}
+
+.jt-xw{position: relative;}
+.jt-xw>i{display: block;position: absolute;top: 12px;left: 0;width: 16px;height: 16px;border-radius: 50%;background-color: #484a54;z-index: 10;}
+.jt-xw>span{display: block;position: absolute;top: 0px;left: 46px;width: 100px;height: 34px;border-radius: 7px;background-color: #484a54;line-height: 34px;text-align: center;color: #fff;}
+.jt-xw .linep{position: absolute;left:7px;top: 0;width: 1px;background-color: #dadbdd;height: 12px;z-index: 5;}
+.jt-xw .lineb{position: absolute;left:7px;top: 12px;width: 1px;background-color: #dadbdd;height: 35px;z-index: 5;}
+.jt-xw .line{width: 1px;margin-left: 7px;background-color: #dadbdd;height: 170px;}
+.jt-xw .right{margin-left: 38px;width: 1154px;padding-top: 55px;}
+.jt-xw .right .img{width: 200px;height: 135px;}
+.jt-xw .right .img img{width: 100%;}
+.jt-xw .right .text h2{font-size: 16px;margin: 10px 0;}
+.jt-xw .right .text h2 span{margin-left: 30px;font-size: 12px;color: #999;}
+.jt-xw .right .text:hover>h2{color: #00A2FF;}
+.jt-xw .right .text p{line-height: 30px;}
+.jt-xw .right .rt-item{padding-bottom: 20px;}
+/*页码*/
+.page{margin: 20px 0;}
+.page a{margin: 0 7px;display: inline-block;*display: inline;*zoom: 1;border: 1px solid #ddd;line-height: 38px;text-align: center;vertical-align: middle;}
+.page a.page1{width: 38px;height: 38px;}
+.page a.page-next,.page a.page-prev{width: 98px;height: 38px;}
+.page a:hover{background-color: #00A2FF;color: #fff;}
+
+.jt-xw .right .video .img{width: 275px;height: 155px;}
+.jt-xw .right .video .img+div{width: 275px;height: 65px;background-color: #f5f5f5;padding-left: 10px;*width: 265px;}
+.jt-xw .right .video .img+div h4{font-size: 16px;padding: 8px 0 6px;}
+.jt-xw .right .video .img+div div>i{vertical-align: middle;display: inline-block;*display: inline;*zoom: 1;width: 16px;height: 16px;background: url(../images/ico.png) no-repeat -45px -86px;margin-right:10px ;}
+.jt-xw .right .video .img+div div>em{color: #999;}
+.jt-xw .right .video ul{padding-bottom: 20px;width: 1174px;}
+.jt-xw .right .video ul li{float: left;margin-right: 18px;margin-bottom: 18px;}
+
+/*新闻内容页*/
+a.tab{display: block;width: 100%;height: 100%;color: #fff;}
+.news-content{width: 100%;height: 50px;background-color: #eee;font-size: 14px;line-height: 50px;}
+.news-content>div>div{width: 400px;}
+.news-content>div>div>a{display: inline-block;*display: inline;*zoom: 1;max-width: 400px;color: #999;}
+
+/*产品中心*/
+.product-tab{position: absolute;width: 1200px;height: 60px;background-color: #484a54;top: -30px;left: 0;font-size: 16px;}
+.product-tab li{float: left;width: 200px;border-right:1px solid #666;height: 100%;text-align: center;line-height: 60px;cursor: pointer;color: #fff;}
+.product-tab li.bj{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -651px;}
+.product-tab li:hover{background: url(../images/lc-jianbian-bj.png) no-repeat -6px -651px;color: #fff;}
+.product-mt .section{width: 600px;background-color: #f8f8f8;height: 300px;padding-left: 80px;*width: 520px;}
+.product-mt>div{margin-bottom: 20px;}
+.product-mt .section h2{margin-top: 80px;height: 40px;font-size: 24px;}
+.product-mt .section p{line-height: 30px;font-size: 16px;color: #666;width: 430px;}
+.product-mt .section a{display: block;width: 110px;height: 25px;line-height: 23px;border: 1px solid #d2d2d2;color: #a8a8a8;text-align: center;margin-top: 15px;}
+.product-mt .section a i{display: inline-block;*display: inline;*zoom: 1;width: 28px;height: 9px;vertical-align: middle;background: url(../images/ico.png) no-repeat -140px -3px;margin-top: -4px;margin-left: 5px;}
+.product-mt .section a:hover{border: 1px solid #00a2ff;color: #00a2ff;}
+.product-mt .section a:hover i{background-position: -140px -12px;}
+
+/*集团背景*/
+.bloc-aj-ul li{float: left;width: 585px;height: 210px;margin-bottom: 30px;}
+.bloc-aj-ul li .img{float: left;width: 160px;height: 210px;}
+.bloc-aj-ul li .img img{width: 100%;}
+.bloc-aj-ul li .section{float: left;width: 425px;height: 210px;background-color: #f7f7f7;padding-left: 35px;*width: 390px;}
+.bloc-aj-ul li .section h2{font-size:24px;margin: 40px 0 5px 0;}
+.bloc-aj-ul li .section p{line-height: 28px;width: 350px;font-size: 16px;color: #666;}
+
+.bloc-m5{width: 1200px;height: 786px;background: url(../images/jt-bj-hezuojigou.png) no-repeat 0 -32px;margin-bottom: 50px;}
+.bloc-m5-ul li{width: 240px;float: left;height: 160px;padding: 105px 22px 0 22px;*width: 196px;*height: 55px;text-align: center;color: #555;font-size: 14px;}

@@ -1,0 +1,143 @@
+/*商品信息*/
+/*上*/
+.cm-up-bd{height:679px;border:1px solid #e5e5e5;padding-left:9px;padding-top:9px;*height:669px;}
+.cm-up-l,
+.cm-up-l-propic{width:500px;position:relative;z-index:3;}
+.cm-up-l-pp-inset{}
+.middlePic{border:1px solid #e5e5e5;width:500px;height:500px;overflow:hidden;}
+.middlePic img{width:100%;}
+.smallPic{width:489px;margin-top:19px;}
+.sP-middlePic{width:423px;overflow:hidden;position:relative;height:77px;margin-left:15px;margin-right:15px;}
+.sP-middlePic-ul{position:absolute;left:0;width:300%;}
+.sP-middlePic-ul li{width:70px;float:left;height:70px;*width:68px;*height:68px;cursor:pointer;border:1px solid #e5e5e5;margin-right:18px;}
+.sP-middlePic-ul li.current{border-color:#ff6d00;}
+.sP-middlePic-ul li img{width:68px;}
+.sP-leftBtn,
+.sP-rightBtn{width:18px;height:70px;font-size:28px;font-family:simsun;line-height:70px;cursor:pointer;color:#ddd;}
+.sP-leftBtn:hover,
+.sP-rightBtn:hover{color:#333;}
+.bigPic{left:515px;top:0;width:500px;height:500px;overflow:hidden;border:1px solid #ddd;*width:498px;*height:498px;}
+.bigPic img{position:absolute;left:0;top:0;width:998px;height:998px;}
+.scaleShade{position:absolute;height:250px;width:250px;opacity:0.6;cursor:move;display:none;background-color:#FCF6E2;}
+
+/*购买信息*/
+.cm-up-l-proinfo{width:640px;margin-left:22px;}
+.proinfo-title .title1,
+.proinfo-title .title2{line-height:1em;}
+.proinfo-title .title1{font-size:30px;color:#000;padding-top:26px;padding-bottom:23px;}
+.proinfo-title .title2{color:#555;font-size:18px;}
+
+/*车价格*/
+.carPriceInfo{background-color:#f1f2f4;height:100px;margin-top:32px;color:#777;font-size:14px;padding:5px 0;padding-left:30px;position:relative;}
+.carPriceInfo .teacherPrice{margin-top:12px;}
+.carPriceInfo .zeroPrice{margin-top:10px;}
+.carPriceInfo .zeroPrice em{font-size:30px;}
+
+/*特色*/
+.carFeature{position:absolute;right:30px;bottom:25px;}
+.carFeature li{float:left;margin-left:35px;}
+.carFeature li i{width:12px;height:12px;display:inline-block;vertical-align:middle;background-position:0 -52px;margin-top:-2px;margin-right:3px;}
+
+/*车选项*/
+.optItem{margin-top:27px;overflow:hidden;}
+.optItem .optNum.key{line-height:40px;}
+.optItem .key{display:block;width:88px;line-height:34px;padding-left:10px;float:left;font-size:14px;color:#999;white-space:nowrap;}
+.optItem .value{float:left;}
+.optItem .value.city select{width:158px;*width:156px;}
+.optItem .value select{height:34px;border:1px solid #cccccc;line-height:32px;width:216px;font-size:14px;color:#555;padding-left:12px;*width:204px;cursor:pointer;height:auto\0;*height:auto;margin-top:5px\0;*margin-top:5px;}
+:root .optItem .value select{height:34px;}
+
+/*数量*/
+.c-con-goodsNum{border:1px solid #eaeaea;}
+.c-con-goodsNum span{float:left;display:block;height:40px;width:39px;background-color:#eeeeee;text-align:center;line-height:37px;color:white;font-weight:bold;font-size:30px;cursor:pointer;}
+.c-con-goodsNum input{width:90px;height:40px;line-height:40px;float:left;border:0;outline:none;text-align:center;color:#000;}
+
+/*预约按钮*/
+.btnbox a{width:180px;height:40px;color:white;background-color:#ff6d00;display:inline-block;line-height:40px;text-align:center;font-size:18px;font-weight:700;border-radius:4px;opacity:0.9;}
+.btnbox a:hover{opacity:1;}
+/*加入对比*/
+.btnbox .addCarTypeC{margin-left: 15px;background-color: #08377f;}
+
+/*下*/
+.cm-down{border:1px solid #dcdcdc;margin-top:20px;}
+.cm-down-hd{height:70px;background-color:#f3f2f2;}
+.cm-down-hd>ul>li{width:16.66666666666667%;float:left;text-align:center;}
+.cm-down-hd>ul>li.cur a{border-color:#ff6600;color:#ff6600;}
+.cm-down-hd>ul>li>a{padding:0 12px;height:70px;line-height:68px;border-bottom:2px solid transparent;*height:68px;font-weight:lighter;font-size:18px;color:#333;display:inline-block;}
+.cm-down-bd{padding:20px;}
+.cm-down-bd>.conPic>p{text-align:center;}
+.cm-down-bd>.conPic>p>img{vertical-align:top;}
+.cm-down-bd>div{display:none;}
+.curCity{font-size:14px;color:#555555;margin-top:8px;*margin-top:12px;}
+.curCity select{height:34px;width:120px;*width:106px;border:1px solid #cccccc;padding-left:12px;color:#555555;height:auto\9;vertical-align:middle;}
+.curCity button.searchCurCity{padding:6px 14px;background-color:#08377f;border-color:#08377f;color:white;margin-right:10px;margin-left:6px;*padding:0;}
+.curCityMap{width:750px;height:538px;overflow:hidden;top:0;left:0;border-right:1px solid #dcdcdc;*width:749px;}
+.curCityMap *{box-sizing: initial;}
+.curCityMap>img{width: 100%;}
+.curCityMapAdress{height:538px;overflow:hidden;padding-left:750px;width:100%;*width:406px;}
+.mj-result{}
+.curCityMapAdress>div{overflow:hidden;height:484px;border-bottom:1px solid #dcdcdc;*height:483px;position:relative;}
+.curCityMapAdress ul{height:483px;overflow-x:hidden;overflow-y:auto;position:relative;margin-top: -1px;}
+.curCityMapAdress ul>li{border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;padding:12px 0 12px 55px;color:#424242;position:relative;cursor: pointer;margin-bottom: -1px;}
+.curCityMapAdress ul>li>p{line-height:26px;}
+.curCityMapAdress ul>li .adressTitle{font-weight:700;font-size:14px;}
+.curCityMapAdress ul>li .adressTitleCon{}
+.curCityMapAdress ul>li .adressPhone{}
+.curCityMapAdress ul>li>i{background:url(../images/address-f6.png) no-repeat 0 0;color:white;font-weight:700;width:23px;height:32px;position:absolute;top:19px;left:24px;text-align: center;}
+.curCityMapAdress ul>li:hover,.curCityMapAdress ul>li.cur{background-color: #ededed;}
+.curCityMapAdress ul>li:hover i,.curCityMapAdress ul>li.cur i{background:url(../images/address-nof6.png) no-repeat 0 0;}
+.curCityMapAdress .addressPage{font-size:0;margin-top:16px;}
+.curCityMapAdress .addressPage a{width:18px;height:20px;*height:18px;*width:16px;border:1px solid #d8d8d8;display:inline-block;font-size:12px;color:#535353;text-align:center;margin-left:4px;}
+.curCityMapAdress .addressPage a.cur{border:0;}
+.curCityMapAdress .addressPage a.disc{border:0;}
+.curCityMapAdress .addressPage a.prev,
+.curCityMapAdress .addressPage a.next{width:46px;text-align:center;}
+
+/*经销商*/
+.car-mapjxs{border:1px solid #dcdcdc;height:590px;*height:589px;margin:23px 0;}
+.car-mapjxs .mj-head{height:50px;border-bottom:1px solid #dcdcdc;background-color:#eee;padding-left:20px;overflow: hidden;}
+.car-mapjxs .mj-head .findMuch{color:#000;font-size:14px;float:left;line-height:50px;}
+.car-mapjxs .mj-head .findMuch em{font-size:18px;margin-right:8px;}
+
+/*预约订单的框宽*/
+
+.writeInfoItem{margin-bottom:10px;}
+.wii-title{font-size:16px;color:#555;line-height:44px;font-weight:700;}
+.wii-con{border:1px solid #e6e6e6;border-top-width:2px;}
+.btn-ff66{color:white;background-color:#eb6100;padding:10px 49px;font-weight:700;border:0;font-size:18px;border-radius:5px;cursor:pointer;border-color:#eb6100;margin-top:62px;}
+.btn-ff66:hover{background-color:#ff6600;border-color:#ff6600;}
+.wii-con>ul>li{overflow:hidden;margin-top:15px;}
+.wii-con>ul>li>span{width:96px;display:block;text-align:right;line-height:38px;color:#999;font-size:14px;float:left;padding-right:5px;*width:91px;}
+.wii-con>ul>li>ul{float:left;}
+.wii-con>ul>li>ul>li{float:left;margin-right:15px;}
+.wii-con>ul>li>ul>li>a{height:38px;line-height:36px;*height:36px;display:block;border:1px solid #cccccc;padding:0;width:155px;*width:153px;color:#494949;text-align:center;position:relative;}
+.wii-con>ul>li>ul>li>a i{display:block;position:absolute;width:12px;height:12px;right:0;bottom:0;display:block;}
+.wii-con>ul>li>ul>li.cur a{border-width:2px;border-color:#ff651d;padding:-1px;line-height:34px;}
+.wii-con>ul>li>ul>li.cur a i{display:block;background:url(../images/carlead-ico.png) no-repeat 0 -88px;}
+.wii-con>ul>li>.tagCity select{height:36px;line-height:34px;*height:34px;border:1px solid #ccc;width:153px;padding-left:12px;color:#010101;font-size:14px;}
+.pb30{padding-bottom:30px;}
+.wii-con.peoInfo{padding-top:10px;}
+.wii-con.peoInfo>ul>li{margin-top:20px;}
+.wii-con.peoInfo>ul>li>span+input{width:305px;height:38px;*width:303px;*height:36px;border:1px solid #ccc;padding-left:12px;}
+.wii-con.peoInfo>ul>li>span+input+a{border-color:#dddddd;background-color:#f3f3f3;color:#333;padding:9px 13px;margin-left:8px;}
+.wii-con.peoInfo>ul>li>span+input+a.changed em{color:#c40000;}
+.wii-con.peoInfo>ul>li>span+input+.codeRule{margin-left:10px;color:#c40000;}
+.wii-info{height:142px;padding:30px 0;}
+.wii-info>a>img{width:80px;height:80px;border:1px solid #f1f1f1;margin-left:20px;display:block;}
+.wii-info .wii-infoTitle{padding-top:26px;font-size:13px;margin-left:10px;}
+.wii-info .wii-infoTitle .wii-carTitle{width:217px;line-height:24px;}
+.wii-info .wii-infoTitle .wii-carTitle a,
+.wii-info .wii-infoTitle{color:#666;}
+.wii-info .wii-price{margin-left:185px;}
+.wii-info .wii-zeroPrice{margin-left:80px;position:relative;top:-4px;}
+.wii-info .wii-zeroPrice,
+.wii-info .wii-price{line-height:80px;}
+.wii-jxs dt{color:#656565;height:41px;background-color:#fafafa;*height:40px;border-bottom:1px solid #ececec;line-height:44px;font-weight:700;}
+.wii-jxs dt,
+.wii-jxs dd{padding-left:18px;background-color:#fafafa;}
+.wii-jxs dd{height:53px;line-height:53px;color:#666666;}
+/*参数配置*/
+.canSu table{width: 100%}
+.canSu table td{border:1px solid #ddd;width:50%;color:#666;text-indent: 10px;}
+.canSu table th{text-align: left;font-size: 14px;}
+.canSu table td,.canSu table th{padding:10px 0;}

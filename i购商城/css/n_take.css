@@ -1,0 +1,56 @@
+
+.nright_sales{float: right;position: relative;width: 930px;height: 100%;font-size: 14px;}
+.nright_sales .nright_one{position: relative;width:888px;height: 35px;line-height: 35px;border: 1px solid #dcdcdc;padding-left: 40px;font-size: 16px;color: #e11919;}
+.take_nav{height: 35px;line-height: 35px;background-color: #f4f4f4;margin: 15px 0;padding-left: 15px;}
+.take_nav>.span{color: #272727;font-weight: 600;padding-right: 10px;}
+.take_nav>.span2{padding-right: 10px;}
+.take_main{padding: 0px 10px 15px 10px;}
+.take_main>div{height: 180px;}
+.take_footer input{height: 30px;line-height:30px;border: 1px solid #e4e4e4;padding-left: 5px;border-radius: 5px;behavior:url('js/PIE.htc');}
+.take_footer form{font-size: 12px;}
+.take_footer .input>span{display: inline-block;width: 80px;text-align: right;margin-right: 10px;}
+.take_footer .input{height: 50px;}
+.w20{width: 200px;}
+.w22{width: 220px;}
+.w30{width: 300px;}
+input[type="radio"] {margin: 3px 3px 0px 5px;display: none;}
+label {display:inline-block;height:17px;padding-left: 20px;margin-right: 15px;cursor: pointer;background: url(../images/sprite1.png) no-repeat left bottom;}
+label.checked {background-position-y: -2px;}
+.take_footer .form{padding-left: 50px;padding-top: 20px;}
+.take_footer .xian{border-bottom: 1px solid #E4E4E4;width: 700px;}
+.take_footer .submit{width: 100px;line-height: 3px;color: white;background-color: #E11919;}
+.take_footer .f_submit{width: 650px;text-align: center;padding-top: 20px;}
+.n-mian{margin-bottom: 20px;}
+/*商品评价*/
+.evaluate{width: 1200px;margin: 0 auto;font-size: 14px;background-color: #ffffff;}
+.vacancy{height: 15px;background-color: #f5f5f5;}
+.evaluate .nright_one{position: relative;width:1160px;height: 35px;line-height: 35px;border: 1px solid #dcdcdc;padding-left: 40px;font-size: 16px;color: #e11919;}
+.evaluate_main{width: 100%;height: 490px;}
+.evaluate_main_left{padding-top: 110px;padding-left: 90px;color: #555555;width: 320px;}
+.evaluate_main_left img{width: 180px;height: 180px;}
+.evaluate_main_left p{margin-top: 30px;line-height:20px;width: 190px;position: relative;left: -5px;}
+.evaluate_main_left h4{width: 180px;text-align: center;margin-top: 10px;}
+/*星星评价*/
+.block img{width: 30px;height: 30px;}
+.evaluate_main_right{padding-top: 30px;width: 770px;}
+.evaluate_main_right .form{margin-top: 20px;}
+.evaluate_main_right .form textarea{width: 650px;height: 250px;border: 1px solid #E4E4E4;padding-left: 8px;padding-top: 5px;}
+input[type=file]{border:0;outline:0;vertical-align: middle;width: 0px;height: 0px;}
+.form_img{margin-top: 10px;width: 450px;}
+.form_img img{width: 70px;height: 70px;border: 1px solid #e4e4e4;}
+.guanbi{width: 20px;height: 20px;position: absolute;top: 0px;right: 0px;background-image: url(../images/guanbi2.png);}
+.form_img .img{width: 80px;height: 80px;margin-right: 10px;overflow: hidden;padding-top: 10px;}
+.form_input{width: 210px;padding-top: 15px;}
+#button{width: 95px;height: 30px;border: 1px solid #E4e4e4;color: #808080;background-color: #fffff;border-radius: 5px;margin-right: 20px;z-index: 10;}
+#submit{width: 95px;height: 30px;border: 1px solid #E11919;background-color: #E11919;color: #ffffff;border-radius: 5px;}
+.n-evaluate{width: 100%;height: 650px;background-color: #f5f5f5;}
+/*弹出框*/
+.merchant{position:fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: #000000;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;  opacity: 0.6;z-index: 998;display: none;}
+.up_merchant{position: fixed;top:280px;left:45%;width: 390px;height: 190px;background-color: #ffffff;z-index: 999;border: 5px solid #9d9d9d;font-size: 14px;display: none;}
+.up_merchant_nav{width: 370px;line-height: 30px;color: #555555;background-color: #fafafa;padding: 0 10px;font-weight: 600;}
+.up_merchant_p{width: 390px;line-height: 90px;text-align: center;color: #666666;}
+.up_merchant_span{text-align: center;}
+.up_merchant_span>span{width: 100px;line-height: 30px;text-align: center;}
+#queding{background-color: #E11919;color: white;margin-right: 10px;}
+.close{background-color: #ffffff;color: #555555;border: 1px solid #e4e4e4;}
+.up_merchant_span>span,#button,#submit{border-radius: 5px;behavior:url('js/PIE.htc');z-index: 1;cursor:pointer}

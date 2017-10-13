@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1" />
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<title>内容页</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/base.css?ver=20161124" />
+	<link rel="stylesheet" href="css/common.css?ver=20161124" />
+	<link rel="stylesheet" href="css/index_common.css?ver=20161124">
+	<link rel="stylesheet" href="css/content.css?ver=20161124" />
+	<link rel="stylesheet" href="css/list-content.css">
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+	<![endif]-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="head">
+		<div class="head-top m">
+			<p class="ht-left fl">您好，欢迎来到 车主角，
+				<a href="login.html" class="headLoginLink">请登录</a><a href="reg.html" class="headRegLink">免费注册</a>
+				<!-- <a href="" class="headLoginLink">_Legendary</a><a href="" class="headRegLink">退出</a> -->
+			</p>
+			<div class="ht-right fr clf">
+				<div class="myInfoList fl">
+					<ul class="myInfoItem clf">						
+						<li class="noDownList">
+							<a href="javascript:;">我的订单</a>|
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">我的收藏<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">收藏的车型</a>
+								<a href="javascript:;">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">商家中心<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">免费开店</a>
+								<a href="javascript:;">出售中的商品</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">客户服务<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">已买到的宝贝</a>
+								<a href="javascript:;">我的足迹</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">网站导航<i class="ico myInfoIcon"></i></a>
+							<div class="downList siteNav">
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- logo+search+cart -->
+	<div class="lsc m clf">
+		<div id="logo" class="fl">
+			<h1 class="logo-hd"><a href="index.html">车主角</a></h1>
+		</div>
+		<!-- 选择城市 -->
+		<div class="choiceCity fl">
+			<a href=""><span>全国</span><i class="ico"></i></a>
+			<div class="hideCityList none">
+				<!-- 热门城市 -->
+				<div class="hotCityWrap plpr17">
+					<p class="hc-title mb14 clf hidden"><span class="fl">热门</span><a href="allCity.html" class="fr">全部城市&gt;</a></p>
+					<div class="hc-hotCity">
+						<ul class="clf">
+							<li><a href="">北京</a></li>
+							<li><a href="">上海</a></li>
+							<li><a href="">广州</a></li>
+							<li><a href="">天津</a></li>
+							<li><a href="">杭州</a></li>
+							<li><a href="">深圳</a></li>
+							<li><a href="">济南</a></li>
+							<li><a href="">南京</a></li>
+							<li><a href="">福州</a></li>
+							<li><a href="">青岛</a></li>
+							<li><a href="">苏州</a></li>
+							<li><a href="">东莞</a></li>
+							<li><a href="">太原</a></li>
+							<li><a href="">宁波</a></li>
+							<li><a href="">佛山</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 字母 省-城市 -->
+				<div class="letterList">
+					<dl class="plpr17 clf letterDl hidden">
+						<dt class="mb14 fl">省份首字母</dt>
+						<dd class="current"><a href="" data-key="A">A</a></dd>
+						<dd><a href="" data-key="F">F</a></dd>
+						<dd><a href="" data-key="G">G</a></dd>
+						<dd><a href="" data-key="L">L</a></dd>
+						<dd><a href="" data-key="M">M</a></dd>
+						<dd><a href="" data-key="X">X</a></dd>
+					</dl>
+					<div class="letterCityList mt10">
+						<ul>
+							<li>
+								<span id="A">A</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>安微</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">泉州</a>
+											<a href="">阜阳</a>
+											<a href="">滁州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="F">F</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>福建</span>
+										<div class="specificCity clf">
+											<a href="">福州</a>
+											<a href="">厦门</a>
+											<a href="">莆田</a>
+											<a href="">三明</a>
+											<a href="">泉州</a>
+											<a href="">漳州</a>
+											<a href="">南平</a>
+											<a href="">龙岩</a>
+											<a href="">宁德</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="G">G</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>广西</span>
+										<div class="specificCity clf">
+											<a href="">南宁</a>
+											<a href="">柳州</a>
+											<a href="">桂林</a>
+											<a href="">玉林</a>
+											<a href="">百色</a>
+										</div>
+									</div>
+									<div class="muchCityItem">
+										<span>甘肃</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">蚌埠</a>
+											<a href="">淮南</a>
+											<a href="">马鞍山</a>
+											<a href="">淮北</a>
+											<a href="">铜陵</a>
+											<a href="">安庆</a>
+											<a href="">黄山</a>
+											<a href="">滁州</a>
+											<a href="">阜阳</a>
+											<a href="">宿州</a>
+											<a href="">巢湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="L">L</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="M">M</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="X">X</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="search" class="fr clf pr">
+			<!-- 搜索框 -->
+			<form action="">
+				<div class="fl inputBox pr">
+					<input type="text" autocomplete="off">
+					<i class="icon luIcon"></i>
+				</div>
+				<div class="fl"><button type="submit" class="searchBtn">搜 索</button></div>
+			</form>
+			<!-- 搜索热词 -->
+			<div class="search-zUp clf">
+				<i class="fl searhico ico"></i>
+				<ul class="fl hotword clf">
+					<li><a href="">手机</a></li>
+					<li><a href="">冰箱</a></li>
+					<li><a href="">洁面奶</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="nav">
+		<!-- 导航分类 -->
+		<div class="navClass clf m">
+			<div class="classWrap fl pr">
+				<h3 class="classTitle">
+					<a href="">汽车分类<i class="ico"></i></a>
+				</h3>
+				<div class="classListWrap">
+					<div class="classListBg"></div>
+					<div class="classList">
+						<div class="classItem">
+							<h4>品牌</h4>
+							<div>
+								<dl class="clf">
+									<dd><a href="">大众</a></dd>
+									<dd><a href="">本田</a></dd>
+									<dd><a href="">吉利汽车</a></dd>
+									<dd><a href="">马自</a></dd>
+									<dd><a href="">现代</a></dd>
+									<dd><a href="">别克</a></dd>
+									<dd><a href="">奥迪</a></dd>
+									<dd><a href="">福特</a></dd>
+									<dd><a href="">哈弗</a></dd>
+									<dd><a href="">长安</a></dd>
+									<dd><a href="">宝马</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>价格</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="">5万以下</a></dd>
+									<dd><a href="">5-8万</a></dd>
+									<dd><a href="">8-15万</a></dd>
+									<dd><a href="">15-25万</a></dd>
+									<dd><a href="">25-30万</a></dd>
+									<dd><a href="">30-40万</a></dd>
+									<dd><a href="">40-45万</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>级别</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="">微型车</a></dd>
+									<dd><a href="">小型车</a></dd>
+									<dd><a href="">紧凑型车</a></dd>
+									<dd><a href="">中型车</a></dd>
+									<dd><a href="">中大型车</a></dd>
+									<dd><a href="">豪华型c车</a></dd>
+									<dd><a href="">MPV</a></dd>
+									<dd><a href="">SUV</a></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- 导航条 -->
+			<div class="navBar fl">
+				<ul class="clf">
+					<li><a href="">首页</a></li>
+					<li><a href="">车型展览</a></li>
+					<li><a href="">0元购</a></li>
+					<li><a href="">咨询活动</a></li>
+					<li><a href="">运营网站</a></li>
+					<li><a href="">积分兑换</a></li>
+					<li><a href="">会员中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="containMiddle m pr">
+		<!-- 上 -->
+		<div class="cm-up">
+			<!-- location -->
+			<div class="cm-up-hd">
+				<div class="location">
+					<a href="index.html">车主角首页</a><span>&gt;</span>
+					<a href="">新车</a><span>&gt;</span>
+					<a href="">沃尔沃</a><span>&gt;</span>
+					<a href="" class="cur">全新XC90</a>
+				</div>
+			</div>
+			<!-- 商品信息 -->
+			<div class="cm-up-bd clf">
+				<div class="cm-up-l fl clf">
+					<!-- 图片集 -->
+					<div class="cm-up-l-propic fl">
+						<div class="cm-up-l-pp-inset pr">
+							<!-- 大图 -->
+							<div class="bigPic pa none">
+								<img src="images/bigimg1.jpg" alt="">
+							</div>
+							<!-- 中图 -->
+							<div class="middlePic auto pr">
+								<img src="images/bigimg1.jpg" alt="">
+								<div class="scaleShade"></div>
+							</div>
+							<!-- 小图 -->
+							<div class="smallPic auto clf hidden">
+								<div class="sP-leftBtn fl tc"><</div>
+								<div class="sP-middlePic fl hidden">
+									<ul class="sP-middlePic-ul clf">
+										<li class="current" data-src="images/bigimg1.jpg+images/bigimg1.jpg"><img src="images/bigimg1.jpg" alt=""></a></li>
+										<li data-src="images/bigimg2.jpg+images/bigimg2.jpg"><img src="images/bigimg2.jpg" alt=""></li>
+										<li data-src="images/bigimg3.jpg+images/bigimg3.jpg"><img src="images/bigimg3.jpg" alt=""></li>
+										<li data-src="images/bigimg1.jpg+images/bigimg1.jpg"><img src="images/bigimg1.jpg" alt=""></a></li>
+										<li data-src="images/bigimg2.jpg+images/bigimg2.jpg"><img src="images/bigimg2.jpg" alt=""></li>
+										<li data-src="images/bigimg3.jpg+images/bigimg3.jpg"><img src="images/bigimg3.jpg" alt=""></li>
+									</ul>
+								</div>
+								<div class="sP-rightBtn fl tc">></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 购买信息 -->
+				<div class="cm-up-l-proinfo fl">
+					<!-- 标题 -->
+					<div class="proinfo-title">
+						<h3 class="title1" id="3">福睿斯 2015款 1.5L 自动舒适型</h3>
+						<h4 class="title2">送千元油卡 线下砍价 多多金融政策</h4>
+					</div>
+					<!-- 价格品质 -->
+					<div class="carPriceInfo">
+						<p class="teacherPrice">市场指导价：1093.32万</p>
+						<p class="zeroPrice">0元购车：<em class="clorO">￥115万</em></p>
+						<ul class="carFeature">
+							<li><i class="ico"></i>2年到期全额退</li>
+							<li><i class="ico"></i>0元用车</li>
+						</ul>
+					</div>
+					<div class="carOptions">
+						<div class="optItem clf">
+							<span class="key">购买城市</span>
+							<div class="value city">
+								<select>
+									<option value="">全国</option>
+									<option value="">上海</option>
+									<option value="">杭州</option>
+									<option value="">广东</option>
+								</select>
+							</div>
+						</div>
+						<div class="optItem clf">
+							<span class="key">经销商</span>
+							<div class="value">
+								<select>
+									<option value="">郑东新区林肯4S店</option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
+								</select>
+							</div>
+						</div>
+						<div class="optItem clf">
+							<span class="key">选择车款</span>
+							<div class="value">
+								<select>
+									<option value="">2011款 3.5L V6</option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
+								</select>
+							</div>
+						</div>
+						<div class="optItem clf">
+							<span class="key optNum">数量</span>
+							<div class="value">
+								<div class="c-con-goodsNum clf">
+									<span class="sale">-</span>
+									<input type="" name="" value="1">
+									<span class="add">+</span>
+								</div>
+							</div>
+						</div>
+						<div class="optItem clf">
+							<span class="key">&nbsp;</span>
+							<div class="value">
+								<div class="btnbox fl">
+									<a href="" data-dialog='#orderDialog'>预约下单</a><a href="" class="addCarTypeC" data-id="21" data-value="福睿斯 2015款 1.5L 自动舒适型">加入车型对比</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cm-down">
+			<div class="cm-down-hd">
+				<ul class="clf">
+					<li class="cur"><a href="">车辆详情</a></li>
+					<li><a href="">参数配置</a></li>
+					<li><a href="">经销商</a></li>
+					<li><a href="">购车须知</a></li>
+				</ul>
+			</div>
+			<div class="cm-down-bd hidden">
+				<div class="cm-down-item conPic">
+					<p><img src="images/carcon1.jpg" alt=""></p>
+					<div class="car-mapjxs">
+						<div class="mj-head clf">
+							<span class="findMuch"><em>郑州市</em>15家经销商可购买</span>
+
+							<div class="curCity fr">
+								所在地：
+								<select id="s_province" name="s_province"></select>  
+                                <select id="s_city" name="s_city"></select>  
+                                <select id="s_county" name="s_county"></select>
+                                <button type="submit" class="cBtn searchCurCity">搜 索</button>
+							</div>
+						</div>
+						<div class="mj-result pr">
+							<div class="curCityMap pa">
+								<img src="images/curCity.jpg" alt="">
+							</div>
+							<div class="curCityMapAdress">
+								<div>
+									<ul>
+										<li>
+											<i>1</i>
+											<p class="adressTitle">河南广泰郑州日产汽车4S店</p>
+											<p>郑州市金水区北环路中段48号</p>
+											<p>0371-5465432125</p>
+										</li>
+										<li>
+											<i>2</i>
+											<p>河南广泰郑州日产汽车4S店</p>
+											<p>郑州市金水区北环路中段48号</p>
+										</li>
+										<li>
+											<i>3</i>
+											<p>河南广泰郑州日产汽车4S店</p>
+											<p>郑州市金水区北环路中段48号</p>
+											<p>0371-5465432125</p>
+										</li>
+										<li>
+											<i>4</i>
+											<p>河南广泰郑州日产汽车4S店</p>
+											<p>郑州市金水区北环路中段48号</p>
+											<p>0371-5465432125</p>
+										</li>
+										<li>
+											<i>5</i>
+											<p>河南广泰郑州日产汽车4S店</p>
+											<p>郑州市金水区北环路中段48号</p>
+											<p>0371-5465432125</p>
+										</li>
+										<li>
+											<i>6</i>
+											<p>河南广泰郑州日产汽车4S店</p>
+											<p>郑州市金水区北环路中段48号</p>
+											<p>0371-5465432125</p>
+										</li>
+									</ul>
+								</div>
+								<p class="addressPage tc">
+									<a href="" class="prev">上一页</a>
+									<a href="">1</a>
+									<a href="" class="cur">2</a>
+									<a href="">3</a>
+									<a class="disc">...</a>
+									<a href="" class="next">下一页</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<p><img src="images/carcon2.jpg" alt=""></p>
+				</div>
+				<div class="cm-down-item canSu">
+					<table>
+						<thead>
+							<tr>
+								<th colspan="2">基本信息</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>厂家指导价</td>
+								<td>452.1万</td>
+							</tr>
+							<tr>
+								<td>商家报价</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>保修政策</td>
+								<td>三年或10万公里</td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<thead>
+							<tr>
+								<th colspan="2">安全配置</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>厂家指导价</td>
+								<td>452.1万</td>
+							</tr>
+							<tr>
+								<td>商家报价</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>保修政策</td>
+								<td>三年或10万公里</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="cm-down-item">经销商</div>
+				<div class="cm-down-item">购车须知</div>
+			</div>
+		</div>
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<div class="footer_main m clf">
+			<div class="footer_main_left fl">
+				<div class="footer_czj"></div>
+				<div class="footer_left_text">
+					<p>咨询电话 : 400-123-456</p>
+					<p>( 周一至周日  : 8 : 00-19 : 00)</p>
+					<p>售后服务 : 400-123-456</p>
+				</div>
+			</div>
+			<div class="footer_main_right fl">
+				<div class="footer_nav">
+					<ul class="clf">
+						<li><a href="">车型展览</a><span>|</span></li>
+						<li><a href="">0元购</a><span>|</span></li>
+						<li><a href="">资讯活动</a><span>|</span></li>
+						<li><a href="">运营网站</a><span>|</span></li>
+						<li><a href="">积分兑换</a><span>|</span></li>
+						<li><a href="">会员中心</a><span>|</span></li>
+						<li><a href="">会员权益</a></li>
+					</ul>
+				</div>
+				<div class="footer_copyright">
+					<p>CopyRight © 2016 ,All Rights Reserved.版权所有 北京车主角有限公司</p>
+					<p>经营许可证编号 : 京lCP证060175 ; 公安备案号码 : 110108020200002号 ; 京网[2016]1143-143号;</p>
+				</div>
+			</div>
+			<div class="footer_ewm fl">
+				<p>关注公众号</p>
+                <div><img src="images/nguanzhuwomen.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<style type="text/css">
+		.rF0{line-height: 50px;background-color:white ;color:#a9a9a9;}
+		.rF0:hover{background-color: #ff6600;color:white;} 
+		.rF0:hover span{border-color:#ff6600 ;}
+		.rF0>span{display:block;line-height:16px;margin-top: -5px;border: 1px solid #dcdcdc;height: 100%;line-height: 18px;padding-top: 6px;}
+		.car_compareList{background-color: white;right:53px;top:0px;width: 300px;height: 188px;color:#555;border:1px solid #dcdcdc;}
+		.car_compareList ul {margin-bottom: 10px;}
+		.car_compareList ul li{line-height: 34px;border-bottom: 1px dashed #dcdcdc;padding-left: 10px;position: relative;}
+		.car_compareList ul li div{width: 245px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+		.car_compareList ul li a{color:#555;}
+		.car_compareList ul li a:hover{color:#ff6600;text-decoration: underline;}
+		.car_compareList ul li span{position: absolute;display: block;width: 20px;height: 20px;right:8px;top:7px;line-height: 18px;text-align: center;cursor: pointer;}
+		.car_compareList ul li span:hover{background-color: #ff6600;color:white;}
+		.car_compareList .tip{padding-left: 10px;line-height:26px;padding-right: 10px;}
+		.car_compareList .tip>span{margin-left: 10px;}
+		.car_compareList .tip .toCompare{color:#ff6600;background-color: #ff6600;color:white;text-align: center;display: inline-block;height: 26px;line-height: 26px;width: 86px;}
+	</style>
+	<div class="rightFixed">
+        <div class="rightNav pr">
+        	<a href="" class="rF0 tc">
+        		<span>车型<br/>对比</span>
+        	</a>
+        	<div class="pa car_compareList none">
+    			<ul>
+    				<!-- <li><div><a href="">AC Schnitzer X5 2015款 ACS35 35i</a></div><span>x</span></li>
+    				<li><div><a href="">宝马3系(进口) 2014款 328i运动设计套装</a></div><span>x</span></li>
+    				<li><div><a href="">阿斯顿·马丁DB11 2016款 5.2T 设计师定制版</a></div><span>x</span></li>
+    				<li><div><a href="">福睿斯 2015款 1.5L 自动舒适型</a></div><span>x</span></li> -->
+    			</ul>
+    			<p class="tip clf"><a href="" class="toCompare cloro">查看对比</a><span>最多4个车型对比</span> <a href="" class="clorB fr">清空</a></p>
+    		</div>
+            <a href="" class="rF1">
+            	<i></i>
+            </a>
+            <a href="" class="rF2">
+               	<i></i>
+            </a>
+            <a href="" class="rF3 backHead">
+               	<i></i>
+            </a>
+        </div>
+    </div>
+    <!-- 预约订单弹出框 -->
+	<div class="shade none" id="orderDialog">
+		<div class="shade-opacity"></div>
+		<div class="dialog w1000-h1068">
+			<div class="dialog-opacity"></div>
+			<div class="dialogWrap">
+				<div class="dialog-hd pr">
+					<span class="hd-title">预约订单信息填写</span><i class="dialog-close" data-hide='shade'></i>
+				</div>
+				<div class="dialog-bd">
+					<form action="#" method="post">
+						<div class="writeInfoItem">
+							<div class="wii-title">确认信息</div>
+							<div class="wii-con pb30">
+								<ul>
+									<li>
+										<span>颜色：</span>
+										<ul class="carYlchoice">
+											<li class="cur"><a href="">白色<i></i></a></li>
+											<li><a href="">黑色<i></i></a></li>
+											<li><a href="">灰色<i></i></a></li>
+										</ul>
+									</li>
+									<li>
+										<span>购车时间：</span>
+										<ul class="carYlchoice">
+											<li class="cur"><a href="">7天内<i></i></a></li>
+											<li><a href="">14天内<i></i></a></li>
+											<li><a href="">30天内<i></i></a></li>
+										</ul>
+									</li>
+									<li>
+										<span>购车方式：</span>
+										<ul class="carYlchoice">
+											<li class="cur"><a href="">新车全款<i></i></a></li>
+											<li><a href="">新车分期<i></i></a></li>
+											<li><a href="">置换全款<i></i></a></li>
+											<li><a href="">置换分期<i></i></a></li>
+										</ul>
+									</li>
+									<li>
+										<span>上牌城市：</span>
+										<div class="tagCity">
+											<select id="s_province1" name="s_province1"></select>  
+			                                <select id="s_city1" name="s_city1"></select>  
+			                                <select id="s_county1" name="s_county1"></select>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="writeInfoItem">
+							<div class="wii-title">联系人信息</div>
+							<div class="wii-con peoInfo pb30">
+								<ul>
+									<li>
+										<span>姓名：</span>
+										<input type="" name="">
+									</li>
+									<li>
+										<span>手机号码：</span>
+										<input type="" name="">
+										<a href="javascript:;" class="cBtn wii-getCode">免费获取短信验证码<!-- <em>( 120 )</em> S --></a>
+									</li>
+									<li>
+										<span>验证码：</span>
+										<input type="" name=""><!-- <em class="codeRule">验证码错误</em> -->
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="writeInfoItem">
+							<div class="wii-title">意向车辆信息</div>
+							<div class="wii-con">
+								<div class="wii-info clf">
+									<a href=""><img src="images/280-210.jpg" alt="" class="fl"></a>
+									<div class="wii-infoTitle fl">
+										<p class="wii-carTitle txt_ows"><a href="">上海通用别克英朗 2015款 豪华SUV</a></p>
+										<p>15N 手动 进取型</p>
+									</div>
+									<span class="fl wii-price">市场指导价：45.5万</span>
+									<span class="fl wii-zeroPrice">0元购车：<em class="clorO ft20">46.56万</em></span>
+								</div>
+								<dl class="wii-jxs">
+									<dt>将有以下4s店为您报价</dt>
+									<dd>北京中通倚天商贸有限公司&nbsp;&nbsp;地址：北京是昌平区北长镇东三期村5744</dd>
+								</dl>
+							</div>
+						</div>
+						<p class="tc"><input type="submit" name="" value="确认提交" class="cBtn btn-ff66"></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 悬浮广告 -->
+	<a href="" class="suspendAd">
+		<i class="ico susp-close"></i>
+	</a>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js?ver=20161124"></script>
+	<script type="text/javascript" src="js/index_common.js?ver=20161124"></script>
+	<script type="text/javascript" src="js/content.js?ver=2016112412"></script>
+	<script type="text/javascript" src="js/area.js?ver=20161124"></script>
+</body>
+</html>

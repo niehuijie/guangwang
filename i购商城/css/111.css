@@ -1,0 +1,14 @@
+#mq{width: 100%;height: 300px;font-size: 56px;text-align: center;margin: 0;animation: all 1s;}
+#mq li{height: 100px;line-height: 100px;color: #555;list-style-type:none;}
+.line{position: absolute;width: 100%;height: 1px;background-color:#ddd;left: 0;}
+.top95{top: 95px;}
+.bottom95{bottom: 95px;}
+
+#mq li:nth-child(1){background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ddd), to(rgba(85, 85, 85, 1)));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+#mq li:nth-child(2){background-image: -webkit-gradient(linear, 0 0, 100% 0%, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 1)));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+#mq li:nth-child(3){background-image: -webkit-gradient(linear, 0 0,0 bottom, from(rgba(85, 85, 85, 1)), to(#ddd));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+#mq li.clor2{background-image: -webkit-gradient(linear, 0 0, 100% 0%, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 1)));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+#mq li.top{background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ddd), to(rgba(85, 85, 85, 1)));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+#mq li.bottom{ background-image: -webkit-gradient(linear, 0 0,0 bottom, from(rgba(85, 85, 85, 1)), to(#ddd));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}

@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1" />
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<title>列表页</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/base.css?ver=20161124" />
+	<link rel="stylesheet" href="css/common.css?ver=20161124" />
+	<link rel="stylesheet" href="css/index_common.css?ver=20161124">
+	<link rel="stylesheet" href="css/list-content.css?ver=21061126">
+	<link rel="stylesheet" href="css/car_type_contrast.css">
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+	<![endif]-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="head">
+		<div class="head-top m">
+			<p class="ht-left fl">您好，欢迎来到 车主角，
+				<a href="login.html" class="headLoginLink">请登录</a><a href="reg.html" class="headRegLink">免费注册</a>
+				<!-- <a href="" class="headLoginLink">_Legendary</a><a href="" class="headRegLink">退出</a> -->
+			</p>
+			<div class="ht-right fr clf">
+				<div class="myInfoList fl">
+					<ul class="myInfoItem clf">						
+						<li class="noDownList">
+							<a href="javascript:;">我的订单</a>|
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">我的收藏<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">收藏的车型</a>
+								<a href="javascript:;">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">商家中心<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">免费开店</a>
+								<a href="javascript:;">出售中的商品</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">客户服务<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">已买到的宝贝</a>
+								<a href="javascript:;">我的足迹</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">网站导航<i class="ico myInfoIcon"></i></a>
+							<div class="downList siteNav">
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- logo+search+cart -->
+	<div class="lsc m clf">
+		<div id="logo" class="fl">
+			<h1 class="logo-hd"><a href="index.html">车主角</a></h1>
+		</div>
+		<!-- 选择城市 -->
+		<div class="choiceCity fl">
+			<a href=""><span>全国</span><i class="ico"></i></a>
+			<div class="hideCityList none">
+				<!-- 热门城市 -->
+				<div class="hotCityWrap plpr17">
+					<p class="hc-title mb14 clf hidden"><span class="fl">热门</span><a href="allCity.html" class="fr">全部城市&gt;</a></p>
+					<div class="hc-hotCity">
+						<ul class="clf">
+							<li><a href="">北京</a></li>
+							<li><a href="">上海</a></li>
+							<li><a href="">广州</a></li>
+							<li><a href="">天津</a></li>
+							<li><a href="">杭州</a></li>
+							<li><a href="">深圳</a></li>
+							<li><a href="">济南</a></li>
+							<li><a href="">南京</a></li>
+							<li><a href="">福州</a></li>
+							<li><a href="">青岛</a></li>
+							<li><a href="">苏州</a></li>
+							<li><a href="">东莞</a></li>
+							<li><a href="">太原</a></li>
+							<li><a href="">宁波</a></li>
+							<li><a href="">佛山</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 字母 省-城市 -->
+				<div class="letterList">
+					<dl class="plpr17 clf letterDl hidden">
+						<dt class="mb14 fl">省份首字母</dt>
+						<dd class="current"><a href="" data-key="A">A</a></dd>
+						<dd><a href="" data-key="F">F</a></dd>
+						<dd><a href="" data-key="G">G</a></dd>
+						<dd><a href="" data-key="L">L</a></dd>
+						<dd><a href="" data-key="M">M</a></dd>
+						<dd><a href="" data-key="X">X</a></dd>
+					</dl>
+					<div class="letterCityList mt10">
+						<ul>
+							<li>
+								<span id="A">A</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>安微</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">泉州</a>
+											<a href="">阜阳</a>
+											<a href="">滁州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="F">F</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>福建</span>
+										<div class="specificCity clf">
+											<a href="">福州</a>
+											<a href="">厦门</a>
+											<a href="">莆田</a>
+											<a href="">三明</a>
+											<a href="">泉州</a>
+											<a href="">漳州</a>
+											<a href="">南平</a>
+											<a href="">龙岩</a>
+											<a href="">宁德</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="G">G</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>广西</span>
+										<div class="specificCity clf">
+											<a href="">南宁</a>
+											<a href="">柳州</a>
+											<a href="">桂林</a>
+											<a href="">玉林</a>
+											<a href="">百色</a>
+										</div>
+									</div>
+									<div class="muchCityItem">
+										<span>甘肃</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">蚌埠</a>
+											<a href="">淮南</a>
+											<a href="">马鞍山</a>
+											<a href="">淮北</a>
+											<a href="">铜陵</a>
+											<a href="">安庆</a>
+											<a href="">黄山</a>
+											<a href="">滁州</a>
+											<a href="">阜阳</a>
+											<a href="">宿州</a>
+											<a href="">巢湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="L">L</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="M">M</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="X">X</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="search" class="fr clf pr">
+			<!-- 搜索框 -->
+			<form action="">
+				<div class="fl inputBox pr">
+					<input type="text" autocomplete="off">
+					<i class="icon luIcon"></i>
+				</div>
+				<div class="fl"><button type="submit" class="searchBtn">搜 索</button></div>
+			</form>
+			<!-- 搜索热词 -->
+			<div class="search-zUp clf">
+				<i class="fl searhico ico"></i>
+				<ul class="fl hotword clf">
+					<li><a href="">手机</a></li>
+					<li><a href="">冰箱</a></li>
+					<li><a href="">洁面奶</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="nav">
+		<!-- 导航分类 -->
+		<div class="navClass clf m">
+			<div class="classWrap fl pr">
+				<h3 class="classTitle">
+					<a href="">汽车分类<i class="ico"></i></a>
+				</h3>
+				<div class="classListWrap">
+					<div class="classListBg"></div>
+					<div class="classList">
+						<div class="classItem">
+							<h4>品牌</h4>
+							<div>
+								<dl class="clf">
+									<dd><a href="">大众</a></dd>
+									<dd><a href="">本田</a></dd>
+									<dd><a href="">吉利汽车</a></dd>
+									<dd><a href="">马自</a></dd>
+									<dd><a href="">现代</a></dd>
+									<dd><a href="">别克</a></dd>
+									<dd><a href="">奥迪</a></dd>
+									<dd><a href="">福特</a></dd>
+									<dd><a href="">哈弗</a></dd>
+									<dd><a href="">长安</a></dd>
+									<dd><a href="">宝马</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>价格</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="">5万以下</a></dd>
+									<dd><a href="">5-8万</a></dd>
+									<dd><a href="">8-15万</a></dd>
+									<dd><a href="">15-25万</a></dd>
+									<dd><a href="">25-30万</a></dd>
+									<dd><a href="">30-40万</a></dd>
+									<dd><a href="">40-45万</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>级别</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="">微型车</a></dd>
+									<dd><a href="">小型车</a></dd>
+									<dd><a href="">紧凑型车</a></dd>
+									<dd><a href="">中型车</a></dd>
+									<dd><a href="">中大型车</a></dd>
+									<dd><a href="">豪华型c车</a></dd>
+									<dd><a href="">MPV</a></dd>
+									<dd><a href="">SUV</a></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- 导航条 -->
+			<div class="navBar fl">
+				<ul class="clf">
+					<li><a href="">首页</a></li>
+					<li><a href="">车型展览</a></li>
+					<li><a href="">0元购</a></li>
+					<li><a href="">咨询活动</a></li>
+					<li><a href="">运营网站</a></li>
+					<li><a href="">积分兑换</a></li>
+					<li><a href="">会员中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="car_type_contrast m clf pr">
+		<div class="location">
+            <a href="index.html">首页</a><span>&gt;</span><a href="" class="cur">车型参数对比</a>
+        </div>
+        <!-- 车型对比内容 -->
+        <div class="car_type_content pr">
+        	<h3>车型参数对比</h3>
+        	<div class="car_type_top pr">
+        		<div class="car_type_aside pa">
+	    			<ul>
+	    				<li class="cur"><a href="">基本信息</a></li>
+	    				<li><a href="">车身</a></li>
+	    				<li><a href="">发动机</a></li>
+	    				<li><a href="">变速箱</a></li>
+	    				<li><a href="">底盘制动</a></li>
+	    				<li><a href="">安全配置</a></li>
+	    				<li><a href="">车轮</a></li>
+	    				<li><a href="">行动辅助</a></li>
+	    				<li><a href="">门窗/后视镜</a></li>
+	    				<li><a href="">灯光</a></li>
+	    				<li><a href="">内置配置</a></li>
+	    				<li><a href="">座椅</a></li>
+	    				<li><a href="">娱乐通讯</a></li>
+	    				<li><a href="">空调冰箱</a></li>
+	    			</ul>
+        		</div>
+        		<table>
+        			<thead class="none">
+        				<tr>
+        					<th></th>
+        				</tr>
+        			</thead>
+        			<tbody>
+	        			<tr>
+	        				<td>
+	        					<div class="choiceCarKey">
+	        						<h4 class="cck-title">车型图片</h4>
+	        						<h5 class="cck-ptitle">配置状况</h5>
+	        						<ul class="peizhi">
+	        							<li><span>●</span>&nbsp;标配</li>
+	        							<li><span>○</span>&nbsp;选配</li>
+	        							<li><span>—</span>&nbsp;无</li>
+	        						</ul>
+	        						<ul class="lookWhere">
+	        							<li><label for="lookW"><input type="checkbox" name="" id="lookW">&nbsp;隐藏相同项</label></li>
+	        							<li><label for="lookW2"><input type="checkbox" name="" id="lookW2">&nbsp;标示最优项</label></li>
+	        						</ul>	        							
+	        					</div>
+	        				</td>
+	        				<td>
+	        					<div class="choiceCar auto">
+	        						<div class="tc cc-pic"><img src="images/car_type_c_pla.png" alt=""></div>
+	        						<ul class="cc-selectUl">
+	        							<li><div class="selectELem"><span>选择品牌</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车系</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车型</span><i></i></div></li>
+	        						</ul>
+	        						<a href="" class="delCurCar auto hui">删除</a>
+	        					</div>
+	        				</td>
+	        				<td>
+	        					<div class="choiceCar auto">
+	        						<div class="tc cc-pic"><img src="images/car_type_c_pla.png" alt=""></div>
+	        						<ul class="cc-selectUl">
+	        							<li><div class="selectELem"><span>选择品牌</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车系</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车型</span><i></i></div></li>
+	        						</ul>
+	        						<a href="" class="delCurCar auto">删除</a>
+	        					</div>
+	        				</td>
+	        				<td>
+	        					<div class="choiceCar auto">
+	        						<div class="tc cc-pic"><img src="images/car_type_c_pla.png" alt=""></div>
+	        						<ul class="cc-selectUl">
+	        							<li><div class="selectELem"><span>选择品牌</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车系</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车型</span><i></i></div></li>
+	        						</ul>
+	        						<a href="" class="delCurCar auto">删除</a>
+	        					</div>
+	        				</td>
+	        				<td>
+	        					<div class="choiceCar auto">
+	        						<div class="tc cc-pic"><img src="images/car_type_c_pla.png" alt=""></div>
+	        						<ul class="cc-selectUl">
+	        							<li><div class="selectELem"><span>选择品牌</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车系</span><i></i></div></li>
+	        							<li><div class="selectELem"><span>选择车型</span><i></i></div></li>
+	        						</ul>
+	        						<a href="" class="delCurCar auto">删除</a>
+	        					</div>
+	        				</td>
+	        			</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        	<div class="car_type_bottom">
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">基本信息</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>车型</td>
+        					<td>
+        						<h4 class="carName"><strong>奥迪Q7(进口)</strong></h4>
+        						<p>2016款 40 TFSI 舒适型 </p>
+        					</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>厂家指导价</td>
+        					<td><span class="clorf6">78.2万</span></td>
+        					<td><span class="clorf6">83.5万</span></td>
+        					<td></td>
+        					<td></td>
+        				</tr>
+        				<tr>
+        					<td>商家报价</td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        				</tr>
+        				<tr>
+        					<td>保修政策</td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        				</tr>
+        				<tr>
+        					<td>排量(L)</td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        				</tr>
+        				<tr>
+        					<td>变速箱</td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        				</tr>
+        				<tr>
+        					<td>综合工况油耗(L/100Km)</td>
+        					<td><span class="clorf6">8.5</span></td>
+        					<td></td>
+        					<td></td>
+        					<td></td>
+        				</tr>
+        				<tr>
+        					<td>最高车速(km/h)</td>
+        					<td></td>
+        					<td><span class="clorf6">250</span></td>
+        					<td></td>
+        					<td></td>
+        				</tr>
+        				<tr>
+        					<td>乘员人数（区间）（个）</td>
+        					<td>5</td>
+        					<td>1</td>
+        					<td>3</td>
+        					<td>4</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">车身</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>车身颜色</td>
+        					<td>
+        						<ul class="carClor">
+        							<li style="background-color: green;"></li>
+        							<li style="background-color: #000;"></li>
+        							<li style="background-color: white;"></li>
+        							<li style="background-color: green;"></li>
+        							<li style="background-color: #000;"></li>
+        							<li style="background-color: yellow;"></li>
+        							<li style="background-color: green;"></li>
+        							<li style="background-color: #000;"></li>
+        							<li style="background-color: white;"></li>
+        							<li style="background-color: green;"></li>
+        							<li style="background-color: #000;"></li>
+        							<li style="background-color: yellow;"></li>
+        						</ul>
+        					</td>
+        					<td></td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>车长(mm)</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>车宽(mm)</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>轴距</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">发动机</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>发动机位置</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>发动机型号</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>排量(L)</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">变速箱</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>变速箱</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>换挡拨片</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">底盘制动</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>车体结构</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>转向阻力</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>前制动类型</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>后制动类型</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">安全配置</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>驾驶位安全气囊</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>副驾驶位安全气囊</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>前排侧驾驶位安全气囊</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">车轮</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>前轮胎规格</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>后轮胎规格</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>备胎规格</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">行动辅助</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>上坡辅助</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>陡坡缓降</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">门窗/后视镜</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>电动车窗</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>天窗形式</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>天窗开合形式</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>电动吸合门</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">灯光</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>前大灯类型</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>前大灯自动开闭</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>前大灯自动清洗功能</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">内置配置</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>方向盘前后调节</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>方向盘上下调节</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>方向盘记忆设置</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">座椅</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>运动座椅</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>座椅材料</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>后排座调节方式</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">娱乐通讯</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>定位互动服务</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>蓝牙系统</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>内置硬盘</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        		<table>
+        			<thead>
+        				<tr>
+        					<th colspan="5">空调冰箱</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>空调控制方式</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>温度分区控制</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        				<tr>
+        					<td>后排出风口</td>
+        					<td>2</td>
+        					<td>3</td>
+        					<td>4</td>
+        					<td>5</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        	<p class="clorf6 ft12">注：以上参数配置信息仅供参考，实际参数配置信息以店内销售车辆为准，解释权归生产厂家所有。</p>
+        </div>
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<div class="footer_main m clf">
+			<div class="footer_main_left fl">
+				<div class="footer_czj"></div>
+				<div class="footer_left_text">
+					<p>咨询电话 : 400-123-456</p>
+					<p>( 周一至周日  : 8 : 00-19 : 00)</p>
+					<p>售后服务 : 400-123-456</p>
+				</div>
+			</div>
+			<div class="footer_main_right fl">
+				<div class="footer_nav">
+					<ul class="clf">
+						<li><a href="">车型展览</a><span>|</span></li>
+						<li><a href="">0元购</a><span>|</span></li>
+						<li><a href="">资讯活动</a><span>|</span></li>
+						<li><a href="">运营网站</a><span>|</span></li>
+						<li><a href="">积分兑换</a><span>|</span></li>
+						<li><a href="">会员中心</a><span>|</span></li>
+						<li><a href="">会员权益</a></li>
+					</ul>
+				</div>
+				<div class="footer_copyright">
+					<p>CopyRight © 2016 ,All Rights Reserved.版权所有 北京车主角有限公司</p>
+					<p>经营许可证编号 : 京lCP证060175 ; 公安备案号码 : 110108020200002号 ; 京网[2016]1143-143号;</p>
+				</div>
+			</div>
+			<div class="footer_ewm fl">
+				<p>关注公众号</p>
+                <div><img src="images/nguanzhuwomen.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<div class="rightFixed">
+        <div class="rightNav">
+            <a href="" class="rF1">
+            	<i></i>
+            </a>
+            <a href="" class="rF2">
+               	<i></i>
+            </a>
+            <a href="" class="rF3 backHead">
+               	<i></i>
+            </a>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/common.js?ver=20161124"></script>
+	<script type="text/javascript" src="js/index_common.js?ver=20161124"></script>
+	<script type="text/javascript" src="js/car_type_contrast.js"></script>
+</body>
+</html>

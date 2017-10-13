@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1" />
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<title>列表页</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/base.css?ver=20161124" />
+	<link rel="stylesheet" href="css/common.css?ver=20161124" />
+	<link rel="stylesheet" href="css/index_common.css?ver=20161124">
+	<link rel="stylesheet" href="css/list.css?ver=20161124" />
+	<link rel="stylesheet" href="css/list-content.css?ver=21061126">
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+	<![endif]-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="head">
+		<div class="head-top m">
+			<p class="ht-left fl">您好，欢迎来到 车主角，
+				<a href="login.html" class="headLoginLink">请登录</a><a href="reg.html" class="headRegLink">免费注册</a>
+				<!-- <a href="" class="headLoginLink">_Legendary</a><a href="" class="headRegLink">退出</a> -->
+			</p>
+			<div class="ht-right fr clf">
+				<div class="myInfoList fl">
+					<ul class="myInfoItem clf">						
+						<li class="noDownList">
+							<a href="javascript:;">我的订单</a>|
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">我的收藏<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">收藏的车型</a>
+								<a href="javascript:;">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">商家中心<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">免费开店</a>
+								<a href="javascript:;">出售中的商品</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">客户服务<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">已买到的宝贝</a>
+								<a href="javascript:;">我的足迹</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">网站导航<i class="ico myInfoIcon"></i></a>
+							<div class="downList siteNav">
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- logo+search+cart -->
+	<div class="lsc m clf">
+		<div id="logo" class="fl">
+			<h1 class="logo-hd"><a href="index.html">车主角</a></h1>
+		</div>
+		<!-- 选择城市 -->
+		<div class="choiceCity fl">
+			<a href=""><span>全国</span><i class="ico"></i></a>
+			<div class="hideCityList none">
+				<!-- 热门城市 -->
+				<div class="hotCityWrap plpr17">
+					<p class="hc-title mb14 clf hidden"><span class="fl">热门</span><a href="allCity.html" class="fr">全部城市&gt;</a></p>
+					<div class="hc-hotCity">
+						<ul class="clf">
+							<li><a href="">北京</a></li>
+							<li><a href="">上海</a></li>
+							<li><a href="">广州</a></li>
+							<li><a href="">天津</a></li>
+							<li><a href="">杭州</a></li>
+							<li><a href="">深圳</a></li>
+							<li><a href="">济南</a></li>
+							<li><a href="">南京</a></li>
+							<li><a href="">福州</a></li>
+							<li><a href="">青岛</a></li>
+							<li><a href="">苏州</a></li>
+							<li><a href="">东莞</a></li>
+							<li><a href="">太原</a></li>
+							<li><a href="">宁波</a></li>
+							<li><a href="">佛山</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 字母 省-城市 -->
+				<div class="letterList">
+					<dl class="plpr17 clf letterDl hidden">
+						<dt class="mb14 fl">省份首字母</dt>
+						<dd class="current"><a href="" data-key="A">A</a></dd>
+						<dd><a href="" data-key="F">F</a></dd>
+						<dd><a href="" data-key="G">G</a></dd>
+						<dd><a href="" data-key="L">L</a></dd>
+						<dd><a href="" data-key="M">M</a></dd>
+						<dd><a href="" data-key="X">X</a></dd>
+					</dl>
+					<div class="letterCityList mt10">
+						<ul>
+							<li>
+								<span id="A">A</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>安微</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">泉州</a>
+											<a href="">阜阳</a>
+											<a href="">滁州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="F">F</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>福建</span>
+										<div class="specificCity clf">
+											<a href="">福州</a>
+											<a href="">厦门</a>
+											<a href="">莆田</a>
+											<a href="">三明</a>
+											<a href="">泉州</a>
+											<a href="">漳州</a>
+											<a href="">南平</a>
+											<a href="">龙岩</a>
+											<a href="">宁德</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="G">G</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>广西</span>
+										<div class="specificCity clf">
+											<a href="">南宁</a>
+											<a href="">柳州</a>
+											<a href="">桂林</a>
+											<a href="">玉林</a>
+											<a href="">百色</a>
+										</div>
+									</div>
+									<div class="muchCityItem">
+										<span>甘肃</span>
+										<div class="specificCity clf">
+											<a href="">合肥</a>
+											<a href="">芜湖</a>
+											<a href="">蚌埠</a>
+											<a href="">淮南</a>
+											<a href="">马鞍山</a>
+											<a href="">淮北</a>
+											<a href="">铜陵</a>
+											<a href="">安庆</a>
+											<a href="">黄山</a>
+											<a href="">滁州</a>
+											<a href="">阜阳</a>
+											<a href="">宿州</a>
+											<a href="">巢湖</a>
+											<a href="">六安</a>
+											<a href="">亳州</a>
+											<a href="">池州</a>
+											<a href="">宣城</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="L">L</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="M">M</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span id="X">X</span>
+								<div class="muchCityList">
+									<div class="muchCityItem">
+										<span>辽宁</span>
+										<div class="specificCity clf">
+											<a href="">葫芦岛</a>
+											<a href="">鞍山</a>
+											<a href="">大连</a>
+											<a href="">阜新</a>
+											<a href="">朝阳</a>
+											<a href="">阜阳</a>
+											<a href="">营口</a>
+											<a href="">锦州</a>
+											<a href="">沈阳</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="search" class="fr clf pr">
+			<!-- 搜索框 -->
+			<form action="">
+				<div class="fl inputBox pr">
+					<input type="text" autocomplete="off">
+					<i class="icon luIcon"></i>
+				</div>
+				<div class="fl"><button type="submit" class="searchBtn">搜 索</button></div>
+			</form>
+			<!-- 搜索热词 -->
+			<div class="search-zUp clf">
+				<i class="fl searhico ico"></i>
+				<ul class="fl hotword clf">
+					<li><a href="">手机</a></li>
+					<li><a href="">冰箱</a></li>
+					<li><a href="">洁面奶</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="nav">
+		<!-- 导航分类 -->
+		<div class="navClass clf m">
+			<div class="classWrap fl pr">
+				<h3 class="classTitle">
+					<a href="">汽车分类<i class="ico"></i></a>
+				</h3>
+				<div class="classListWrap">
+					<div class="classListBg"></div>
+					<div class="classList">
+						<div class="classItem">
+							<h4>品牌</h4>
+							<div>
+								<dl class="clf">
+									<dd><a href="">大众</a></dd>
+									<dd><a href="">本田</a></dd>
+									<dd><a href="">吉利汽车</a></dd>
+									<dd><a href="">马自</a></dd>
+									<dd><a href="">现代</a></dd>
+									<dd><a href="">别克</a></dd>
+									<dd><a href="">奥迪</a></dd>
+									<dd><a href="">福特</a></dd>
+									<dd><a href="">哈弗</a></dd>
+									<dd><a href="">长安</a></dd>
+									<dd><a href="">宝马</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>价格</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="">5万以下</a></dd>
+									<dd><a href="">5-8万</a></dd>
+									<dd><a href="">8-15万</a></dd>
+									<dd><a href="">15-25万</a></dd>
+									<dd><a href="">25-30万</a></dd>
+									<dd><a href="">30-40万</a></dd>
+									<dd><a href="">40-45万</a></dd>
+								</dl>
+							</div>
+						</div>
+						<div class="classItem">
+							<h4>级别</h4>
+							<div class="">
+								<dl class="clf">
+									<dd><a href="">微型车</a></dd>
+									<dd><a href="">小型车</a></dd>
+									<dd><a href="">紧凑型车</a></dd>
+									<dd><a href="">中型车</a></dd>
+									<dd><a href="">中大型车</a></dd>
+									<dd><a href="">豪华型c车</a></dd>
+									<dd><a href="">MPV</a></dd>
+									<dd><a href="">SUV</a></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- 导航条 -->
+			<div class="navBar fl">
+				<ul class="clf">
+					<li><a href="">首页</a></li>
+					<li><a href="">车型展览</a></li>
+					<li><a href="">0元购</a></li>
+					<li><a href="">咨询活动</a></li>
+					<li><a href="">运营网站</a></li>
+					<li><a href="">积分兑换</a></li>
+					<li><a href="">会员中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="car-list-wrapper m clf pr">
+		<div class="location">
+            <a href="index.html">首页</a><span>&gt;</span><a href="" class="cur">车型列表</a>
+        </div>
+        <div class="car-list-side-bar">
+        	<ul class="car-list-side-bar-ul">
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>品牌</span>
+                	</h2>
+                	<div class="letter-nav-wrapper">
+                		<div class="letter-nav clf">
+                			<a href="javascript:;" class="current">热</a>
+                    		<a href="javascript:;">A</a>
+                    		<a href="javascript:;">B</a>
+                    		<a href="javascript:;">C</a>
+                    		<a href="javascript:;">D</a>
+                    		<a href="javascript:;">F</a>
+                    		<a href="javascript:;">G</a>
+                    		<a href="javascript:;">H</a>
+                    		<a href="javascript:;">J</a>
+                    		<a href="javascript:;">K</a>
+                    		<a href="javascript:;">L</a>
+                    		<a href="javascript:;">M</a>
+                    		<a href="javascript:;">Q</a>
+                    		<a href="javascript:;">R</a>
+                    		<a href="javascript:;">S</a>
+                    		<a href="javascript:;">W</a>
+                    		<a href="javascript:;">X</a>
+                    		<a href="javascript:;">Y</a>
+                    		<a href="javascript:;">Z</a>
+                		</div>
+                		<div class="letter-brand-show" id="hotBrand">
+	                		<a href="" spell-code="A">奥迪</a>
+		                    <a href="" spell-code="B">奔驰</a>
+		                    <a href="" spell-code="B">别克</a>
+		                    <a href="" spell-code="B">宝马</a>
+		                    <a href="" spell-code="B" class="current">本田</a>
+		                    <a href="" spell-code="B">比亚迪</a>
+		                    <a href="" spell-code="C">长安轿车</a>
+		                    <a href="" spell-code="D">大众</a>
+		                    <a href="" spell-code="F">丰田</a>
+		                    <a href="" spell-code="F">福特</a>
+		                    <a href="" spell-code="G">广汽传祺</a>
+		                    <a href="" spell-code="Q">起亚</a>
+		                    <a href="" spell-code="R">日产</a>
+		                    <a href="" spell-code="X">现代</a>
+		                    <a href="" spell-code="X">雪佛兰</a>
+                		</div>
+                		<div class="letter-brand-show none" id="aLLBrand">
+							<a href="" spell-code="A">奥迪</a>
+		                    <a href="" spell-code="B">奔驰</a>
+		                    <a href="" spell-code="B">宝马</a>
+		                    <a href="" spell-code="B">本田</a>
+		                    <a href="" spell-code="B">比亚迪</a>
+		                    <a href="" spell-code="C">长安轿车</a>
+		                    <a href="" spell-code="D">大众</a>
+		                    <a href="" spell-code="D">大众</a>
+		                    <a href="" spell-code="F">丰田</a>
+		                    <a href="" spell-code="F">福特</a>
+		                    <a href="" spell-code="G">广汽传祺</a>
+		                    <a href="" spell-code="Q">起亚</a>
+		                    <a href="" spell-code="R">日产</a>
+		                    <a href="" spell-code="X">现代</a>
+		                    <a href="" spell-code="X">雪佛兰</a>
+                		</div>
+                	</div>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>价格</span>
+                	</h2>
+                	<ul class="sub-ul price">
+		                <li>
+		                	<a href="">
+		                    	<label><input type="checkbox" value="1" name="price"><i></i><span>8万以内</span></label>
+		                    </a>
+		                </li>
+		                 <li>
+		                	<a href="">
+		                    	<label><input type="checkbox" value="1" name="price"><i></i><span>8万-12万</span></label>
+		                    </a>
+		                </li>
+		                 <li>
+		                	<a href="">
+		                    	<label><input type="checkbox" value="1" name="price"><i></i><span>12-18万</span></label>
+		                    </a>
+		                </li>
+		                 <li>
+		                	<a href="">
+		                    	<label><input type="checkbox" value="1" name="price"><i></i><span>18-25万</span></label>
+		                    </a>
+		                </li>
+            		</ul>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>车型</span>
+                	</h2>
+        			<ul class="sub-ul car-type">
+		                <li>
+		                	<a href="" data-code="1" class="car1">微型</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="2" class="car2">小型</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="3" class="car3">紧凑型</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="4" class="car4">中型</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="5" class="car5">大型</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="6" class="car6">豪华型</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="7" class="car1">SUV</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="8" class="car2">MPV</a>
+		                </li>
+		                <li>
+		                	<a href="" data-code="9" class="car3">跑车型</a>
+		                </li>
+            		</ul>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>国别</span>
+                	</h2>
+                	<ul class="sub-ul country">
+		                <li>
+		                	<a href="http://www.baidu.com">
+		                    	<label for="" class="current"><input type="checkbox" value="1" name="price"><i></i><span>日韩系</span></label>
+		                    </a>
+		                </li>
+		                 <li>
+		                	<a href="">
+		                    	<label><input type="checkbox" value="1" name="price"><i></i><span>国系</span></label>
+		                    </a>
+		                </li>
+		                 <li>
+		                	<a href="">
+		                    	<label><input type="checkbox" value="1" name="price"><i></i><span>欧美系</span></label>
+		                    </a>
+		                </li>
+		                 <li>
+		                	<a href="">
+		                    	<label><input type="checkbox" value="1" name="price"><i></i><span>非日系</span></label>
+		                    </a>
+		                </li>
+            		</ul>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>能源</span><i></i>
+                	</h2>
+                	<div class="item-wrapper none">
+                		<ul class="sub-ul energy">
+                			<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>汽油</span></label>
+			                    </a>
+			                    
+		                	</li>
+		                	<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>柴油</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>纯电动</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>油电混合</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>油气混合</span></label>
+			                    </a>
+		                    </li>
+                		</ul>
+                	</div>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>排量</span><i></i>
+                	</h2>
+                	<div class="item-wrapper none">
+                		<ul class="sub-ul outputVolume">
+                			<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>1.3 L 以下</span></label>
+			                    </a>
+			                    
+		                	</li>
+		                	<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>1.3 ~ 1.6 L</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>1.7 ~ 2.0 L </span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>2.1 ~ 3.0 L</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>3.0 L 以上</span></label>
+			                    </a>
+		                    </li>
+                		</ul>
+                	</div>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>变速箱</span><i></i>
+                	</h2>
+                	<div class="item-wrapper none">
+                		<ul class="sub-ul transmissions">
+                			<li>
+			                	<a href="javascript:void(0)"><label><input type="checkbox"><i></i><span>自动挡</span></label></a>
+			                    <ul class="sub-ul sub-transmissions">
+			                    	<li>
+					                    <a href="">
+					                    	<label><input type="checkbox" value="1" name="price"><i></i><span>半自动</span></label>
+					                    </a>
+				                    </li>
+				                    <li>
+					                    <a href="">
+					                    	<label><input type="checkbox" value="1" name="price"><i></i><span>自动</span></label>
+					                    </a>
+				                    </li>
+				                    <li>
+					                    <a href="">
+					                    	<label><input type="checkbox" value="1" name="price"><i></i><span>自动一体</span></label>
+					                    </a>
+				                    </li>
+				                    <li>
+					                    <a href="">
+					                    	<label><input type="checkbox" value="1" name="price"><i></i><span>无极变速</span></label>
+					                    </a>
+				                    </li>
+				                    <li>
+					                    <a href="">
+					                    	<label><input type="checkbox" value="1" name="price"><i></i><span>双离合</span></label>
+					                    </a>
+				                    </li>
+			                    </ul>
+		                	</li>
+		                	<li><a href="javascript:void(0)"><label><input type="checkbox"><i></i><span>手动挡</span></label></a></li>
+                		</ul>
+                	</div>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>座位数</span><i></i>
+                	</h2>
+                	<div class="item-wrapper none">
+                		<ul class="sub-ul outputVolume">
+                			<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>2座</span></label>
+			                    </a>
+			                    
+		                	</li>
+		                	<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>4 ~ 5 座</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>6 ~ 7 座</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>7 座以上</span></label>
+			                    </a>
+		                    </li>
+                		</ul>
+                	</div>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>驱动</span><i></i>
+                	</h2>
+                	<div class="item-wrapper none">
+                		<ul class="sub-ul outputVolume">
+                			<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>2座</span></label>
+			                    </a>
+			                    
+		                	</li>
+		                	<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>4 ~ 5 座</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>6 ~ 7 座</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>7 座以上</span></label>
+			                    </a>
+		                    </li>
+                		</ul>
+                	</div>
+        		</li>
+        		<li>
+        			<h2 class="item-title">
+                		<a href="javascript:;" style="display: inline;">清空条件</a><span>配置</span><i></i>
+                	</h2>
+                	<div class="item-wrapper none">
+                		<ul class="sub-ul outputVolume">
+                			<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>2座</span></label>
+			                    </a>
+			                    
+		                	</li>
+		                	<li>
+			                	<a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>4 ~ 5 座</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>6 ~ 7 座</span></label>
+			                    </a>
+		                    </li>
+		                    <li>
+			                    <a href="">
+			                    	<label><input type="checkbox" value="1" name="price"><i></i><span>7 座以上</span></label>
+			                    </a>
+		                    </li>
+                		</ul>
+                	</div>
+        		</li>
+        	</ul>
+        </div>
+        <div class="car-list-right-content">
+        	<h3 class="car-list-right-search-title">
+                <!-- 为您在<span class="location">温州</span>找到<span class="num">3797</span>款车 -->
+                车型展示
+            </h3>
+            <dl class="car-list-right-selected-label">
+                <dt>已选条件：</dt>
+                <dd class="clf">
+                	<a href=""><span class="fl">配置：天窗</span><i loc="9" data-code="1"></i></a>
+                    <a href="" class="del-selected-label">清空条件</a>
+                </dd>
+            </dl>
+            <div class="car-list-right-sort-wrapper">
+                  <span class="left-title">排序方式：</span> <a href="" class="sort-btn current">销量<i class="sub"></i></a><a href="" class="sort-btn current">价格<i class="sup"></i></a>
+                  <span class="sort-fw fr">为您在<span class="location">温州</span>找到<span class="num">3797</span>款车</span>
+            </div>
+            <!-- 结果列表 -->
+            <ul class="car-list-right-result-ul">
+            	<li>
+            		<a href="content.html">
+            			<img src="images/280-210.jpg" alt="">
+            			<h4 class="car-name"><span>1上汽大众朗逸</span></h4>
+            			<p class="jxsprice">多家4s店实时报底价</p>
+                   		<div class="car-info-more">
+	                        <p class="car-info-btn">
+								0元购：<em>85万</em>
+	                        </p>
+	                        <p class="car-info-status">
+	                            806人正在购买
+	                        </p>
+                    	</div>
+            		</a>
+            	</li>
+            </ul>
+            <div class="car-list-right-no-result none">
+                <div class="car-list-right-no-result-content">
+                    <i></i>
+                    <p class="car-list-right-no-result-title">
+                        搜不到您想要的车！
+                    </p>
+                    <p class="car-list-right-no-result-tips">
+                        您可以更改条件<a href="/search/">重新选车</a>。
+                    </p>
+                </div>
+            </div>
+            <div class="listPage">
+                <a href="" class="prev disabled"><em class="jt">&lt;</em>上一页</a>
+                <a href="" class="current">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a class="disc">...</a>
+                <a href="">5</a>
+                <a href="" class="next">下一页<em class="jt">&gt;</em></a>
+                <span><form action="">共6页&nbsp;&nbsp;去第&nbsp;<input type="text" value="1"> 页&nbsp;&nbsp;<span class="input_b"><input type="submit" value="确定"></span></form></span>
+            </div>
+			<!-- 猜你喜欢 -->
+			<div class="guess-hd clf">
+				<h2 class="car-list-right-cell-title fl">猜你喜欢</h2>
+				<ul class="fr clf tabCircle">
+					<li class="cur"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="guess-bd">
+				<div class="guessProItem">
+					<ul class="car-list-right-prefer-ul">
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸1</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="guessProItem">
+					<ul class="car-list-right-prefer-ul">
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸2</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="guessProItem">
+					<ul class="car-list-right-prefer-ul">
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸3</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<img src="images/280-210.jpg" alt="上汽大众朗逸">
+								<div class="car-info">
+									<h4>上汽大众朗逸</h4>
+									<p class="car-info-detail">0元购：<span>1.29万</span></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<div class="footer_main m clf">
+			<div class="footer_main_left fl">
+				<div class="footer_czj"></div>
+				<div class="footer_left_text">
+					<p>咨询电话 : 400-123-456</p>
+					<p>( 周一至周日  : 8 : 00-19 : 00)</p>
+					<p>售后服务 : 400-123-456</p>
+				</div>
+			</div>
+			<div class="footer_main_right fl">
+				<div class="footer_nav">
+					<ul class="clf">
+						<li><a href="">车型展览</a><span>|</span></li>
+						<li><a href="">0元购</a><span>|</span></li>
+						<li><a href="">资讯活动</a><span>|</span></li>
+						<li><a href="">运营网站</a><span>|</span></li>
+						<li><a href="">积分兑换</a><span>|</span></li>
+						<li><a href="">会员中心</a><span>|</span></li>
+						<li><a href="">会员权益</a></li>
+					</ul>
+				</div>
+				<div class="footer_copyright">
+					<p>CopyRight © 2016 ,All Rights Reserved.版权所有 北京车主角有限公司</p>
+					<p>经营许可证编号 : 京lCP证060175 ; 公安备案号码 : 110108020200002号 ; 京网[2016]1143-143号;</p>
+				</div>
+			</div>
+			<div class="footer_ewm fl">
+				<p>关注公众号</p>
+                <div><img src="images/nguanzhuwomen.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<div class="rightFixed">
+        <div class="rightNav">
+            <a href="" class="rF1">
+            	<i></i>
+            </a>
+            <a href="" class="rF2">
+               	<i></i>
+            </a>
+            <a href="" class="rF3 backHead">
+               	<i></i>
+            </a>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/common.js?ver=20161124"></script>
+	<script type="text/javascript" src="js/index_common.js?ver=20161124"></script>
+	<script type="text/javascript" src="js/list.js?ver=20161124"></script>
+</body>
+</html>

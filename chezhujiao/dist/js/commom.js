@@ -1,0 +1,2 @@
+/*! chezhujiao - v1.0.0 - 2017-09-30 */
+function win_sc(){$(window).scrollTop()>=240?$(".back-fixed").show():$(".back-fixed").hide()}$(window).scroll(function(){win_sc()}),$(window).scrollTop()>=240&&win_sc(),$(function(){$("#back").click(function(){return $("html,body").animate({scrollTop:0},500),!1})});/*! chezhujiao - v1.0.0 - 最后修改于： 2017-09-30 */

@@ -1,0 +1,29 @@
+.or-hd-bj{width: 100%;height: 582px;}
+.or-hd2-bj{width: 100%;height: 370px;}
+.or-hd2-bj a{display: block;position: absolute;top: 236px;left: 50%;margin-left: 160px;width: 110px;height: 30px;}
+.or-hd-bj img,.or-hd2-bj img{position: absolute;top: 0;left: 50%;margin-left: -960px;}
+.orHs-mm .item{position: relative;float: left;width: 280px;border: 1px solid #dd0202;margin: 0px 0px 14.4px 14.4px;background-color: #fff;}.ft24{font-size: 24px;}.clordd{color: #DD0202;}
+.orHs-mm .item .h2{padding: 8px 10px;}
+.orHs-mm .item .h2 h2{color: #444;}
+.orHs-mm .item .mop{padding: 0 10px;color: #444;padding-bottom: 10px;}
+.orHs-mm .item .mop em{display: inline-block;*display: inline;*zoom:1;width: 32px;min-width: 32px;height: 20px;background: url(../images/owner-ico.png) no-repeat -148px -3px;margin: 0 20px 0 5px;}
+.orHs-mm .item a.btn{display: block;width: 250px;height: 32px;text-align: center;border-radius:4px;background-color: #dd0202;color: #fff;font-size: 16px;margin: 12px auto;line-height: 32px;}
+.orHs-mm .item i.cheZhu{position: absolute;display: block;top: -4px;left: -4px;width: 68px;height: 66px;background: url(../images/owner-ico.png) no-repeat -163px -37px;}
+
+/*.btn-jr{display: block;width: 35px;height: 35px;background: url(../images/jR-cartIcon.png);margin-right: 10px;background-size: 35px 35px;margin-top: 9px;}*/
+.btn-jr{display: block;width: 45px;height: 42px;background-color: #dd0202;color: #fff;margin-right: 10px;margin-top: 6px;border-radius: 5px;line-height: 19.5px;padding-top: 3px;}
+/*浮动分类*/
+.owner_fixed{position: fixed;top: 30%;left: 50%;margin-left: -776px;}
+.owner_fixed .owFx-hd{width: 142px;height: 73px;background: url(../images/owner-ico.png) no-repeat 0 0;}
+.owner_fixed .owFx-footer{width: 142px;height: 29px;background: url(../images/owner-ico.png) no-repeat 0 -88px;}
+.owner_fixed .owFx-m{width: 142px;background: url(../images/owner-flex.png) repeat-y 1px 0;}
+.owner_fixed .owFx-m a{display: block;width: 122px;height: 33px;margin: 0 11px 0 9px;line-height: 33px;text-align: center;color: #f52c3c;}
+.owner_fixed .owFx-m a:hover{background-color: #f52c3c;color: #fff;}
+
+/*页码*/
+#page{width: 100%;text-align: center;}
+#page a{display: inline-block;*display: inline;*zoom:1;height: 25px;width: 25px;line-height: 25px;text-align: center;color: #333;}
+#page a.prev,#page a.next{width: 80px;text-align: center;}
+#page a:hover{background-color: #f52c3c;color: #fff;border-radius: 3px;}
+#page a.page2:hover{background-color: #fff7c9;color: #333;}
+

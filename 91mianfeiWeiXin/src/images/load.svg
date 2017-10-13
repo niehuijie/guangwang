@@ -1,0 +1,7 @@
+<?xml version='1.0' standalone='no'?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<defs>
+<line id='l' x1='60' x2='60' y1='7' y2='27' stroke='#6c6c6c' stroke-width='11' stroke-linecap='round'/>
+</defs>
+<g><use xlink:href='#l' opacity='.27'/><use xlink:href='#l' opacity='.27' transform='rotate(30 60,60)'/></g>
+</svg>

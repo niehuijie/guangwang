@@ -1,0 +1,28 @@
+/*弹窗*/
+.popup{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5000000,endColorstr=#E5000000);z-index: 1000;}
+.popup_main{margin: 0 auto;background-color: #fff;background: url(../images/four-pop.png) no-repeat;}
+.popup_section h2{font-size:18px;color: #fe5400;margin-bottom: 10px;font-weight: bold;}
+.popup_section p{line-height: 36px;}
+.popup_section p.p{padding-right: 57px;}
+.section_item{margin-bottom: 25px;}
+
+.popup a.close{display: block;width:20px;height: 20px;position: absolute;top: 2px;right: -25px;background: url(../images/38_close.png) no-repeat;}
+
+.festival-img{width: 100%;background: url(../images/four-pindao.jpg) center center;}.mg-lt15{margin-left: 15px;}.clor5{color: #555;}.mg-lt10{margin-left: 10px;}
+.four_mn .item{width: 270px;height: 334px;border: 2px solid #fe5400;margin-right: 34.66px;float: left;margin-bottom: 34.66px;z-index: 10;}.ft13{font-size: 13px;}.clorz{color: #fe5400;}
+.four_mn .item .img{width: 270px;height: 270px;overflow: hidden;z-index: 1000;}
+.four_mn .item .img img{width: 100%;}
+.four_mn .item .h2{width: 273px;height: 30px;background: url(../images/four-2.png) no-repeat -319px -259px;margin: 0px 0px 5px -2px;}
+.four_mn .item .h2 h2{padding: 0 15px;line-height: 30px;color: #222;}
+.four_mn .item .botm{}
+.four_mn .item .botm a{display: block;position: absolute;top: 3px;right: 15px;width: 55px;height: 20px;color: #fff;text-align: center;background-color: #fe5400;line-height: 20px;}
+
+/*左侧浮动栏*/
+.m_fixed{position: fixed;left: 0;top: 20%;width: 296px;height: 299px;background: url(../images/four-2.png) no-repeat 0 -0px;z-index: 100;}
+.mf_main{position: absolute;top: 160px;left: 110px;width: 130px;height: 237px;padding-top: 30px;*height: 100px;text-align: center;}
+.mf_main a{display: inline-block;*display: inline;*zoom:1;width: 114px;height: 35px;line-height: 35px;color: #fff;text-align: center;font-size: 14px;}
+.mf_main a:hover{background-color: #ff4500;}
+.mf_main a.cur{background-color: #ff4500;}
+
+.right_fixed{position: fixed;right: 0;top: 60%;width: 173px;height: 238px;background: url(../images/four-2.png) no-repeat -427px -0px;z-index: 100;}
+.right_fixed a{display: block;position: absolute;top: 130px;left: 100px;width: 20px;height: 90px;}

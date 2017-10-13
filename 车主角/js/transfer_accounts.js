@@ -1,0 +1,12 @@
+$(function(){
+	$('#next').click(function(){
+		$('#password_modification').hide();
+		$('#password').show()
+	})
+	$('#button').click(function(){
+		$('#cg').show()
+	})
+	$('.dialog-close').click(function(){
+		$('#cg').hide()
+	})
+})

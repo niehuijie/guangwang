@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible"  content="IE=edge,chrome=1" />
+		<title>消息通知</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" href="css/business.css" />
+		<link rel="stylesheet" href="css/business_ceter.css" />
+	</head>
+	<body class="f5">
+		<!--头部-->
+		<div id="head">
+		<div class="head-top m">
+			<p class="ht-left fl">您好，欢迎来到 车主角，
+				<a href="" class="headLoginLink">请登录</a><a href="" class="headRegLink">免费注册</a>
+				<!-- <a href="" class="headLoginLink">_Legendary</a><a href="" class="headRegLink">退出</a> -->
+			</p>
+			<div class="ht-right fr clf">
+				<div class="myInfoList fl">
+					<ul class="myInfoItem clf">						
+						<li class="noDownList">
+							<a href="javascript:;">我的订单</a>|
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">我的收藏<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">收藏的车型</a>
+								<a href="javascript:;">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">商家中心<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">免费开店</a>
+								<a href="javascript:;">出售中的商品</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">客户服务<i class="ico myInfoIcon"></i></a>|
+							<div class="downList">
+								<a href="javascript:;">已买到的宝贝</a>
+								<a href="javascript:;">我的足迹</a>
+							</div>
+						</li>
+						<li class="ownDownList">
+							<a href="javascript:;">网站导航<i class="ico myInfoIcon"></i></a>
+							<div class="downList siteNav">
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	    </div>
+	    <!-- logo+search+cart -->
+	    <div class="lsc m clf">
+		    <div id="logo" class="fl">
+			    <h1 class="logo-hd fl"><a href="index.html">车主角</a></h1>
+		</div>
+		<!-- <div id="search" class="fr clf pr">
+			<form action="">
+				<div class="fl inputBox pr">
+					<input type="text" autocomplete="off">
+					<i class="icon luIcon"></i>
+				</div>
+				<div class="fl"><button class="searchBtn">搜索</button></div>
+			</form>
+			<div class="search-zUp clf">
+				<i class="fl searhico ico"></i>
+				<ul class="fl hotword clf">
+					<li><a href="">手机</a></li>
+					<li><a href="">冰箱</a></li>
+					<li><a href="">洁面奶</a></li>
+				</ul>
+			</div>
+		</div> -->
+		<!-- 会员中心与商家中心搜索 -->
+		    <div class="centerSearch fr">
+			    <input type="text" name="" placeholder="奔驰系列">
+			    <button type="type">搜索</button>
+		    </div>
+	    </div>
+	    <div class="top_xian"></div>
+		<div class="n_main clf">
+			<!--左侧导航-->
+			<div class="member_main">
+			    <ul>
+			        <li class="member_nav"><a href="business.html">商家中心</a></li>
+			        <li><a href="business_message.html">商家信息</a></li>
+			        <li><a href="">账户安全</a></li>
+			        <li><a href="business_ product.html">产品中心</a></li>
+			        <li><a href="business_selling.html">销售车辆选择</a></li>
+			        <li class="c039"><a href="business_inform.html">消息通知</a></li>
+			    </ul>
+		    </div>
+		    <!--右侧商家信息-->
+		    <div class="accout_main">
+		    	<div class="income_main_nav">
+		    		<div class="nav_left">
+		    			<span class="detail hover" data-show='all'>全部</span>
+		    			<span class="incomed" data-show='unread'>未读<span class="f60">(2)</span></span>
+		    			<span class="expenditure" data-show='read'>已读</span>
+		    		</div>
+		    		<div class="nav_right ft12">
+		    			<div class="nhnk">
+		    			    <span><a href="">近一个月</a></span>
+		    			    <i>&nbsp;|&nbsp;</i>
+		    			    <span><a href="">近三个月</a></span>
+		    			    <i>&nbsp;|&nbsp;</i>
+		    			    <span><a href="">近六个月</a></span>
+		    			</div>
+		    			<div class="nhnk">
+		    				&#x3000;<input type="text" placeholder="请选择"/>
+		    				-
+		    				<input type="text" placeholder="请选择"/>
+		    				<span>&nbsp;查询</span>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<!--全部消息-->
+		    	<div class="inform_main" id="all">
+		    		<!--客户信息-->
+		    		<div class="accout_inform">		  			
+		    			<div class="img fl"><img src="images/call.jpg"/></div>
+		    			<div class="fl">
+		    				<div class="text fl">
+		    					<h2>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h2>
+		    					<h4><span>客户名称：</span>某某某<span></span></h4>
+		    					<h4><span>联系方式：</span><span>155****1255</span></h4>
+		    					<h4><span>预留地区：</span><span class="dz">中华人民共和国首都北京省北京市西城区科学大道欧</span></h4>
+		    				</div>
+		    				<div class="fl service">
+		    				    <a href="javascript:;"><div></div></a>
+		    				    <!--对应弹出框-->
+								<div class="shade" id="" style="display: none;">
+									<div class="shade-opacity"></div>
+									<div class="dialog w1000-h1068" style="width:810px;margin-top:100px;padding:5px;">
+										<div class="dialog-opacity"></div>
+										<div class="dialogWrap">
+											<div class="dialog-hd pr">
+												<span class="hd-title">信息详细</span><i class="dialog-close" data-hide='shade'></i>
+											</div>
+											<div class="dialog-bd customer" style="height: 650px;">
+												<div class="img fl">
+													<img src="images/call.jpg" alt="" />
+												</div>
+												<div class="text fl">
+													<div>
+														<h1>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h1>
+														<h4><span>客户名称：</span><div>某某某</div></h4>
+														<h4><span>联系方式：</span><div>159****2458</div></h4>
+														<h4><span>预留地区：</span><div>中华人民共和国首都北京省北京市西城区科学大道1456号</div></h4>
+														<h4><span>上牌城市：</span><div>北京</div></h4>
+														<h4><span class="sczd">市场指导价：</span><div>125万</div></h4>
+														<h4><span>0元购价：</span><div class="ft24c">120万</div></h4>
+													</div>
+													<p></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+		    			    </div>
+		    			</div>		    			
+		    		</div>
+		    		<div class="accout_inform">		  			
+		    			<div class="img fl"><img src="images/call.jpg"/></div>
+		    			<div class="fl">
+		    				<div class="text fl">
+		    					<h2>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h2>
+		    					<h4><span>客户名称：</span>某某某<span></span></h4>
+		    					<h4><span>联系方式：</span><span>155****1255</span></h4>
+		    					<h4><span>预留地区：</span><span class="dz">中华人民共和国首都北京省北京市西城区科学大道欧</span></h4>
+		    				</div>
+		    				<div class="fl service">
+		    				    <a href=""><div></div></a>
+		    				    <!--客户信息弹出框-->
+	                            <div class="shade" id="" style="display: none;">
+									<div class="shade-opacity"></div>
+									<div class="dialog w1000-h1068" style="width:810px;margin-top:100px;padding:5px;">
+										<div class="dialog-opacity"></div>
+										<div class="dialogWrap">
+											<div class="dialog-hd pr">
+												<span class="hd-title">信息详细</span><i class="dialog-close" data-hide='shade'></i>
+											</div>
+											<div class="dialog-bd customer" style="height: 650px;">
+												<div class="img fl">
+													<img src="images/call.jpg" alt="" />
+												</div>
+												<div class="text fl">
+													<div>
+														<h1>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h1>
+														<h4><span>客户名称：</span><div>某某某</div></h4>
+														<h4><span>联系方式：</span><div>159****2458</div></h4>
+														<h4><span>预留地区：</span><div>中华人民共和国首都北京省北京市西城区科学大道1456号</div></h4>
+														<h4><span>上牌城市：</span><div>北京</div></h4>
+														<h4><span class="sczd">市场指导价：</span><div>125万</div></h4>
+														<h4><span>0元购价：</span><div class="ft24c">120万</div></h4>
+													</div>
+													<p></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+		    			    </div>
+		    			</div>		    			
+		    		</div>
+		    	    <div class="pagination pr">
+		    	    <p class="addressPage tr">
+						<a href="" class="prev">上一页</a>
+						<a href="" class="cur">1</a>
+						<a href="" >2</a>
+						<a href="">3</a>
+						<a class="disc">...</a>
+						<a href="" class="next">下一页</a>
+					</p>
+					</div>
+		    	</div>
+		        <!--未读消息-->
+		        <div class="inform_main" id="unread">
+		    		<!--客户信息-->
+		    		<div class="accout_inform">		  			
+		    			<div class="img fl"><img src="images/call.jpg"/></div>
+		    			<div class="fl">
+		    				<div class="text fl">
+		    					<h2>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h2>
+		    					<h4><span>客户名称：</span>某某某<span></span></h4>
+		    					<h4><span>联系方式：</span><span>155****1255</span></h4>
+		    					<h4><span>预留地区：</span><span class="dz">中华人民共和国首都北京省北京市西城区科学大道欧</span></h4>
+		    				</div>
+		    				<div class="fl service">
+		    				    <a href="javascript:;"><div></div></a>
+		    				    <!--对应弹出框-->
+								<div class="shade" id="" style="display: none;">
+									<div class="shade-opacity"></div>
+									<div class="dialog w1000-h1068" style="width:810px;margin-top:100px;padding:5px;">
+										<div class="dialog-opacity"></div>
+										<div class="dialogWrap">
+											<div class="dialog-hd pr">
+												<span class="hd-title">信息详细</span><i class="dialog-close" data-hide='shade'></i>
+											</div>
+											<div class="dialog-bd customer" style="height: 650px;">
+												<div class="img fl">
+													<img src="images/call.jpg" alt="" />
+												</div>
+												<div class="text fl">
+													<div>
+														<h1>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h1>
+														<h4><span>客户名称：</span><div>某某某</div></h4>
+														<h4><span>联系方式：</span><div>159****2458</div></h4>
+														<h4><span>预留地区：</span><div>中华人民共和国首都北京省北京市西城区科学大道1456号</div></h4>
+														<h4><span>上牌城市：</span><div>北京</div></h4>
+														<h4><span class="sczd">市场指导价：</span><div>125万</div></h4>
+														<h4><span>0元购价：</span><div class="ft24c">120万</div></h4>
+													</div>
+													<p></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+		    			    </div>
+		    			</div>		    			
+		    		</div>
+		    		<div class="accout_inform">		  			
+		    			<div class="img fl"><img src="images/call.jpg"/></div>
+		    			<div class="fl">
+		    				<div class="text fl">
+		    					<h2>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h2>
+		    					<h4><span>客户名称：</span>某某某<span></span></h4>
+		    					<h4><span>联系方式：</span><span>155****1255</span></h4>
+		    					<h4><span>预留地区：</span><span class="dz">中华人民共和国首都北京省北京市西城区科学大道欧</span></h4>
+		    				</div>
+		    				<div class="fl service">
+		    				    <a href=""><div></div></a>
+		    				    <!--客户信息弹出框-->
+	                            <div class="shade" id="" style="display: none;">
+									<div class="shade-opacity"></div>
+									<div class="dialog w1000-h1068" style="width:810px;margin-top:100px;padding:5px;">
+										<div class="dialog-opacity"></div>
+										<div class="dialogWrap">
+											<div class="dialog-hd pr">
+												<span class="hd-title">信息详细</span><i class="dialog-close" data-hide='shade'></i>
+											</div>
+											<div class="dialog-bd customer" style="height: 650px;">
+												<div class="img fl">
+													<img src="images/call.jpg" alt="" />
+												</div>
+												<div class="text fl">
+													<div>
+														<h1>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h1>
+														<h4><span>客户名称：</span><div>某某某</div></h4>
+														<h4><span>联系方式：</span><div>159****2458</div></h4>
+														<h4><span>预留地区：</span><div>中华人民共和国首都北京省北京市西城区科学大道1456号</div></h4>
+														<h4><span>上牌城市：</span><div>北京</div></h4>
+														<h4><span class="sczd">市场指导价：</span><div>125万</div></h4>
+														<h4><span>0元购价：</span><div class="ft24c">120万</div></h4>
+													</div>
+													<p></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+		    			    </div>
+		    			</div>		    			
+		    		</div>
+		    		<div class="pagination pr">
+		    	    <p class="addressPage tr">
+						<a href="" class="prev">上一页</a>
+						<a href="" class="cur">1</a>
+						<a href="" >2</a>
+						<a href="">3</a>
+						<a class="disc">...</a>
+						<a href="" class="next">下一页</a>
+					</p>
+					</div>
+		    	</div>
+		        <!--已读消息-->
+		        <div class="inform_main" id="read">
+		    		<!--客户信息-->
+		    		<div class="accout_inform">		  			
+		    			<div class="img fl"><img src="images/call.jpg"/></div>
+		    			<div class="fl">
+		    				<div class="text fl">
+		    					<h2>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h2>
+		    					<h4><span>客户名称：</span>某某某<span></span></h4>
+		    					<h4><span>联系方式：</span><span>155****1255</span></h4>
+		    					<h4><span>预留地区：</span><span class="dz">中华人民共和国首都北京省北京市西城区科学大道欧</span></h4>
+		    				</div>
+		    				<div class="fl service">
+		    				    <a href="javascript:;"><div></div></a>
+		    				    <!--对应弹出框-->
+								<div class="shade" id="" style="display: none;">
+									<div class="shade-opacity"></div>
+									<div class="dialog w1000-h1068" style="width:810px;margin-top:100px;padding:5px;">
+										<div class="dialog-opacity"></div>
+										<div class="dialogWrap">
+											<div class="dialog-hd pr">
+												<span class="hd-title">信息详细</span><i class="dialog-close" data-hide='shade'></i>
+											</div>
+											<div class="dialog-bd customer" style="height: 650px;">
+												<div class="img fl">
+													<img src="images/call.jpg" alt="" />
+												</div>
+												<div class="text fl">
+													<div>
+														<h1>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h1>
+														<h4><span>客户名称：</span><div>某某某</div></h4>
+														<h4><span>联系方式：</span><div>159****2458</div></h4>
+														<h4><span>预留地区：</span><div>中华人民共和国首都北京省北京市西城区科学大道1456号</div></h4>
+														<h4><span>上牌城市：</span><div>北京</div></h4>
+														<h4><span class="sczd">市场指导价：</span><div>125万</div></h4>
+														<h4><span>0元购价：</span><div class="ft24c">120万</div></h4>
+													</div>
+													<p></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+		    			    </div>
+		    			</div>		    			
+		    		</div>
+		    		<div class="accout_inform">		  			
+		    			<div class="img fl"><img src="images/call.jpg"/></div>
+		    			<div class="fl">
+		    				<div class="text fl">
+		    					<h2>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h2>
+		    					<h4><span>客户名称：</span>某某某<span></span></h4>
+		    					<h4><span>联系方式：</span><span>155****1255</span></h4>
+		    					<h4><span>预留地区：</span><span class="dz">中华人民共和国首都北京省北京市西城区科学大道欧</span></h4>
+		    				</div>
+		    				<div class="fl service">
+		    				    <a href=""><div></div></a>
+		    				    <!--客户信息弹出框-->
+	                            <div class="shade" id="" style="display: none;">
+									<div class="shade-opacity"></div>
+									<div class="dialog w1000-h1068" style="width:810px;margin-top:100px;padding:5px;">
+										<div class="dialog-opacity"></div>
+										<div class="dialogWrap">
+											<div class="dialog-hd pr">
+												<span class="hd-title">信息详细</span><i class="dialog-close" data-hide='shade'></i>
+											</div>
+											<div class="dialog-bd customer" style="height: 650px;">
+												<div class="img fl">
+													<img src="images/call.jpg" alt="" />
+												</div>
+												<div class="text fl">
+													<div>
+														<h1>2017款 宝马7系(进口)750Li xDrive 个性化定制版</h1>
+														<h4><span>客户名称：</span><div>某某某</div></h4>
+														<h4><span>联系方式：</span><div>159****2458</div></h4>
+														<h4><span>预留地区：</span><div>中华人民共和国首都北京省北京市西城区科学大道1456号</div></h4>
+														<h4><span>上牌城市：</span><div>北京</div></h4>
+														<h4><span class="sczd">市场指导价：</span><div>125万</div></h4>
+														<h4><span>0元购价：</span><div class="ft24c">120万</div></h4>
+													</div>
+													<p></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+		    			    </div>
+		    			</div>		    			
+		    		</div>
+		    		<div class="pagination pr clf">
+		    	    <p class="addressPage tr">
+						<a href="" class="prev">上一页</a>
+						<a href="" class="cur">1</a>
+						<a href="" >2</a>
+						<a href="">3</a>
+						<a class="disc">...</a>
+						<a href="" class="next">下一页</a>
+					</p>
+					</div>
+		    	</div>
+		    </div>
+		</div>		
+		<div class="footer">
+		<div class="footer_main m clf">
+			<div class="footer_main_left fl">
+				<div class="footer_czj"></div>
+				<div class="footer_left_text">
+					<p>咨询电话 : 400-123-456</p>
+					<p>( 周一至周日  : 8 : 00-19 : 00)</p>
+					<p>售后服务 : 400-123-456</p>
+				</div>
+			</div>
+			<div class="footer_main_right fl">
+				<div class="footer_nav">
+					<ul class="clf">
+						<li><a href="">车型展览</a><span>|</span></li>
+						<li><a href="">0元购</a><span>|</span></li>
+						<li><a href="">资讯活动</a><span>|</span></li>
+						<li><a href="">运营网站</a><span>|</span></li>
+						<li><a href="">积分兑换</a><span>|</span></li>
+						<li><a href="">会员中心</a><span>|</span></li>
+						<li><a href="">会员权益</a></li>
+					</ul>
+				</div>
+				<div class="footer_copyright">
+					<p>CopyRight © 2016 ,All Rights Reserved.版权所有 北京车主角有限公司</p>
+					<p>经营许可证编号 : 京lCP证060175 ; 公安备案号码 : 110108020200002号 ; 京网[2016]1143-143号;</p>
+				</div>
+			</div>
+			<div class="footer_ewm fl">
+				<p>关注公众号</p>
+                <div><img src="images/nguanzhuwomen.png" alt=""></div>
+			</div>
+		</div>
+	   </div>	   
+		<script src="js/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="js/common.js?ver=20161124"></script>				
+		<script>
+		    $(function(){
+			$('.service>a').click(function(e){
+		       e.preventDefault();
+		       $(this).next().show();
+	        })
+			for(i=0;i<3;i++){
+				$('.inform_main').eq(i).find('.accout_inform').eq(0).css({'border-top':'1px solid #e4e4e4'})
+			}			
+			$('span[data-show]').click(function(){
+				$(this).siblings().removeClass('hover')
+				$(this).addClass('hover')
+				$('.inform_main').hide();
+		        var idELem=$(this).data('show');
+		        $('#'+idELem).show();		        		        
+	        });
+		    })
+		</script>		
+	</body>
+</html>
