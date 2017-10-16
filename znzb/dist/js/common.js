@@ -1,0 +1,2 @@
+/*! znzb - v1.0.0 - 2017-09-25 */
+$(function(){$("#head .list li").hover(function(){$(this).children("dl").stop(!0,!1).slideDown(300)},function(){$(this).children("dl").stop(!0,!1).slideUp(300)})});/*! znzb - v1.0.0 - 最后修改于： 2017-09-25 */

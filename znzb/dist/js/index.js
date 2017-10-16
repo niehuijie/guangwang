@@ -1,0 +1,2 @@
+/*! znzb - v1.0.0 - 2017-09-25 */
+$(function(){$(".sliderUl").hcjSlider({tabNav:!0,pageNav:!0,tabNavPosition:"middle",tabnavCur:"current",tabNavMr:6,tabNavChildStyle:"span",effect:"efade",firstScreenShowNum:1,firstScreenShowMr:0,prev:"prev",next:"next",speed:1e3}),$("#j-ben-ul").carouFredSel({prev:"#prev",next:"#next",height:180,scroll:1e3})});/*! znzb - v1.0.0 - 最后修改于： 2017-09-25 */
