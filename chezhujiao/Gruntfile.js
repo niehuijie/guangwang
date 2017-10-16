@@ -186,7 +186,7 @@ module.exports =function(grunt){
 		    server: {
 		      options: {
 		        port:8000,
-		        hostname: '10.60.40.56',//默认就是这个值，可配置为本机某个 IP，localhost 或域名10.60.40.56
+		        hostname: '10.60.40.56',//默认就是这个值，可配置为本机某个 IP，localhost 或域
 		        base:'./dist/',
 		        open:true,
 		        livereload:true,
